@@ -12,10 +12,10 @@
 @import "colors";
 @import "buttons";
 @import "card";
-@import "videobg";
 @import "badge-colors";
 @import "animatedarrow";
 @import "colors-main";
+@import "slideffect";
 
 
 
@@ -309,6 +309,7 @@ p,li,a{
 
 //end of bootstrap carousel
 header{
+    min-height: 400px;
     width: 100%;
 	.animated-arrow-down{
 		margin-top: 20px;

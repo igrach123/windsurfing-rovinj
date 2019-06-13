@@ -205,7 +205,11 @@ h2{
     color: $main-orange;
     border:1px solid $main-orange;
 }
-
+a.btn-primary:focus,a.btn-primary:active, .dropdown-toggle.btn-primary:focus {
+    background-color:inherit;
+    color: $main-orange;
+    border:1px solid $main-orange;
+} 
 
 // facebook buton
 .btn-default{
@@ -340,7 +344,7 @@ header{
 
 	//Naviagtion//
 	nav{
-		height: 60px;
+		height: 100px;
 		width: 100%;	
 		transition:all 0.4s ease-in-out;
 		z-index: 500;
@@ -383,8 +387,6 @@ header{
     background-color: transparent;
 	}
 	.navbar-nav{
-       
-
 		li{
         @include sm {
             a{

@@ -1330,6 +1330,11 @@ h2 {
   color: #eb5e6e;
   border: 1px solid #eb5e6e; }
 
+a.btn-primary:focus, a.btn-primary:active, .dropdown-toggle.btn-primary:focus {
+  background-color: inherit;
+  color: #eb5e6e;
+  border: 1px solid #eb5e6e; }
+
 .btn-default {
   background-color: #0f3756;
   color: #ffffff;
@@ -1427,7 +1432,7 @@ header {
       background: #000 url("../img/hero-bg.jpg") no-repeat center;
       background-size: cover; } }
   header nav {
-    height: 60px;
+    height: 100px;
     width: 100%;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;

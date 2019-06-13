@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Boat Excursions Tonka - Rovinj</title>
+    <title>Windsurfing - Rovinj</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- favicon setup -->
@@ -38,36 +38,10 @@
     <meta name="description"
         content="Memorable Boat trip. Enjoy the Rovinj Arhipelago, watch a beautifull Sunset, see Dolphins for the first time and all in an relaxing atmosphere.">
     <meta http-equiv="content-language" content="hr,en">
-
-    <link rel="stylesheet" type="text/css"
-        href="//cdnpub.websitepolicies.com/lib/cookieconsent/1.0.1/cookieconsent.min.css" />
-    <script src="//cdnpub.websitepolicies.com/lib/cookieconsent/1.0.1/cookieconsent.min.js"></script>
-    <script>
-    window.addEventListener("load", function() {
-        window.wpcc.init({
-            "position": "bottom",
-            "colors": {
-                "popup": {
-                    "background": "#1c1f4b",
-                    "text": "#ffffff"
-                },
-                "button": {
-                    "background": "#afb3e4",
-                    "text": "#000000",
-                    "border": "transparent"
-                }
-            },
-            "content": {
-                "href": "php/privacy-policy.php",
-                "dismiss": "I Accept"
-            }
-        })
-    });
-    </script>
     <!-- sharethis javascript gdpr -->
-    <script type='text/javascript'
+    <!-- <script type='text/javascript'
         src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=inline-share-buttons'
-        async='async'></script>
+        async='async'></script> -->
     <!-- lilafete maps css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -98,11 +72,11 @@
     <?php include "php/services.php" ?>
     <!-- services modals -->
     <!-- sunset -->
-    <?php include "php/services-sunset.php"; ?>
+    <?php include "php/services-windsurf.php"; ?>
     <!-- kno -->
-    <?php include "php/services-kno.php"; ?>
+    <?php include "php/services-kayaking.php"; ?>
     <!-- lim -->
-    <?php include "php/services-lim.php"; ?>
+    <?php include "php/services-sup.php"; ?>
 
     <!-- end of services -->
     <?php include "php/rent.php" ?>

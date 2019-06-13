@@ -20,15 +20,15 @@
                      <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home"
                              class="scroll ">HOME</a></li>
                      <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services"
-                             class="scroll">EXCURSIONS</a></li>
+                             class="scroll">SERVICES</a></li>
                      <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
-                             class="scroll">RENT</a></li>
+                             class="scroll">ABOUT</a></li>
 
                  </ul>
                  <ul class=" nav navbar-nav navbar-right">
 
-                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent" class="scroll">TAXI
-                             BOAT</a></li>
+                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
+                             class="scroll">LOCATION</a></li>
 
                      <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer"
                              class="scroll">CONTACT</a></li>

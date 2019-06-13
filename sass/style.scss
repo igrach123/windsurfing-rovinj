@@ -3,8 +3,7 @@
    Author's custom styles
    ========================================================================== */
 //font import
-@import url('https://fonts.googleapis.com/css?family=Coda|Open+Sans|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Montserrat:200,400,700&display=swap');
 //bs media querries import
 
 @import "bootstrap-querries";
@@ -57,7 +56,7 @@ body{
     padding: 0px 0px;
     background:$bg-white;  /* fallback for old browsers */
     font-size: 16px;
-    font-family: 'Open Sans', 'Helvetica' ,sans-serif;
+    font-family: 'Cardo', 'Helvetica' ,serif;
     overflow-x: hidden;
     // side [ushing problem fixed]
     .row{
@@ -159,11 +158,12 @@ body{
     margin: 0 auto;
 }
 h1{
-    font-family: "Abril Fatface" , sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 h2,h3,h4,h5,h6{
-    font-family: 'Abril Fatface', cursive;
-	text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: $bg-grey;
 }
 h2{
     text-align: center;
@@ -187,8 +187,8 @@ h2{
      border-radius: 5px;
 }
 .btn-primary{
-	background-color: $main-orange;
-	color:$bg-white;
+	background-color: inherit;
+	color:$main-orange;
 	border:1px solid $main-orange;
 	-webkit-animation-delay: 2s;
     animation-delay: 2s;
@@ -196,8 +196,8 @@ h2{
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .btn-primary:hover{
-	background-color:inherit;
-	color: $main-orange;
+	background-color:$main-orange;
+	color: $bg-white;
 	border:1px solid $main-orange;
 }
 .btn-primary:focus, .dropdown-toggle.btn-primary:focus {

@@ -1432,7 +1432,7 @@ header {
       background: #000 url("../img/hero-bg.jpg") no-repeat center;
       background-size: cover; } }
   header nav {
-    height: 100px;
+    height: 60px;
     width: 100%;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -1501,8 +1501,7 @@ header {
   @media only screen and (min-width: 768px) {
     header .navbar-collapse {
       padding-top: 15px;
-      padding-bottom: 0px;
-      margin-top: 0px; }
+      padding-bottom: 0px; }
     header .navbar-nav {
       padding-top: 0px;
       margin: 0px;
@@ -1534,9 +1533,9 @@ header {
       -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       margin-top: 10px;
-      width: 700px;
-      height: 180px;
-      margin-left: -350px;
+      width: 400px;
+      height: 100px;
+      margin-left: -200px;
       background-image: url(../img/logo-big-3.png);
       background-repeat: no-repeat;
       background-position: center;
@@ -1574,13 +1573,15 @@ header {
     header .navbar-default {
       background-color: transparent;
       -webkit-box-shadow: none;
-              box-shadow: none; }
+              box-shadow: none;
+      margin-top: 30px; }
       header .navbar-default .navbar-nav li a {
         color: #FFF; }
     header .navbar-default.bg-trans {
       background-color: white;
       -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-              box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+              box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      margin-top: 0px; }
       header .navbar-default.bg-trans .navbar-nav li a {
         color: #0f3756; }
       header .navbar-default.bg-trans .navbar-nav li a:hover {
@@ -1642,6 +1643,42 @@ header {
       white-space: nowrap;
       font-size: 120%; } }
 @media only screen and (min-width: 768px) {
+  #call {
+    padding: 8px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 600;
+    text-align: right;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all  0.3 s ease-in-out;
+    background: rgba(255, 255, 255, 0.2); }
+    #call a {
+      text-decoration: none;
+      color: #0f3756;
+      margin-right: 22px;
+      display: inline-block;
+      border-radius: 5px;
+      padding-left: 5px;
+      padding-right: 5px; }
+    #call a:hover, #call .a:focus.a:hover {
+      background: #0f3756;
+      color: #ffffff; }
+    #call img {
+      line-height: 150%;
+      width: 20px;
+      vertical-align: middle; }
+
+  #call.smaller {
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    text-align: right; }
+
   #lang-id {
     margin-top: 0px;
     margin-left: 0%; }

@@ -86,46 +86,29 @@ $(window).scroll(function(event) {
   lastScrollTop = st;
 });
 
-// change naviagtion color on scroll
+//change logo on scroll
 $(function() {
   var nav = $("nav");
+  var header = $("#logo1");
+  var lang = $("#lang-id");
+  var tts = $("#call");
+
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
     if (scroll >= 150) {
       nav.addClass("bg-trans");
+      header.addClass("smaller");
+      lang.addClass("smaller");
+      tts.addClass("smaller");
     } else {
       nav.removeClass("bg-trans");
-    }
-  });
-});
-//change logo on scroll
-$(function() {
-  var header = $("#logo1");
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-
-    if (scroll >= 150) {
-      header.addClass("smaller");
-    } else {
       header.removeClass("smaller");
+      lang.removeClass("smaller");
+      tts.removeClass("smaller");
     }
   });
 });
-//change logo on scroll
-$(function() {
-  var header = $("#lang-id");
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll >= 150) {
-      header.addClass("smaller");
-    } else {
-      header.removeClass("smaller");
-    }
-  });
-});
-
-//show this modal for privacy on scroll////////////////////
 
 /*maps unclickable + google map 1*/
 $(".maps").click(function() {

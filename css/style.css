@@ -1413,6 +1413,7 @@ p, li, a {
   background: transparent; }
 
 header {
+  position: relative;
   min-height: 400px;
   width: 100%; }
   header .animated-arrow-down {
@@ -1822,13 +1823,11 @@ header {
   #services .price-bg {
     color: #ffffff; }
   #services .service-wrap {
-    overflow: hidden;
     border-radius: 5px;
     position: relative; }
   #services .t-1-wrapper,
   #services .t-2-wrapper,
   #services .t-3-wrapper.t-4-wrapper {
-    overflow: hidden;
     position: relative;
     margin-bottom: 25px; }
   #services .t-1,
@@ -1855,16 +1854,16 @@ header {
   #services .t-1 {
     background-image: url("../img/placeholder/720X405.jpg");
     background-position: center center;
-    background-color: grey;
+    background-color: black;
     background-size: cover; }
   #services .t-2 {
     background-image: url("../img/placeholder/720X405.jpg");
-    background-color: grey;
+    background-color: black;
     background-position: center center;
     background-size: cover; }
   #services .t-3 {
     background-image: url("../img/placeholder/720X405.jpg");
-    background-color: grey;
+    background-color: black;
     background-position: center center;
     background-size: cover; }
   #services .btn-services {

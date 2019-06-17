@@ -647,7 +647,7 @@ header{
 
 @include sm {
     #call{
-        padding: 8px;
+        padding: 5px;
         position: fixed;
         top: 0px;
         left: 0px;
@@ -659,6 +659,8 @@ header{
         -moz-transition: all  0.3 s ease-in-out;  
         background: rgba( $bg-white, 0.2);
         a{
+            padding-top: 5px;
+            padding-bottom: 5px;
             text-decoration: none;
             color: $main-blue;
             margin-right: 22px;
@@ -1369,7 +1371,7 @@ h3{
         -moz-border-radius: 5px;
         border-radius: 5px;
     }
-  
+
     @include xxs{
         #showtext{
             display: none;

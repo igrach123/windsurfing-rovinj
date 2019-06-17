@@ -1,9 +1,11 @@
 <header class="" id="home">
     <div class="container-fluid hidden-xs" id="call">
         <div class="container">
-            <img src="img/social/map-marker.png" alt="map"> <a href="#"> RED ISLAND </a>
-            <img src="img/social/whatsapp.png" alt="whatsapp"> / <img src="img/social/viber.png" alt="viber">
+            <a href="https://goo.gl/maps/ZRzkjmbGhNVTY5YY8" target="_blank"><img src="img/social/map-marker.png"
+                    alt="map"> RED ISLAND </a>
+
             <a href="tel:+385 (0)98441140">
+                <img src="img/social/whatsapp.png" alt="whatsapp"> / <img src="img/social/viber.png" alt="viber">
                 +385 (0)98 441 140</a>
         </div>
     </div>

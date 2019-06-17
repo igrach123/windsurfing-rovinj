@@ -1,5 +1,5 @@
 <section class="container-fluid" id="services">
-        <div ></div>
+
 
     <h2>SERVICES</h2>
     <div class="container">

@@ -1111,7 +1111,20 @@ h3{
         }
      }
 }
-
+//****************tenerife section*******************//
+#tenerife{
+    h3{
+        color: $bg-white;
+        font-weight: 900;
+    }
+    background-image: url(../img/tenerife-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+//****************end oftenerife section*******************//
 
 //****************rent section*******************//
 #rent{
@@ -1282,7 +1295,11 @@ h3{
 
 }
 
-
+.google-maps {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+  }
 #mapid{
     @include xxs{
         height: 350px;
@@ -1318,13 +1335,7 @@ h3{
         }
     }    
 }
-.map-bg{
-    background-image: url(../img/map2.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center center;
 
-}
 // promo section
 #promo{
     letter-spacing: 5px;

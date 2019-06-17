@@ -77,12 +77,13 @@
     <?php include "php/services-kayaking.php"; ?>
     <!-- lim -->
     <?php include "php/services-sup.php"; ?>
+    <?php include "php/tenerife.php"; ?>
 
     <!-- end of services -->
     <?php include "php/rent.php" ?>
     <!-- modals -->
     <?php include "php/najam-plovila.php"?>
-    <?php include "php/taxi-boat.php"?>
+    <?php include "php/services-tenerife.php"?>
     <!-- promo -->
     <?php include "php/promo.php"?>
     <?php include "php/onama.php"?>

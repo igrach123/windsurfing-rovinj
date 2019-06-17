@@ -2100,6 +2100,17 @@ header {
 #services-bike .bicikle-info .thumbnail:active, #services-bike .bicikle-info .thumbnail:hover {
   border: 1px solid #89e9f8; }
 
+#tenerife {
+  background-image: url(../img/tenerife-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  #tenerife h3 {
+    color: #ffffff;
+    font-weight: 900; }
+
 #rent {
   background-color: #fafafa;
   color: #ffffff; }
@@ -2220,6 +2231,11 @@ header {
   background-position: center;
   background-repeat: no-repeat; }
 
+.google-maps {
+  position: relative;
+  overflow: hidden;
+  height: 400px; }
+
 @media only screen and (min-width: 320px) {
   #mapid {
     height: 350px;
@@ -2243,12 +2259,6 @@ header {
       display: block;
       height: 200px;
       width: 100%; } }
-
-.map-bg {
-  background-image: url(../img/map2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
 
 #promo {
   letter-spacing: 5px;

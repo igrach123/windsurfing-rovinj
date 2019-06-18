@@ -1859,10 +1859,12 @@ header {
     background-color: black;
     background-size: cover; }
   #services .t-2 {
-    background-image: url("../img/placeholder/720X405.jpg");
     background-color: black;
     background-position: center center;
     background-size: cover; }
+    @media only screen and (min-width: 320px) {
+      #services .t-2 {
+        background-image: url("../img/kayak/kayak-bg-sm.jpg"); } }
   #services .t-3 {
     background-image: url("../img/placeholder/720X405.jpg");
     background-color: black;
@@ -1892,11 +1894,13 @@ header {
   font-weight: thin;
   font-size: 20px; }
 #services-windsurf .services-sm-title, #services-bike .services-sm-title, #services-kayaking .services-sm-title, #services-rental .services-sm-title, #services-snorkeling .services-sm-title, #services-sup .services-sm-title, #najam-plovila .services-sm-title, #taxi-boat .services-sm-title {
-  color: #0f3756;
-  padding: 30px 0 30px 0;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 600; }
+  background-image: linear-gradient(109.6deg, #0f3756 11.2%, #fafafa 91.1%);
+  color: #ffffff;
+  text-align: left;
+  padding: 15px  0 15px  5px;
+  font-size: 2rem;
+  font-weight: 400;
+  border-radius: 5px; }
 #services-windsurf .services-sm-title2, #services-bike .services-sm-title2, #services-kayaking .services-sm-title2, #services-rental .services-sm-title2, #services-snorkeling .services-sm-title2, #services-sup .services-sm-title2, #najam-plovila .services-sm-title2, #taxi-boat .services-sm-title2 {
   color: #0f3756;
   padding: 30px 0px 0px 0px;
@@ -1911,11 +1915,11 @@ header {
 #services-windsurf .modal-header, #services-bike .modal-header, #services-kayaking .modal-header, #services-rental .modal-header, #services-snorkeling .modal-header, #services-sup .modal-header, #najam-plovila .modal-header, #taxi-boat .modal-header {
   padding: 0px; }
 #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4 {
-  font-family: 'Abril Fatface',sans-serif;
+  color: #ffffff;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 900;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
-  color: #eb5e6e;
   vertical-align: middle;
   /*middle centred*/ }
   @media only screen and (min-width: 320px) {
@@ -1983,7 +1987,8 @@ header {
   display: inherit; }
 
 #services-kayaking h4 {
-  background-image: url(../img/izleti/island.jpg);
+  background-image: url(../img/kayak/kayak-bg.jpg);
+  background-color: #000;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }

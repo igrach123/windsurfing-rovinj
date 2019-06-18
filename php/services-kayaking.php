@@ -8,22 +8,84 @@
                 <h4 class="modal-title">KAYAKING</h4>
             </div>
             <div class="modal-body">
-                <h5 class="services-sm-title">ABOUT</h5>
+                <h5 class="services-sm-title">KAYAK RENTAL</h5>
 
-                <p class="text-muted">A scenic boat tour around the old town of Rovinj and its islands, to the island of
-                    Sv. Ivan, where you have leisure time for exploring the nature, swimming and diving in the clear
-                    sea, or just enjoying the sunshine and the views of the nearby lighthouse.
-                    Our next stop is the island of Dvije Sestrice (the Two Sisters), and on the drive there we serve you
-                    delicious canapés and drinks. Next is a 30-minute break for a swim in the turquoise sea of the
-                    picturesque cove between the islands where you can explore the interesting underwater flora and
-                    fauna. After the day in the sun, we refresh you with some chilled fresh fruit whilst driving back to
-                    Rovinj.
-                    <br><br>
-                    <b> Departure from parking Valdibora in the morning, and return to Rovinj around lunch time.</b>
+                <p class="text-muted">Possition of <strong>Windsurf center Red island</strong> is on hard of Rovinj
+                    archipelago. On a few
+                    minutes of paddeling on north side is situated Punta Corrente and quarry. From the south side of the
+                    center are situated the biggest and the most beautiful islands of Rovinj archipelago Maškin,
+                    Stturago, St. John and St John light house which is the most prominent island of North Adriatic.
+                    Every of this islands hiding untouched beaches and coves which can only come from the sea.
                 </p>
                 <hr>
-                <p class="text-muted"><b>PRICE</b> ADULTS <span class="badge badge-info">200,00 kn </span> KIDS <span
-                        class="badge badge-info">100,00 kn</span> </p>
+                <h5 class="services-sm-title">KAYAK SUNSET TOUR</h5>
+
+                <p class="text-muted">Eveyone already know that Rovinj have one of the most beautiful sunset, but if you
+                    want to expirience sunset with complete peace it will be good to move away on the sea without noise
+                    of engine, just with sounds of paddle, kayak and water.
+                    <strong>Sunset Tour</strong> start every day at 06:00 pm. Before sunset we visit islands Sturago and
+                    St. John and
+                    than we enjoy the sunset from the sea. During the sunset is big possibility to meet dolphins but we
+                    can not guarantee this.
+                    <br>
+                    <strong>Sunset Tour</strong> is easy (5 km) with easy paddleing tempo.
+
+                </p>
+                <hr>
+                <!-- galerija -->
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <div id="kayaking">
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k1.jpg" title="kayak tour">
+                                    <img src="img/kayak/k1_sm.jpg" data-src="img/kayak/k1_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k2.jpg" title="kayak tour">
+                                    <img src="img/kayak/k2_sm.jpg" data-src="img/kayak/k2_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k3.jpg" title="kayak tour">
+                                    <img src="img/kayak/k3_sm.jpg" data-src="img/kayak/k3_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k4.jpg" title="kayak tour">
+                                    <img src="img/kayak/k4_sm.jpg" data-src="img/kayak/k4_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k5.jpg" title="kayak tour">
+                                    <img src="img/kayak/k5_sm.jpg" data-src="img/kayak/k5_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k6.jpg" title="kayak tour">
+                                    <img src="img/kayak/k6_sm.jpg" data-src="img/kayak/k6_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k7.jpg" title="kayak tour">
+                                    <img src="img/kayak/k7_sm.jpg" data-src="img/kayak/k7_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k8.jpg" title="kayak tour">
+                                    <img src="img/kayak/k8_sm.jpg" data-src="img/kayak/k8_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+
+                            <div class="imgwrapper botmargin card-2">
+                                <a href="img/kayak/k9.jpg" title="kayak tour">
+                                    <img src="img/kayak/k9_sm.jpg" data-src="img/kayak/k9_sm.jpg"
+                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
+                            </div>
+
+                        </div>
+                    </div> <!-- panel body -->
+                </div> <!-- collapse one -->
 
 
                 <div class="modal-footer row">

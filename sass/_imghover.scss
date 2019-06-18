@@ -30,7 +30,7 @@
 .card-content {
   padding: 10px;
 }
-// sunset
+// windsurfing
 .t-1 {
   background-image: url("../img/placeholder/720X405.jpg");
   background-position: center center;
@@ -38,14 +38,16 @@
   background-size: cover;
 }
 
-// island
+// kayaking
 .t-2 {
-  background-image: url("../img/placeholder/720X405.jpg");
+  @include xxs {
+    background-image: url("../img/kayak/kayak-bg-sm.jpg");
+  }
   background-color: black;
   background-position: center center;
   background-size: cover;
 }
-// lim
+//sup
 .t-3 {
   background-image: url("../img/placeholder/720X405.jpg");
   background-color: black;

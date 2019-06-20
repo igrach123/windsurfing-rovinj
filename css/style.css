@@ -1167,6 +1167,11 @@ h2.pmd-card-title-text {
     font-size: 50px;
     line-height: 150%;
     margin-bottom: 40px; } }
+.carousel img {
+  width: 100% !important;
+  min-width: 100 !important;
+  height: auto; }
+
 /* Preloader */
 /* #preloader {
     position:fixed;

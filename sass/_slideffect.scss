@@ -292,3 +292,10 @@
     margin-bottom: 40px;
   }
 }
+
+//carousel image 100% fix
+.carousel img {
+  width: 100% !important;
+  min-width: 100 !important;
+  height: auto;
+}

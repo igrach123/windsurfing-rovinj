@@ -33,9 +33,7 @@
                         <h3 class="title">KAYAKING</h3>
                     </a>
                     <div class="card-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, dolorem rem autem ab porro
-                            odio exercitationem voluptatum numquam maiores, iusto suscipit quidem. Quidem nostrum
-                            mollitia ipsa iusto at veritatis qui?</p>
+                        <p>Kayak rental and kayak tours.</p>
                         <!-- Card action -->
                         <div class="btn-services">
                             <a href="#services-kayaking" class="btn btn-primary " data-toggle="modal" role="button"

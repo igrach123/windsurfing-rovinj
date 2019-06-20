@@ -9,7 +9,7 @@
                 <div class="item active">
 
                     <!-- Slide Background -->
-                    <img src="img/placeholder/2560x800.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <img src="img/header/centar-top.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                     <div class="bs-slider-overlay "></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">
@@ -26,7 +26,7 @@
                 <!-- Third Slide -->
                 <div class="item">
                     <!-- Slide Background -->
-                    <img src="img/placeholder/2560x800.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <img src="img/header/kayak-top-2.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                     <div class="bs-slider-overlay "></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">
@@ -35,12 +35,9 @@
                         <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'
                             class="btn btn-primary scroll" data-animation="animated fadeInLeft"><i
                                 class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
-
                     </div>
                 </div>
                 <!-- End of Slide -->
-
-
             </div><!-- End of Wrapper For Slides -->
 
             <!-- Left Control -->

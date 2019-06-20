@@ -1,13 +1,10 @@
         <!-- bootstrap 3 touch slider with animations -->
         <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line hidden-xs"
             data-ride="carousel" data-pause="hover" data-interval="false">
-
             <!-- Wrapper For Slides -->
             <div class="carousel-inner " role="listbox">
-
                 <!-- Second Slide -->
                 <div class="item active">
-
                     <!-- Slide Background -->
                     <img src="img/header/centar-top.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                     <div class="bs-slider-overlay "></div>
@@ -18,11 +15,9 @@
                         <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'
                             class="btn btn-primary scroll" data-animation="animated fadeInUp"> <i
                                 class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
-
                     </div>
                 </div>
                 <!-- End of Slide -->
-
                 <!-- Third Slide -->
                 <div class="item">
                     <!-- Slide Background -->
@@ -39,17 +34,14 @@
                 </div>
                 <!-- End of Slide -->
             </div><!-- End of Wrapper For Slides -->
-
             <!-- Left Control -->
             <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
                 <span class="fa fa-angle-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-
             <!-- Right Control -->
             <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
                 <span class="fa fa-angle-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-
         </div> <!-- End  bootstrap-touch-slider Slider -->

@@ -32,6 +32,19 @@
                                 class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
                     </div>
                 </div>
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="img/header/ws-top.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <div class="bs-slider-overlay "></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_center">
+                        <h1 data-animation="animated zoomInLeft"><?php echo "$the_sitetitle"; ?></h1>
+                        <p data-animation="animated fadeInRight">Windsurfing</p>
+                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'
+                            class="btn btn-primary scroll" data-animation="animated fadeInLeft"><i
+                                class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
+                    </div>
+                </div>
                 <!-- End of Slide -->
             </div><!-- End of Wrapper For Slides -->
             <!-- Left Control -->

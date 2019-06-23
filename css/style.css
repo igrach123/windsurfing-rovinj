@@ -1823,19 +1823,18 @@ header {
   background-attachment: fixed;
   background-size: cover; }
   #services h2 {
-    color: #0f3756; }
+    color: #27323d;
+    font-weight: bolder; }
   #services .izleti-row {
     max-width: 1920px;
     margin: 0 auto; }
   #services .price-bg {
     color: #ffffff; }
   #services .service-wrap {
-    border-radius: 5px;
-    position: relative; }
+    border-radius: 5px; }
   #services .t-1-wrapper,
   #services .t-2-wrapper,
-  #services .t-3-wrapper.t-4-wrapper {
-    position: relative;
+  #services .t-3-wrapper {
     margin-bottom: 25px; }
   #services .t-1,
   #services .t-2,
@@ -1875,6 +1874,39 @@ header {
     background-color: black;
     background-position: center center;
     background-size: cover; }
+  #services .t-4 .card-2,
+  #services .t-5 .card-2,
+  #services .t-6 .card-2 {
+    position: relative;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    -webkit-transition: 0.6s ease-in-out; }
+  #services .s-img-h-1,
+  #services .s-img-h-2,
+  #services .s-img-h-3 {
+    display: block;
+    background-attachment: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    transition: 0.6s ease-in-out;
+    -webkit-transition: 0.6s ease-in-out;
+    height: 100%;
+    padding-top: 250px; }
+    #services .s-img-h-1 h3,
+    #services .s-img-h-2 h3,
+    #services .s-img-h-3 h3 {
+      text-align: center;
+      padding: 40px;
+      margin-bottom: 0;
+      color: #ffffff;
+      background-color: rgba(137, 233, 248, 0.7);
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+  #services .s-img-h-2 {
+    background-image: url("../img/services/kayaking-s-bg.jpg"); }
+  #services .s-img-h-1:hover,
+  #services .s-img-h-2:hover,
+  #services .s-img-h-3:hover {
+    text-decoration: none; }
   #services .btn-services {
     margin-bottom: 20px; }
   #services .pmd-card {

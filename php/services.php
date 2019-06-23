@@ -4,11 +4,10 @@
     <h2>SERVICES</h2>
     <div class="container">
         <div class="row izleti-row">
-
             <!-- windsurfing -->
             <div class="col-sm-4  service-wrap  t-1-wrapper">
 
-                <div class=" card-1" data-mh="my-group">
+                <div class=" card-2" data-mh="my-group">
                     <a href="#services-windsurf" data-toggle="modal" role="button" data-target="#services-windsurf"
                         class="t-1">
                         <h3 class="title">WINDSURFING</h3>
@@ -33,7 +32,9 @@
                         <h3 class="title">KAYAKING</h3>
                     </a>
                     <div class="card-content">
-                        <p>Kayak rental and kayak tours.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus nobis exercitationem
+                            assumenda saepe placeat aut deleniti, quas adipisci porro earum consequuntur, voluptatem in
+                            tempora officia eos illum commodi vero error!</p>
                         <!-- Card action -->
                         <div class="btn-services">
                             <a href="#services-kayaking" class="btn btn-primary " data-toggle="modal" role="button"
@@ -60,6 +61,43 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- //do0ljni red -->
+        <div class="row izleti-row">
+            <!-- windsurfing -->
+            <div class="col-sm-4  service-wrap  t-4-wrapper">
+                <div class="card-2" data-mh="my-group">
+                    <a class="s-img-h-1">
+
+                        <h3 class="title">WINDSURFING</h3>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+            <!-- kayaking-->
+            <div class="col-sm-4  service-wrap t-5-wrapper">
+                <div class=" card-2" data-mh="my-group">
+                    <a class="s-img-h-2" href="#services-kayaking" data-toggle="modal" role="button"
+                        data-target="#services-kayaking">
+                        <h3 class="text-center">KAYAKING</h3>
+                    </a>
+                </div>
+            </div>
+
+            <!-- stand up paddle-->
+            <div class="col-sm-4  service-wrap t-6-wrapper">
+                <div class=" card-2" data-mh="my-group">
+                    <a class="s-img-h-3">
+                        <h3 class="title">STAND UP PADDLE</h3>
+                    </a>
                 </div>
             </div>
         </div>

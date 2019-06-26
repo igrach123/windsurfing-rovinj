@@ -1855,7 +1855,10 @@ header {
       -webkit-text-emphasis: none;
               text-emphasis: none;
       text-align: center;
-      margin-bottom: 150px; }
+      margin-bottom: 150px;
+      font-size: 2.8rem;
+      color: #ffffff;
+      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
     #services .s-img-h-1 h3,
     #services .s-img-h-2 h3,
     #services .s-img-h-3 h3 {
@@ -1875,12 +1878,21 @@ header {
     background-image: url("../img/services/sup-s-bg.jpg"); }
   #services .s-img-h-1:hover,
   #services .s-img-h-2:hover,
-  #services .s-img-h-3:hover {
+  #services .s-img-h-3:hover,
+  #services .s-img-h-1:focus,
+  #services .s-img-h-2:focus,
+  #services .s-img-h-3:focus {
     text-decoration: none; }
     #services .s-img-h-1:hover h3,
     #services .s-img-h-2:hover h3,
-    #services .s-img-h-3:hover h3 {
+    #services .s-img-h-3:hover h3,
+    #services .s-img-h-1:focus h3,
+    #services .s-img-h-2:focus h3,
+    #services .s-img-h-3:focus h3 {
       background-color: #89e9f8; }
+  #services .services-price {
+    display: inline-block;
+    text-align: right; }
   #services .btn-services {
     margin-bottom: 20px; }
   #services .pmd-card {
@@ -1888,16 +1900,6 @@ header {
   #services h3 img {
     width: 50px;
     padding-left: 5px; }
-  #services .time {
-    display: block;
-    background-color: rgba(0, 210, 255, 0.5);
-    padding: 15px 10px 15px 10px;
-    border-radius: 5px;
-    margin-bottom: 25px;
-    margin-top: 25px; }
-  #services .every-day {
-    padding-top: 25px;
-    padding-bottom: 25px; }
 
 #services-windsurf .intro, #services-bike .intro, #services-kayaking .intro, #services-rental .intro, #services-snorkeling .intro, #services-sup .intro, #najam-plovila .intro, #taxi-boat .intro {
   font-family: 'Roboto', cursive;
@@ -2044,7 +2046,7 @@ header {
 
 #services-bike h4 {
   background-image: url(../img/sup/sup-bg.jpg);
-  background-size: cover;
+  background-attachment: cover;
   background-repeat: no-repeat; }
 #services-bike .nav-tabs {
   border-bottom: 2px solid #DDD; }
@@ -2105,8 +2107,7 @@ header {
   border: 1px solid #89e9f8; }
 
 #tenerife {
-  background-image: url(../img/tenerife-bg.jpg);
-  background-attachment: fixed;
+  background-attachment: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding-top: 120px;
@@ -2114,6 +2115,18 @@ header {
   #tenerife h3 {
     color: #ffffff;
     font-weight: 900; }
+  @media only screen and (min-width: 320px) {
+    #tenerife {
+      background-image: url(../img/tenerife/tenerife-bg-xs.jpg); } }
+  @media only screen and (min-width: 768px) {
+    #tenerife {
+      background-image: url(../img/tenerife/tenerife-bg-sm.jpg); } }
+  @media only screen and (min-width: 992px) {
+    #tenerife {
+      background-image: url(../img/tenerife/tenerife-bg-md.jpg); } }
+  @media only screen and (min-width: 1200px) {
+    #tenerife {
+      background-image: url(../img/tenerife/tenerife-bg-lg.jpg); } }
 
 #rent {
   background-color: #fafafa;

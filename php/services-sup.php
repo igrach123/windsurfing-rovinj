@@ -10,14 +10,14 @@
             <div class="modal-body">
                 <h5 class="services-sm-title">ABOUT</h5>
 
-                <p class="text-muted"> <b>
-                        A 40-minute panoramic ride to the middle of the Lim Fjord where you can visit the Pirate Cave
-                        and refresh yourself in the cafe' located inside of it. After a relaxed drive to the fjord's
-                        fish farm, we will visit the small fishing village of Vrsar. For the 90-minute break in Vrsar
-                        you can choose between swimming on the nearby beach, sightseeing of the old town, or a tasty
-                        lunch at some of the local restaurants.
-                        <br> <br>
-                        <b>Departure from parking Valdibora around 13:00h, and return to Rovinj in the afternoon.</b>
+                <p>
+                    We’ve all done it because it seems right at the time. You want the paddle to scoop the water as
+                    you try to balance and paddle without falling in. However, as we all eventually find out, the
+                    paddle goes the other way as it works more effectively when in the standing position and also
+                    results in a smoother paddle stroke and less stress on your shoulders and elbows. As the shaft
+                    is the leading edge you pull the blade through the water in a slightly trailing position which
+                    aids blade stability and as you perform the SUP stroke, the blade is vertical providing the best
+                    angle through the middle of the stroke for the most power.</b>
                 </p>
                 <hr>
                 <p class="text-muted"><b>PRICE</b> ADULTS <span class="badge badge-info">200,00 kn </span> KIDS <span

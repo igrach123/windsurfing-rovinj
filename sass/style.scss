@@ -861,6 +861,7 @@ header{
 
 	}
 }
+
 //****************Fsm SECTION*******************//
 #services{
     padding-bottom: 80px;
@@ -877,9 +878,9 @@ header{
         max-width: 1920px;
         margin: 0 auto;
     }
-    // services home section
+// SERVICES -MODALS
     @import "imghover";
- 
+
 .btn-services{
     margin-bottom: 20px;
 }
@@ -892,19 +893,6 @@ h3{
             padding-left: 5px;
         }
 }
-.time{
-    display:block;
-    background-color: $water-blue;
-    padding: 15px 10px 15px 10px;
-    border-radius: 5px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
-.every-day{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-//CIJENA
 
 //cose colore
 
@@ -1062,7 +1050,7 @@ h3{
     
     h4{
         background-image: url(../img/sup/sup-bg.jpg); 
-        background-size:cover;      
+        background-attachment: cover;   
         background-repeat: no-repeat;  
     }
     //nav tabs ful width
@@ -1099,8 +1087,19 @@ h3{
         color: $bg-white;
         font-weight: 900;
     }
-    background-image: url(../img/tenerife-bg.jpg);
-    background-attachment: fixed;
+    @include xxs {
+        background-image: url(../img/tenerife/tenerife-bg-xs.jpg);
+    }
+    @include sm {
+        background-image: url(../img/tenerife/tenerife-bg-sm.jpg);
+    }
+    @include md {
+        background-image: url(../img/tenerife/tenerife-bg-md.jpg);
+    }
+    @include lg {
+        background-image: url(../img/tenerife/tenerife-bg-lg.jpg);
+    }
+    background-attachment: cover;
     background-repeat: no-repeat;
     background-position: center center;
     padding-top: 120px;

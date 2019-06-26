@@ -21,7 +21,7 @@
                 <div class=" card-2" data-mh="my-group">
                     <a class="s-img-h-2" href="#services-kayaking" data-toggle="modal" role="button"
                         data-target="#services-kayaking">
-                        <p class="services-info">School & Rent</p>
+                        <p class="services-info">Tours & Rent</p>
                         <h3 class="text-center">KAYAKING</h3>
                     </a>
                 </div>
@@ -32,12 +32,18 @@
                 <div class=" card-2" data-mh="my-group">
                     <a class="s-img-h-3" href="#services-bike" data-toggle="modal" role="button"
                         data-target="#services-bike">
-                        <p class="services-info">Tours & Rent</p>
+                        <p class="services-info">Rent</p>
                         <h3 class="title">STAND UP PADDLE</h3>
                     </a>
                 </div>
             </div>
         </div>
+        <br><br><br>
+        <div class="text-center">
+            <a href="#footer" class="btn btn-default scroll" data-scroll
+                data-options='{ "easing": "easeInOutQuad" }'>SPECIAL OFFER FOR GROUPS</a>
+        </div>
+
     </div>
 
 </section>

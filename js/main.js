@@ -6,7 +6,6 @@
 // @koala-prepend "lazyload.min.js"
 // @koala-prepend "vendor/wow.min.js"
 
-// closen hamburger nav on click
 $(function() {
   $(".nav a").on("click", function() {
     if ($(".navbar-toggle").css("display") != "none") {

@@ -73,37 +73,38 @@
                             data-target="#price">
                             SEE FULL PRICE LIST HERE
                         </a> 
-                    </div> 
+                    </div>
                 <hr>
                   <!-- galerija -->
                   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
                         <div id="bikes2" class="row">
-                            <div class=" botmargin col-xs-6 " >
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                            <div class=" botmargin col-xs-4 col-sm-6 " >
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
                                     <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
-                            <div class=" botmargin  col-xs-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                            <div class=" botmargin  col-xs-4 col-sm-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
                                     <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>                      
-                            <div class=" botmargin  col-xs-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                            <div class=" botmargin col-xs-4  col-sm-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
                                     <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>                      
-                            <div class=" botmargin  col-xs-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                            <div class=" botmargin  col-xs-4 col-sm-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
                                     <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>                      
-                            <div class=" botmargin  col-xs-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                            <div class=" botmargin  col-xs-4 col-sm-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
                                     <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>                      
+                                                
                         </div>
                     </div> <!-- panel body -->
                 </div> <!-- collapse one -->

@@ -35,51 +35,35 @@
                 <!-- galerija -->
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
-                        <div id="kayaking">
-                            <div class="imgwrapper botmargin card-2">
+                        <div id="kayaking" class="row">
+                            <div class="botmargin col-xs-4 col-sm-6">
                                 <a href="img/kayak/k1.jpg" title="kayak tour">
                                     <img src="img/kayak/k1_sm.jpg" data-src="img/kayak/k1_sm.jpg"
                                         class="img img-responsive img-rounded " alt="kayak tour"></a>
                             </div>
-                            <div class="imgwrapper botmargin card-2">
+                            <div class="botmargin col-xs-4 col-sm-3">
                                 <a href="img/kayak/k2.jpg" title="kayak tour">
                                     <img src="img/kayak/k2_sm.jpg" data-src="img/kayak/k2_sm.jpg"
                                         class="img img-responsive img-rounded " alt="kayak tour"></a>
                             </div>
-                            <div class="imgwrapper botmargin card-2">
+                            <div class="botmargin col-xs-4 col-sm-3">
                                 <a href="img/kayak/k3.jpg" title="kayak tour">
                                     <img src="img/kayak/k3_sm.jpg" data-src="img/kayak/k3_sm.jpg"
                                         class="img img-responsive img-rounded " alt="kayak tour"></a>
                             </div>
-                            <div class="imgwrapper botmargin card-2">
+                            <div class="botmargin col-xs-4 col-sm-3">
                                 <a href="img/kayak/k4.jpg" title="kayak tour">
                                     <img src="img/kayak/k4_sm.jpg" data-src="img/kayak/k4_sm.jpg"
                                         class="img img-responsive img-rounded " alt="kayak tour"></a>
                             </div>
-                            <div class="imgwrapper botmargin card-2">
+                            <div class="botmargin col-xs-4 col-sm-3">
                                 <a href="img/kayak/k5.jpg" title="kayak tour">
                                     <img src="img/kayak/k5_sm.jpg" data-src="img/kayak/k5_sm.jpg"
                                         class="img img-responsive img-rounded " alt="kayak tour"></a>
                             </div>
-                            <div class="imgwrapper botmargin card-2">
+                            <div class="botmargin col-xs-4 col-sm-3 visible-xs    ">
                                 <a href="img/kayak/k6.jpg" title="kayak tour">
                                     <img src="img/kayak/k6_sm.jpg" data-src="img/kayak/k6_sm.jpg"
-                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
-                            </div>
-                            <div class="imgwrapper botmargin card-2">
-                                <a href="img/kayak/k7.jpg" title="kayak tour">
-                                    <img src="img/kayak/k7_sm.jpg" data-src="img/kayak/k7_sm.jpg"
-                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
-                            </div>
-                            <div class="imgwrapper botmargin card-2">
-                                <a href="img/kayak/k8.jpg" title="kayak tour">
-                                    <img src="img/kayak/k8_sm.jpg" data-src="img/kayak/k8_sm.jpg"
-                                        class="img img-responsive img-rounded " alt="kayak tour"></a>
-                            </div>
-
-                            <div class="imgwrapper botmargin card-2">
-                                <a href="img/kayak/k9.jpg" title="kayak tour">
-                                    <img src="img/kayak/k9_sm.jpg" data-src="img/kayak/k9_sm.jpg"
                                         class="img img-responsive img-rounded " alt="kayak tour"></a>
                             </div>
 

@@ -49,7 +49,7 @@
                     Russian
                     and Slovenian.
                     While learning windsurfing, the beginners use the most modern materials adapted for them which
-                    means, light sails and stable boards appropriate for their age.
+                means, light sails and stable boards appropriate for their age.
                     Maximum six persons per group, which allows instructors to dedicate enough attention to each
                     participant.</p>
                 <hr>
@@ -66,10 +66,48 @@
                     against
                     the wind. Each element is practised for one hour, first on the simulator and then on the sea.
                 </p>
-                <div class="text-center">
-                <a href="#" class="text-muted btn btn-default"><b> FULL PRICE LIST HERE</b> </a>
-                </div>
-                
+
+                    <!-- galerija -->
+                    <div class="text-center price-list-btn">
+                        <a class="btn btn-default" href="#price" data-toggle="modal" role="button"
+                            data-target="#price">
+                            SEE FULL PRICE LIST HERE
+                        </a> 
+                    </div> 
+                <hr>
+                  <!-- galerija -->
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <div id="bikes">
+                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
+                                <a href="img/gallery/1.jpg" title="inflatable boat">
+                                    <img src="img/gallery/1m.jpg" data-src="img/gallery/1m.jpg"
+                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
+                                <a href="img/gallery/2.jpg" title="inflatable boat">
+                                    <img src="img/gallery/2m.jpg" data-src="img/gallery/2m.jpg"
+                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
+                                <a href="img/gallery/3.jpg" title="inflatable boat">
+                                    <img src="img/gallery/3m.jpg" data-src="img/gallery/3m.jpg"
+                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
+                                <a href="img/gallery/4.jpg" title="inflatable boat">
+                                    <img src="img/gallery/4m.jpg" data-src="img/gallery/4m.jpg"
+                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                            </div>
+                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
+                                <a href="img/gallery/5.jpg" title="inflatable boat">
+                                    <img src="img/gallery/5m.jpg" data-src="img/gallery/5m.jpg"
+                                        class="img img-responsive img-rounded " alt="inflatable boat"></a>
+                            </div>
+                        
+                        </div>
+                    </div> <!-- panel body -->
+                </div> <!-- collapse one -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>

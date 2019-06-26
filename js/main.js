@@ -3,20 +3,23 @@
 // @koala-prepend "blueimp-gallery.min.js"
 // @koala-prepend "jquery.matchHeight.js"
 // @koala-prepend "smooth-scroll.min.js"
-// @koala-prepend "echo.min.js"
 // @koala-prepend "lazyload.min.js"
 // @koala-prepend "vendor/wow.min.js"
 
-//image preloader
-echo.init({
-  callback: function(element, op) {
-    console.log(element, "has been", op + "ed");
-  }
+// closen hamburger nav on click
+$(function() {
+  $(".nav a").on("click", function() {
+    if ($(".navbar-toggle").css("display") != "none") {
+      $(".navbar-toggle").trigger("click");
+    }
+  });
 });
-
 // echo.render(); is also available for non-scroll callbacks
 // wow reveal js
 new WOW().init();
+
+//smoth scroll initialisation
+smoothScroll.init();
 
 //show more on click o nama
 
@@ -28,12 +31,10 @@ $(document).ready(function() {
     $("#showtext").show();
   });
 });
-
 //match heoght group 1
 $(function() {
   $(".item").matchHeight(options);
 });
-
 //Owl Carousel 2
 $(document).ready(function() {
   $("#testimonial-slider").owlCarousel({
@@ -41,7 +42,6 @@ $(document).ready(function() {
     itemsTablet: [767, 1],
     itemsDesktopSmall: [979, 2],
     responsiveClass: true,
-
     pagination: false,
     stopOnHover: true,
     transitionStyle: "fade",
@@ -53,6 +53,7 @@ $(document).ready(function() {
     autoPlay: true
   });
 });
+
 //Owl Carousel 1
 $(document).ready(function() {
   $("#testimonial-slider-hr").owlCarousel({
@@ -119,62 +120,6 @@ $(".maps").mouseleave(function() {
   $(".maps iframe").css("pointer-events", "none");
 });
 
-// //GOOGLE MAP 1
-// function initMap(){
-//   //options
-//   var options = {
-//     zoom:13,
-//     center:{lat:45.0740,lng:13.6548}
-//   }
-//   //map init
-//   var map = new google.maps.Map(
-//     document.getElementById("map1"), options);
-
-//   //marker
-//   var marker1 = new google.maps.Marker({
-//     position:{lat:45.087466,lng:13.640614},
-//     map:map
-//   });
-
-//   var marker2 = new google.maps.Marker({
-//     position:{lat:45.060838,lng:13.665519},
-//     map:map
-//   });
-
-//   var infowWindow1 = new google.maps.InfoWindow({
-//     content:'<a href="https://goo.gl/maps/DfY4Ys1uGFn" target="_blank"> Rovinj s northern port Valdibora </a>',
-//   });
-//     marker1.addListener('click', function() {
-//       infoWindow1.open(map, marker1);
-//     });
-
-//   var map2 = new google.maps.Map(
-//     document.getElementById("map2"), options);
-
-//     var marker3 = new google.maps.Marker({
-//       position:{lat:45.087466,lng:13.640614},
-//       map:map2,
-//     });
-
-//     var marker4 = new google.maps.Marker({
-//       position:{lat:45.060838,lng:13.665519},
-//       map:map2,
-//     });
-
-// };
-
-// closen hamburger nav on click
-$(function() {
-  $(".nav a").on("click", function() {
-    if ($(".navbar-toggle").css("display") != "none") {
-      $(".navbar-toggle").trigger("click");
-    }
-  });
-});
-
-//smoth scroll initialisation
-smoothScroll.init();
-
 //GALERIJAAAAAA
 document.getElementById("bikes").onclick = function(event) {
   event = event || window.event;
@@ -183,14 +128,6 @@ document.getElementById("bikes").onclick = function(event) {
     options = { index: link, event: event },
     links = this.getElementsByTagName("a");
   blueimp.Gallery(links, options);
-};
-
-blueimp.Gallery(document.getElementById("bikes").getElementsByTagName("a"), {
-  container: "#blueimp-gallery-carousel",
-  carousel: true
-});
-var options = {
-  displayClass: "blueimp-gallery-display"
 };
 
 //kayaking galerija
@@ -203,13 +140,7 @@ document.getElementById("kayaking").onclick = function(event) {
   blueimp.Gallery(links, options);
 };
 
-blueimp.Gallery(document.getElementById("kayaking").getElementsByTagName("a"), {
-  container: "#blueimp-gallery-carousel",
-  carousel: true
-});
-var options = {
-  displayClass: "blueimp-gallery-display"
-};
+//price gallery
 
 //back to top icona
 $("body").prepend('<a href="#navigation" class="back-to-top"></a>');

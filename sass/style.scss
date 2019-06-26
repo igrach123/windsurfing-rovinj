@@ -897,7 +897,7 @@
     //cose colore
 
     }
-    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat{
+    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat,#price{
         .intro{
             font-family: 'Roboto', cursive;
             color: $third;
@@ -1001,11 +1001,15 @@
     }
 
 
-
     // sunset dolphins
     #services-windsurf{  
+        //maosnary
+    .grid-item { width: 200px; }
+    .grid-item--width2 { width: 400px; }
+
+
         h4{
-        
+         
             background-image: url(../img/windsurfing/windsurfing-bg.jpg); 
             background-size: cover;
             background-position: center center;
@@ -1014,8 +1018,29 @@
         p{
             color: $second;
         }
-        
-
+            
+    }
+    .price-list-btn{
+        margin-bottom: 30px;
+    }
+    #price{
+        h4{
+            @include xxs{
+                background-image: url(../img/services/price-xs.jpg); 
+            }
+            @include sm{
+                background-image: url(../img/services/price-sm.jpg); 
+            }
+            @include lg{
+                background-image: url(../img/services/price.jpg); 
+            }
+          
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            min-height: 500px;
+            width: 100%;
+        }        
     }
 
     //facebook iframe i link u modalu

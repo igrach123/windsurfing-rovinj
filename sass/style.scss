@@ -1000,44 +1000,23 @@ h3{
 #services-windsurf{  
     h4{
        
-        background-image: url(../img/izleti/sunset.jpg); 
+        background-image: url(../img/windsurfing/windsurfing-bg.jpg); 
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;  
     }
-    .windsurf-daske{
-        .thumbnail{
-            margin: 0 auto;
-            transition: all .3s ease-in-out;
-        }
-        .thumbnail:active, .thumbnail:hover{
-            border: 1px solid $torkis-blue;
-        }
-     }
-    .h7{
+    p{
+        color: $second;
+    }
+    h6{     
+            padding-top: 30px;
+           
             font-size: 18px;
-            color:$torkis-blue;
+            color:$main-blue;
             font-weight: bolder;
-            letter-spacing: 4px;
 
         }
-    .windsurf-daske{
-        @include xxs {
-            img{
-                width: 80px;
-            }
-        }
-        @include xs {
-            img{
-                width: 100px;
-            }
-        }
-        @include sm {
-            img{
-                width: 135px;
-            }
-        }
-    }     
+   
 }
 
 //facebook iframe i link u modalu
@@ -1078,13 +1057,12 @@ h3{
     }
 
 }
-// lim fjord
+// services stand up padle SUP
 #services-bike{
     
     h4{
-        background-image: url(../img/izleti/lim.jpg); 
-        background-size: cover;
-        background-position: center center;
+        background-image: url(../img/sup/sup-bg.jpg); 
+        background-size:cover;      
         background-repeat: no-repeat;  
     }
     //nav tabs ful width

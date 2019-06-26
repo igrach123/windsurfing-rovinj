@@ -78,33 +78,32 @@
                   <!-- galerija -->
                   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
-                        <div id="bikes">
-                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="img/gallery/1.jpg" title="inflatable boat">
-                                    <img src="img/gallery/1m.jpg" data-src="img/gallery/1m.jpg"
+                        <div id="bikes2" class="row">
+                            <div class=" botmargin col-xs-6 " >
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded " alt="inflatable boat"></a>
                             </div>
-                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="img/gallery/2.jpg" title="inflatable boat">
-                                    <img src="img/gallery/2m.jpg" data-src="img/gallery/2m.jpg"
+                            <div class=" botmargin  col-xs-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded " alt="inflatable boat"></a>
-                            </div>
-                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="img/gallery/3.jpg" title="inflatable boat">
-                                    <img src="img/gallery/3m.jpg" data-src="img/gallery/3m.jpg"
+                            </div>                      
+                            <div class=" botmargin  col-xs-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded " alt="inflatable boat"></a>
-                            </div>
-                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="img/gallery/4.jpg" title="inflatable boat">
-                                    <img src="img/gallery/4m.jpg" data-src="img/gallery/4m.jpg"
+                            </div>                      
+                            <div class=" botmargin  col-xs-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded " alt="inflatable boat"></a>
-                            </div>
-                            <div class="imgwrapper botmargin card-2 wow fadeInUp" data-wow-delay="0.5s">
-                                <a href="img/gallery/5.jpg" title="inflatable boat">
-                                    <img src="img/gallery/5m.jpg" data-src="img/gallery/5m.jpg"
+                            </div>                      
+                            <div class=" botmargin  col-xs-3">
+                                <a href="img/windsurfing/windsurfing-bg.jpg" title="inflatable boat">
+                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded " alt="inflatable boat"></a>
-                            </div>
-                        
+                            </div>                      
                         </div>
                     </div> <!-- panel body -->
                 </div> <!-- collapse one -->

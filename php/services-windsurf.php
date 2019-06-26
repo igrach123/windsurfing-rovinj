@@ -10,20 +10,18 @@
             </div>
             <div class="modal-body">
                 <h5 class="services-sm-title">COURSES</h5>
-                <h6> <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span> Try out course</h6>
+
+                <h6> <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span> Try out course <span class=" price-badge"> 500,00 HRK</span></h6>
                 <p>This course is intended for those who want to try out windsurfing. The course is consisted of two
                     lessons. The first If the participant decides to continue with windsurfing lessons, the price of the
-                    beginner's course will be reduced by the amount paid for the try out course. <br>
-                    <span class="services-price text-right"> <b>2h TEST COURSE</b> (Group & Individual) <span
-                            class="badge badge-default">500,00
-                            kn </span></span>
+                    beginner's course will be reduced by the amount paid for the try out course.
 
                 </p>
-
+ 
 
                 <hr>
                 <h6> <span><i class="fa fa-star" aria-hidden="true"></i></span> Windsurfing course (beginners) -
-                    Individual</h6>
+                    Individual <span class=" price-badge">900,00 HRK</span></h6>
                 <p>Available to people from 6 to 66 years of age. In the individual course you can choose between
                     3-, 5-
                     or 8-hours windsurfing lessons.
@@ -33,7 +31,7 @@
                     standing and turns on the board. Everything what’ve we learned on land in introduction part.</p>
                 <hr>
                 <h6><span><i class="fa fa-star" aria-hidden="true"></i></span> Windsurfing course (beginners) -
-                    Group
+                    Group <span class=" price-badge">900,00 HRK</span>
                 </h6>
                 <p>Available to people from 6 to 66 years of age.The first lesson takes place on land and It
                     consists of
@@ -58,7 +56,7 @@
 
 
                 <h6> <span><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>
-                    </span> Advanced windsurfing course</h6>
+                    </span> Advanced windsurfing course <span class=" price-badge">1000,00 HRK</span></h6>
                 <p>Advanced windsurfing course is intended for those who have successfully mastered the elements of
                     the
                     beginner's course and wish to continue their education in surfing. The advanced course includes
@@ -68,9 +66,10 @@
                     against
                     the wind. Each element is practised for one hour, first on the simulator and then on the sea.
                 </p>
-                <p class="text-muted"><b>PRICE</b> ADULTS <span class="badge badge-info">100,00 kn </span> KIDS
-                    <span class="badge badge-info">50,00 kn</span> </p>
-
+                <div class="text-center">
+                <a href="#" class="text-muted btn btn-default"><b> FULL PRICE LIST HERE</b> </a>
+                </div>
+                
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>

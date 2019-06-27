@@ -81,14 +81,16 @@
     <?php include "php/price.php"; ?>
     <?php include "php/tenerife.php"; ?>
 
+    <?php include "php/onama.php"?>
+    <?php include "php/promo.php"?>
     <!-- end of services -->
     <?php include "php/rent.php" ?>
     <!-- modals -->
     <?php include "php/najam-plovila.php"?>
     <?php include "php/services-tenerife.php"?>
     <!-- promo -->
-    <?php include "php/promo.php"?>
-    <?php include "php/onama.php"?>
+
+
 
     <?php include "php/galery.php"?>
     <!-- modal -->
@@ -103,7 +105,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/simple-lightbox.min.js"></script>
-    
+
     <script src="form.js"></script>
 
     <script src="js/main-js-backup-min.js"></script>

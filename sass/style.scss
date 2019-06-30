@@ -1,11 +1,9 @@
 
     /* ==========================================================================
-    Author's custom styles
+    Author: Igor Brajković
     ========================================================================== */
     //font import
     @import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Montserrat:200,400,700&display=swap');
-    //bs media querries import
-
     @import "bootstrap-querries";
     @import "material-shadows";
     @import "colors";
@@ -15,37 +13,8 @@
     @import "animatedarrow";
     @import "colors-main";
     @import "slideffect";
+    @import "social";
 
-
-
-
-
-
-
-
-    /* Preloader */
-
-    /* #preloader {
-        position:fixed;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-color:#fff; 
-        z-index:1000; 
-    } */
-
-    /* #status {
-        width:200px;
-        height:200px;
-        position:absolute;
-        left:50%; 
-        top:50%; 
-        background-image:url(../img/Ellipsis-1.9s-200px.gif); 
-        background-repeat:no-repeat;
-        background-position:center;
-        margin:-100px 0 0 -100px; 
-    } */
 
     html{
         padding: 0px 0px;
@@ -109,11 +78,7 @@
             float: left;
         }
     }
-    .facebook-modal-link{
-        margin-left: 0px !important;
-        margin-top: 10px;
 
-    }
     //fixed modal back color
     .modal-backdrop {
     position: fixed;
@@ -125,6 +90,7 @@
     background-color: #333333;
     opacity:0.8; // I ADDED THIS LINE 
         }   
+
     //border bot
     .border-bot-60 {  
         height: 1px;
@@ -160,11 +126,12 @@
     h1{
         font-family: 'Montserrat', sans-serif;
     }
-    h2,h3,h4,h5,h6{
+    h2,h3,h4,h5,h6,thead{
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
         color: $bg-grey;
     }
+ 
     h2{
         text-align: center;
         text-transform: uppercase;
@@ -255,7 +222,7 @@
     }
 
 
-
+// h1 on the site
     @include xxs {
         h1{
             font-size:2em;
@@ -304,14 +271,6 @@
     }
 
     //****************HEADER SECTION*******************//
-    //reveal naviagtion on scroll up style
-    .parallax-window{
-        min-height: 400px;
-        background: transparent;
-    }
-
-
-    //end of bootstrap carousel
     header{
         position: relative;
         min-height: 400px;
@@ -862,7 +821,7 @@
         }
     }
 
-    //****************Fsm SECTION*******************//
+    //****************services SECTION*******************//
     #services{
         padding-bottom: 80px;
         background-color:$bg-white;
@@ -893,7 +852,9 @@
                 padding-left: 5px;
             }
     }
-
+    .h7{
+        color: $torkis-blue;
+    }
     //cose colore
 
     }
@@ -909,7 +870,7 @@
         background-image: linear-gradient( 109.6deg,  ($main-blue) 11.2%, ($bg-grey-lighter) 91.1% );
         color: $bg-white;
         text-align: left;
-        padding:15px  0 15px  5px;
+        padding:15px  0 15px  10px;
         font-size: 2.4rem;
         font-weight: 400;
         border-radius: 5px;
@@ -930,6 +891,10 @@
         .modal-header{
             padding: 0px;        
         }
+        thead{
+            color: $second;
+        
+        }
         h4{
             color: $bg-white;
             text-align: center;
@@ -948,7 +913,13 @@
                 padding-top: 125px;
             padding-bottom: 125px;
             }
-            
+      
+            .social-wrapper {
+                position: absolute;
+                display: inline;
+                left: 15px;
+                bottom: 15px;
+              }  
         }
     //modal button close desing
     .close {
@@ -990,15 +961,8 @@
             }
         }
         
-    .facebook-modal-link{
-        margin-left: 0px !important;
-        margin-top: 10px;
-    }
-    .facebook-modal-iframe{
-        display: inherit;
-    } 
-        
-    }
+
+}     
 
 
     // MODAL WINDSURFING
@@ -1014,11 +978,11 @@
         p{
             color: $second;
         }
-            
-    }
-    .fa{
-        color: $torkis-blue;
-    }
+        .fa{
+            color: $torkis-blue;
+        }     
+    }   
+
     .price-list-btn{
         margin-bottom: 30px;
     }
@@ -1037,19 +1001,14 @@
             background-size: contain;
             background-position: center center;
             background-repeat: no-repeat;
+            translate: all 0.3s ease-in-out;
             min-height: 500px;
             width: 100%;
         }        
     }
 
-    //facebook iframe i link u modalu
-    .facebook-modal-link{
-        margin-left: 0px !important;
-    }
-    .facebook-modal-iframe{
-        display: inherit;
-    }
-    // island swimming
+  
+    // service-kayaking
     #services-kayaking{
         
         h4{
@@ -1122,25 +1081,28 @@
             color: $bg-white;
             font-weight: 900;
         }
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         @include xxs {
             background-image: url(../img/tenerife/tenerife-bg-xs.jpg);
+            padding-top: 120px;
+            padding-bottom: 120px;
         }
         @include sm {
             background-image: url(../img/tenerife/tenerife-bg-sm.jpg);
         }
         @include md {
             background-image: url(../img/tenerife/tenerife-bg-md.jpg);
+            padding-top: 220px;
+            padding-bottom: 220px;
         }
         @include lg {
             background-image: url(../img/tenerife/tenerife-bg-lg.jpg);
         }
-        background-attachment: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        padding-top: 120px;
-        padding-bottom: 120px;
+
     }
-    //****************end oftenerife section*******************//
+    //****************end of tenerife section*******************//
 
     //****************rent section*******************//
     #rent{
@@ -1235,11 +1197,6 @@
         text-transform: uppercase;
         padding-top: 10px;
         }
-        p{
-
-        }
-
-
     }
     // end of rent
     //rent modal
@@ -1357,10 +1314,15 @@
         letter-spacing: 5px;
         padding:40px 0 40px 0;
         font-family: "Roboto",sans-serif;
-        .p1{
-            font-size: 2.5rem;
+        .count {
+            font-size: 4rem;
             margin-bottom: 0px;
-            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            margin: 30px;
+
         }
         .p2{
             font-size: 1rem;
@@ -1412,12 +1374,21 @@
         margin: 0 auto;
         max-width: 1920px;
         .onama-front{
+           
             @include xxs{
                 margin-bottom: 40px;
             } 
             @include sm{
                 margin-bottom: 0px;
             } 
+        }
+        .ocrvneom{
+            img{
+                float: left;
+                width: 50%;
+                margin-right: 15px;
+                margin-bottom: 10px;
+            }
         }
     }
 
@@ -2090,18 +2061,8 @@
         margin-top: 75px;
     }
     .modal-body{
-
-        
         p{
             padding-top: 10px;
             padding-bottom: 20px;
         }
-    }
-    #privacy-policy{
-
-    }
-    .pp-header{
-        background: #000 url('../img/hero-bg-m.jpg') no-repeat center;
-        background-size: cover;
-        color: $bg-white;
     }

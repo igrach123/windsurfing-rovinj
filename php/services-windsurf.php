@@ -11,13 +11,14 @@
             <div class="modal-body">
                 <h5 class="services-sm-title">COURSES</h5>
 
-                <h6> <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span> Try out course <span class=" price-badge"> 500,00 HRK</span></h6>
+                <h6> <span><i class="fa fa-star-half-o" aria-hidden="true"></i></span> Try out course <span
+                        class=" price-badge"> 500,00 HRK</span></h6>
                 <p>This course is intended for those who want to try out windsurfing. The course is consisted of two
                     lessons. The first If the participant decides to continue with windsurfing lessons, the price of the
                     beginner's course will be reduced by the amount paid for the try out course.
 
                 </p>
- 
+
 
                 <hr>
                 <h6> <span><i class="fa fa-star" aria-hidden="true"></i></span> Windsurfing course (beginners) -
@@ -49,7 +50,7 @@
                     Russian
                     and Slovenian.
                     While learning windsurfing, the beginners use the most modern materials adapted for them which
-                means, light sails and stable boards appropriate for their age.
+                    means, light sails and stable boards appropriate for their age.
                     Maximum six persons per group, which allows instructors to dedicate enough attention to each
                     participant.</p>
                 <hr>
@@ -66,50 +67,109 @@
                     against
                     the wind. Each element is practised for one hour, first on the simulator and then on the sea.
                 </p>
+                <h5 class="services-sm-title">PRICE LIST</h5>
+                <h6 class="text-muted text-center h7"><b>WINDSURF COURSE (GROUP AND INDIVIDUAL)</b></h6>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">2H TEST COURSE <small>(group)</small></th>
+                                <th scope="col">4H COURSE <small>(group)</small></th>
+                                <th scope="col">8H COURSE <small>(group)</small></th>
+                                <th scope="col">1H Join the group</th>
+                                <th scope="col">5h ADVANCED COURSE</th>
+                                <th scope="col">1h INDIVIDUAL LESSONS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>200.00 kn</td>
+                                <td>900,00 kn</td>
+                                <td>1.500,00 kn</td>
+                                <td>200,00 kn</td>
+                                <td>1000,00 kn</td>
+                                <td>370,00 kn</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-                    <!-- galerija -->
-                    <div class="text-center price-list-btn">
-                        <a class="btn btn-default" href="#price" data-toggle="modal" role="button"
-                            data-target="#price">
-                            SEE FULL PRICE LIST HERE
-                        </a> 
-                    </div>
+                <h6 class="text-muted text-center h7"><b>EQUIPMENT RENTAL</b> </h6>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">1H</th>
+                                <th scope="col">2H</th>
+                                <th scope="col">3H</th>
+                                <th scope="col">1 DAY</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>130.00 kn</td>
+                                <td>250,00 kn</td>
+                                <td>300,00 kn</td>
+                                <td>450,00 kn</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center">
+                    <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
+                        LIST</a>
+
+                </div>
                 <hr>
-                  <!-- galerija -->
-                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <h5 class="services-sm-title">GALLERY & SOCIAL</h5>
+                <!-- galerija -->
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
-                        <div id="bikes2" class="row">
-                            <div class=" botmargin col-xs-4 col-sm-6 " >
+                        <div id="bikes2" class="row ">
+                            <div class=" botmargin col-xs-4 col-sm-6 ">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
+                            </div>
                             <div class=" botmargin col-xs-4  col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
+                            </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
+                            </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
-                                                
+                            </div>
+
                         </div>
                     </div> <!-- panel body -->
                 </div> <!-- collapse one -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                    <div class="text-left social-wrapper pull-left">
+                        <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
+                            target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
+                        <a class="instagram-modal-link " href="https://www.instagram.com/windsurfingrovinj/"
+                            target="_blank">
+                            <span class="fa fa-instagram fa-2x"></span></a>
+                    </div>
+                    <button type="button" class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
                 </div>
             </div><!-- MODAL BODY -->
         </div> <!-- modal content -->

@@ -1,20 +1,20 @@
 <div class="container-fluid hidden-xs" id="promo">
     <div class="row text-center ">
         <div class="col-xs-3 wow fadeInUp " data-wow-delay="0.5s">
-           <p class="p1">SMALL</p>
-            <p class="p2">GROUPS</p>
+            <p class="p1 count">100</p>
+            <p class="p2">WEEKLY GROPUS</p>
         </div>
         <div class="col-xs-3 wow fadeInUp" data-wow-delay="1s">
-           <p class="p1">FAST</p>
-            <p class="p2">CONNECTIONS</p>
+            <p class="p1 count">150</p>
+            <p class="p2">BOARDS</p>
         </div>
         <div class="col-xs-3 wow fadeInUp" data-wow-delay="1.5s">
-           <p class="p1">PERSONAL</p>
-            <p class="p2">GUIDE</p>
+            <p class="p1 count">200</p>
+            <p class="p2">DAILY CUSTOMERS</p>
         </div>
         <div class="col-xs-3 wow fadeInUp" data-wow-delay="2s">
-           <p class="p1">GOOD</p>
-            <p class="p2">TIMES</p>
+            <p class="p1 count">250</p>
+            <p class="p2">RENTED ITEMS</p>
         </div>
     </div>
 

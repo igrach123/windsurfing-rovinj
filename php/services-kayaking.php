@@ -73,10 +73,14 @@
 
 
                 <div class="modal-footer row">
-                    <div class="pmd-card-actions col-xs-6">
-                        <div class="sharethis-inline-share-buttons"></div>
+                    <div class="text-left social-wrapper pull-left">
+                        <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
+                            target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
+                        <a class="instagram-modal-link " href="https://www.instagram.com/windsurfingrovinj/"
+                            target="_blank">
+                            <span class="fa fa-instagram fa-2x"></span></a>
                     </div>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
                 </div>
             </div><!-- MODAL BODY -->
         </div> <!-- modal content -->

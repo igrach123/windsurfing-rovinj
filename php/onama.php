@@ -6,42 +6,57 @@
             <?php include "php/team-slide.php" ?>
         </div>
 
-        <div class="col-sm-6 d  onama-front">
+        <div class="col-sm-6 d  onama-front ocrvneom">
             <h3>ABOUT US</h3>
             <p class=" text-justify text-muted">
-                Boat Excursions Tonka is a family run company providing boat services, excursions and transfers on the
-                sea in Rovinj, Croatia. <br>
-                We are operating with 2 boats: the “Tonka” wooden motor boat with capacity of 46 persons and the
-                speedboat “Tonka” for 12 persons. <br>
-                We are located in Rovinj's northern port "Valdibora" and in the tourist resort "Vilas Rubin"
+                <img src="img/crveni-bg.jpg" alt="red island rovinj" class="img-responsive card-2">
+                <b> Windsurf center Red Island </b> is established in the 1970s. It was one of the first windsurf
+                centers
+                in
+                Croatia and also one of the favourite gathering places for windsurfers from all over Europe.
+
+                The center is located on a beautiful island Sveti Andrija (St. Andrew's), also known as Crveni
+                otok (Red
+                Island), near Rovinj, which is famous for its beautiful beaches and rich history. Here you can
+                witnesses
+                in some amazing sunrise and sunsets, as well as some interesting exhibitions and events like
+                Photo Days,
+                Weekend Media Festival or Salsa Music Festival.
             </p>
-
-
             <p class="text-muted text-justify" id="showtext">
-                Enio (captain, skipper and owner) will make sure that you enjoy the beautiful scenery of the Rovinj
-                Archipelago. Marija (mum, cook and ticket seller) prepares our delicious meals and snacks. Lara (sister)
-                and Ville (the finnish half of the family) take care of internet booking, social media and excursions
-                with the speedboat "Tonka".
-                Samanta, our main ticket seller and the youngest member. And captain Mauro who takes care of safe
-                driving and unforgettable moments on our excursions.
+                Due to its geographical location and climate, Sveti Andrija island has the perfect conditions
+                for
+                learning basics, as well as advanced windsurfing skills. Windsurf center Crveni otok also offers
+                catamaran rides so you can visit the whole archipelago of Rovinj which is one of the richest and
+                most
+                beautiful in Northern Adriatic with its 19 islands and cliffs.
             </p>
-            <button id="morebtn" class="badge"> More <span class="fa fa-sort-desc"></span></button> <button
-                id="morebtn-hide" class="badge"> Less <span class="fa fa-sort-up"></span></button>
+            <button id="morebtn" class="badge"><span class="fa fa-sort-desc"></span></button> <button id="morebtn-hide"
+                class="badge"><span class="fa fa-sort-up"></span></button>
+
+
+
+
         </div>
     </div>
-        <div class="row text-center video-bot">
-            <div class="col-sm-6  onama-front">
-                <h3>Rovinj daily boat excursion</h3>
-                <div class="embed-responsive embed-responsive-16by9 card-2">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/u0MV1lvbskA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+    <div class="row text-center video-bot">
+        <div class="col-sm-6  onama-front">
+            <h3>Windsurfing Rovinj</h3>
+            <div class="embed-responsive embed-responsive-16by9 card-2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9jOuVBb_ZjY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
             </div>
-            <div class="col-sm-6  onama-front">
-                <h3>Rovinj Sunset boat excursion</h3>
-                <div class="embed-responsive embed-responsive-16by9 card-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/cndIO8L9A1w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            
+        </div>
+        <div class="col-sm-6  onama-front">
+            <h3>Stand Up Paddle - Rovinj</h3>
+            <div class="embed-responsive embed-responsive-16by9 card-2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X3QYxILjGY4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
         </div>
     </div>
 

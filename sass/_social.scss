@@ -1,0 +1,39 @@
+.facebook-modal-link {
+  .fa {
+    color: #ffffff !important;
+  }
+  background-color: #3b5998 !important;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #3b5998;
+  transition: all 0.3s ease-in-out;
+}
+.facebook-modal-link:hover {
+  .fa {
+    color: #3b5998 !important;
+  }
+
+  background-color: #ffffff !important;
+}
+.instagram-modal-link {
+  .fa {
+    color: #ffffff !important;
+  }
+  background-color: #bc2a8d !important;
+  padding: 10px;
+  border: 1px solid #bc2a8d;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.instagram-modal-link:hover {
+  .fa {
+    color: #bc2a8d !important;
+  }
+  color: #bc2a8d !important;
+  background-color: #ffffff !important;
+  border: 1px solid #bc2a8d;
+}

@@ -20,42 +20,54 @@
                     angle through the middle of the stroke for the most power.</b>
                 </p>
                 <hr>
-  <!-- galerija -->
-  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <!-- galerija -->
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
                         <div id="tesla" class="row">
-                            <div class=" botmargin col-xs-4 col-sm-6 " >
+                            <div class=" botmargin col-xs-4 col-sm-6 ">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
+                            </div>
                             <div class=" botmargin col-xs-4  col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
+                            </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
+                            </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
                                 <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg" data-src="img/windsurfing/windsurfing-bg.jpg"
+                                    <img src="img/windsurfing/windsurfing-bg.jpg"
+                                        data-src="img/windsurfing/windsurfing-bg.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                            </div>                      
-                                                
+                            </div>
+
                         </div>
                     </div> <!-- panel body -->
                 </div> <!-- collapse one -->
 
-                <div class="modal-footer row">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                <div class="modal-footer">
+                    <div class="text-left social-wrapper pull-left">
+                        <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
+                            target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
+                        <a class="instagram-modal-link " href="https://www.instagram.com/windsurfingrovinj/"
+                            target="_blank">
+                            <span class="fa fa-instagram fa-2x"></span></a>
+                    </div>
+                    <button type="button" class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
                 </div>
             </div><!-- MODAL BODY -->
         </div> <!-- modal content -->

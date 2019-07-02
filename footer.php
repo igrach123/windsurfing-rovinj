@@ -71,25 +71,27 @@
 
                 <ul class="list-unstyled contact-list">
                     <li>
-                        <h5> <span class="fa fa-map-marker"></span> BOARDING POINT - DIERCTIONS</h5>
+                        <h5> <span class="fa fa-map-marker"></span> BOAT DOCKING STATIONS </h5>
                     </li>
-                    <li><a href="https://goo.gl/maps/jTtigtuEDJu" target="_blank">Rovinj's northern port "Valdibora"</a>
+                    <li><a href="https://goo.gl/maps/BCngHH2HKN8RS5WS7" target="_blank">Delfin Dock Station</a>
                     </li>
-                    <li><a href="https://goo.gl/maps/CipgQpZywKz" target="_blank">The tourist resort "Vilas Rubin"</a>
+                    <li><a href="https://goo.gl/maps/iinY4j5iNL1tbNKc9" target="_blank">Mali Mol - Piccolo Molo, Trg
+                            Maršala Tita</a>
                     </li>
                     <li><b><small cdlass="text-muted">CLICK FOR WAYPOINT</small></b></li>
+                    <a href="#" class="btn btn-default">BOT SCHEDULE</a>
                     <hr>
                     <li>
                         <h5><span class="fa fa-phone"></span> TEL / <span class="fa fa-whatsapp"></span> WHATSAPP</h5>
                     </li>
-                    <li> <a href="tel:+385 (0)98441140"> +385 (0)98 441 140</a></li>
+                    <li> <a href="tel:+385 (0)92299150"> +385 (0)92 299 150</a></li>
                     <hr>
                     <li>
                         <h5><span class="fa fa-envelope-o"></span> EMAIL</h5>
                     </li>
                     <li>
                         <script TYPE="text/javascript">
-                        emailE = ('boatexcursiontonka@' + 'gmail.com')
+                        emailE = ('info@windsurfing-rovinj' + '.com')
                         document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')
                         </script>
 

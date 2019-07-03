@@ -79,9 +79,9 @@
     <?php include "php/services-sup.php"; ?>
     <?php include "php/price.php"; ?>
     <?php include "php/tenerife.php"; ?>
-
-    <?php include "php/onama.php"?>
     <?php include "php/promo.php"?>
+    <?php include "php/onama.php"?>
+
     <!-- end of services -->
 
     <?php include "php/galery.php"?>

@@ -42,21 +42,11 @@
     <div class="row text-center video-bot">
         <div class="col-sm-6  onama-front">
             <h4>Windsurfing Rovinj</h4>
-            <div class="embed-responsive embed-responsive-16by9 card-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/9jOuVBb_ZjY" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-
-            </div>
+            <div class="js-lazyYT card-2" data-youtube-id="9jOuVBb_ZjY" data-ratio="16:9"></div>
         </div>
         <div class="col-sm-6  onama-front">
             <h4>Stand Up Paddle - Rovinj</h4>
-            <div class="embed-responsive embed-responsive-16by9 card-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/X3QYxILjGY4" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-
+            <div class="js-lazyYT card-2" data-youtube-id="X3QYxILjGY4" data-ratio="16:9"></div>
         </div>
     </div>
 

@@ -47,7 +47,7 @@
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a href="hr/index.php">HR</a></li>
+                                <li><a href="#">HR</a></li>
                             </ul>
                         </div>
                     </li>

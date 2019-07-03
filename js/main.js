@@ -5,6 +5,7 @@
 // @koala-prepend "smooth-scroll.min.js"
 // @koala-prepend "lazyload.min.js"
 // @koala-prepend "vendor/wow.min.js"
+// @koala-prepend "lazyYT.js"
 
 $(function() {
   $(".nav a").on("click", function() {
@@ -175,27 +176,49 @@ window.addEventListener(
   false
 );
 
-//cunter
-$(document).ready(function() {
-  var counters = $(".count");
-  var countersQuantity = counters.length;
-  var counter = [];
-
-  for (i = 0; i < countersQuantity; i++) {
-    counter[i] = parseInt(counters[i].innerHTML);
+//counter section working
+$(function() {
+  function isScrolledIntoView($elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $elem.offset().top;
+    var elemBottom = elemTop + $elem.height();
+    return elemBottom <= docViewBottom && elemTop >= docViewTop;
   }
 
-  var count = function(start, value, id) {
-    var localStart = start;
-    setInterval(function() {
-      if (localStart < value) {
-        localStart++;
-        counters[id].innerHTML = localStart;
-      }
-    }, 40);
-  };
-
-  for (j = 0; j < countersQuantity; j++) {
-    count(0, counter[j], j);
+  function count($this) {
+    var current = parseInt($this.html(), 10);
+    if (
+      isScrolledIntoView($this) &&
+      !$this.data("isCounting") &&
+      current < $this.data("count")
+    ) {
+      $this.html(++current);
+      $this.data("isCounting", true);
+      setTimeout(function() {
+        $this.data("isCounting", false);
+        count($this);
+      }, 50);
+    }
   }
+
+  $(".count").each(function() {
+    $(this).data("count", parseInt($(this).html(), 10));
+    $(this).html("0");
+    $(this).data("isCounting", false);
+  });
+
+  function startCount() {
+    $(".count").each(function() {
+      count($(this));
+    });
+  }
+
+  $(window).scroll(function() {
+    startCount();
+  });
+
+  startCount();
 });
+
+$(".js-lazyYT").lazyYT();

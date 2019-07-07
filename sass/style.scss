@@ -282,7 +282,7 @@
             letter-spacing:10px;
         }
         @include xxs {
-            background: #000 url('../img/hero-bg-m.jpg') no-repeat center;
+            background: #000 url('../img/gallery/a6_sm.jpg') no-repeat center;
             background-size: cover;
         
             h1{
@@ -297,7 +297,12 @@
             
         } 
         @include sm {
-            background: #000 url('../img/hero-bg.jpg') no-repeat center;
+            background: #000 url('../img/gallery/a6.jpg') no-repeat center;
+            background-size: cover;
+                
+        }
+        @include md {
+            background: $bg-white;
             background-size: cover;
                 
         }

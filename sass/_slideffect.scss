@@ -298,4 +298,10 @@
   width: 100% !important;
   min-width: 100 !important;
   height: auto;
+  @include xs {
+    min-height: 350px;
+  }
+  @include sm {
+    min-height: 500px;
+  }
 }

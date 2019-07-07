@@ -3,9 +3,9 @@
         <div class="container">
             <a href="https://goo.gl/maps/ZRzkjmbGhNVTY5YY8" target="_blank"><img src="img/social/map-marker.png"
                     alt="map"> RED ISLAND </a>
-            <a href="tel:+385 (0)98441140">
+            <a href="tel:+385 (0)92 299 150">
                 <img src="img/social/whatsapp.png" alt="whatsapp"> / <img src="img/social/viber.png" alt="viber">
-                +385 (0)98 441 140</a>
+                +385 (0)92 299 150</a>
         </div>
     </div>
     <nav class="navbar navbar-default" data-nav-status="toggle" role="navigation" data-spy="affix" id="myNavbar">

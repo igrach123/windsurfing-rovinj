@@ -78,11 +78,17 @@
                     <li><a href="https://goo.gl/maps/iinY4j5iNL1tbNKc9" target="_blank">Mali Mol - Piccolo Molo, Trg
                             Maršala Tita</a>
                     </li>
-                    <li><b><small cdlass="text-muted">CLICK FOR WAYPOINT</small></b></li>
-                    <a href="#" class="btn btn-default">BOT SCHEDULE</a>
+                    <br>
+                    <li class="text-left">
+                        <button id="brod" class="btn btn-info btn-sm" data-toggle="modal" type="button"
+                            data-target="#boat">BOAT SCHEDULE
+                        </button>
+                    </li>
+
                     <hr>
                     <li>
-                        <h5><span class="fa fa-phone"></span> TEL / <span class="fa fa-whatsapp"></span> WHATSAPP</h5>
+                        <h5><span class="fa fa-phone"></span> TEL / <span class="fa fa-whatsapp"></span> WHATSAPP -
+                            VIBER</h5>
                     </li>
                     <li> <a href="tel:+385 (0)92299150"> +385 (0)92 299 150</a></li>
                     <hr>
@@ -105,11 +111,8 @@
                         <h5>FOLLOW US</h5>
                     </li>
                     <li class="social-media-bottom">
-                        <a class="facebook" href="https://www.facebook.com/boatexcursionsTonka/" target="_blank"></a>
-
-                        <a class="instagram" href="https://www.instagram.com/boatexcursionstonka/?hl=en"
-                            target="_blank"></a>
-
+                        <a class="facebook" href="https://www.facebook.com/wsurfrovinj/" target="_blank"></a>
+                        <a class="instagram" href="https://www.instagram.com/windsurfingrovinj/" target="_blank"></a>
                     </li>
 
                 </ul>

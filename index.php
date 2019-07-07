@@ -90,8 +90,11 @@
 
     <!-- unutra je samo div koji nesto zatvara -->
     <?php include "php/partner-slide.php" ?>
+    <?php include "php/boat-times.php"?>
 
     <?php include "footer.php"?>
+
+
 
     <!--JavaScript, jquerry and plugins-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

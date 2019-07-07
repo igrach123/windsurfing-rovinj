@@ -858,7 +858,7 @@
     //cose colore
 
     }
-    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat,#price{
+    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat,#price,#boat{
         .intro{
             font-family: 'Roboto', cursive;
             color: $third;
@@ -1004,6 +1004,20 @@
             translate: all 0.3s ease-in-out;
             min-height: 500px;
             width: 100%;
+        }        
+    }
+    #boat{
+        h4{
+            @include xxs{
+                background-image: url(../img/gallery/Rovinj_sm.jpg); 
+            }
+            @include sm{
+                background-image: url(../img/gallery/rovinj_md.jpg); 
+            }         
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            translate: all 0.3s ease-in-out;
         }        
     }
 
@@ -1363,7 +1377,7 @@
         }
         .video-bot{
             @import "layzYT"; 
-            background-color: $main-grey;
+            background: $pink-gradient;
             margin-top: 80px;
             padding-top: 40px;
             padding-bottom: 80px;
@@ -1405,7 +1419,6 @@
 
     //galerija+bike section
     #galery{
-
         padding-top: 80px;
         padding-bottom: 80px;
         background: $bg-white;

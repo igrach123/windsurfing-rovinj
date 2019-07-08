@@ -19,22 +19,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="logo" href="index.php" id="logo1"></a>
+                <a class="logo navbar-brand" href="index.php" id="logo1"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class=" nav navbar-nav navbar-left">
+                <ul class=" nav navbar-nav navbar-right">
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home"
                             class="scroll ">HOME</a></li>
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services"
                             class="scroll">SERVICES</a></li>
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
                             class="scroll">ABOUT</a></li>
-
-                </ul>
-                <ul class=" nav navbar-nav navbar-right">
-
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
                             class="scroll">LOCATION</a></li>
 
@@ -56,7 +52,7 @@
         </div><!-- /.container-->
     </nav>
     <!-- h1 xs -->
-    <h1 class="visible-xs"><?php echo "$the_sitetitle"; ?> <br>
+    <h1 class="visible-xs text-uppercase"><?php echo "$the_sitetitle"; ?> <br>
         <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
             data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i></a>
     </h1>

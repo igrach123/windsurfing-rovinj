@@ -34,10 +34,11 @@
     <base href="#">
     <link href="#" rel="canonical" /> <!-- dodati stranicu na kraju -->
     <link href="index.php" rel="alternate" hreflang="en">
-    <meta name="keywords" content="Boat Excursions Tonka, Boat trip,">
+    <meta name="keywords"
+        content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental and Tours, SUP rental">
     <meta name="description"
-        content="Memorable Boat trip. Enjoy the Rovinj Arhipelago, watch a beautifull Sunset, see Dolphins for the first time and all in an relaxing atmosphere.">
-    <meta http-equiv="content-language" content="hr,en">
+        content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental, Kazaking Tours, Stand up Paddle rental">
+    <meta http-equiv="content-language" content="en,hr">
     <!-- sharethis javascript gdpr -->
     <!-- <script type='text/javascript'
         src='//platform-api.sharethis.com/js/sharethis.js#property=5c9cc1182c4f3b001126e994&product=inline-share-buttons'
@@ -82,14 +83,14 @@
     <?php include "php/services-sup.php"; ?>
     <?php include "php/price.php"; ?>
     <?php include "php/tenerife.php"; ?>
-    <?php include "php/promo.php"?>
+
     <?php include "php/onama.php"?>
 
     <!-- end of services -->
 
     <?php include "php/galery.php"?>
     <!-- modal -->
-
+    <?php include "php/promo.php"?>
 
     <!-- unutra je samo div koji nesto zatvara -->
     <?php include "php/partner-slide.php" ?>

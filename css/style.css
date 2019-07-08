@@ -1057,11 +1057,9 @@ h2.pmd-card-title-text {
 
 .slide-text > h1 {
   text-transform: uppercase;
-  font-weight: 100;
   padding: 0;
-  color: #ffffff;
   font-style: normal;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   letter-spacing: 1px;
   display: inline-block;
   -webkit-animation-delay: 0.7s;
@@ -1069,13 +1067,14 @@ h2.pmd-card-title-text {
 
 .slide-text > p {
   padding: 0;
-  color: #ffffff;
+  text-transform: uppercase;
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 40px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   -webkit-animation-delay: 1.1s;
-  animation-delay: 1.1s; }
+  animation-delay: 1.1s;
+  font-weight: 100; }
 
 .slide-text > a.btn-default {
   font-weight: 400;
@@ -1122,9 +1121,7 @@ h2.pmd-card-title-text {
 /*------------------------------------------------------*/
 @media (max-width: 991px) {
   .slide-text h1 {
-    font-size: 35px;
-    line-height: 35px;
-    margin-bottom: 20px; }
+    line-height: 35px; }
 
   .slide-text > p {
     font-size: 18px; } }
@@ -1159,14 +1156,10 @@ h2.pmd-card-title-text {
     padding-top: 0px; } }
 @media only screen and (min-width: 992px) {
   .slide-text h1 {
-    font-size: 40px;
-    line-height: 125%;
-    margin-bottom: 30px; } }
+    line-height: 125%; } }
 @media only screen and (min-width: 1200px) {
   .slide-text h1 {
-    font-size: 50px;
-    line-height: 150%;
-    margin-bottom: 40px; } }
+    line-height: 150%; } }
 .carousel img {
   width: 100% !important;
   min-width: 100 !important;
@@ -1307,12 +1300,14 @@ body {
   margin: 0 auto; }
 
 h1 {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  color: #eb5e6e; }
 
 h2, h3, h4, h5, h6, thead {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  color: #28323e; }
+  color: #28323e;
+  font-weight: 600; }
 
 h2 {
   text-align: center;
@@ -1399,14 +1394,13 @@ a.btn-primary:focus, a.btn-primary:active, .dropdown-toggle.btn-primary:focus {
 
 @media only screen and (min-width: 320px) {
   h1 {
-    font-size: 2em;
+    font-size: 3.5rem;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-weight: 100;
-    padding-top: 170px;
-    padding-bottom: 100px;
-    text-align: center;
-    color: white; }
+    font-weight: 600;
+    padding-top: 300px;
+    padding-bottom: 0px;
+    text-align: center; }
     h1 span.small {
       letter-spacing: 10px;
       margin-top: 0px;
@@ -1418,7 +1412,6 @@ a.btn-primary:focus, a.btn-primary:active, .dropdown-toggle.btn-primary:focus {
     font-size: 1.5em; } }
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 2.5em;
     padding-bottom: 100px; }
 
   h2 {
@@ -1530,16 +1523,17 @@ header {
       margin: 0px;
       margin-left: 0px; }
     header #logo1 {
-      left: 50%;
+      position: static;
+      margin-top: 15px;
       width: 200px;
-      margin-left: -100px;
+      height: 75px;
       background-image: url(../img/logo-small-3.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain; }
     header #logo1.smaller {
-      width: 150px;
-      margin-left: -75px;
+      margin-top: 5px;
+      height: 50px;
       background-image: url(../img/logo-small-3.png);
       background-repeat: no-repeat;
       background-position: center;
@@ -1552,26 +1546,22 @@ header {
       padding-left: 0px;
       padding-right: 0px; }
     header #logo1 {
-      left: 50%;
       -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
-      margin-top: 10px;
-      width: 400px;
+      margin-top: 15px;
+      width: 200px;
       height: 100px;
-      margin-left: -200px;
       background-image: url(../img/logo-big-3.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain; }
     header #logo1.smaller {
-      margin-top: 0px;
+      margin-top: 5px;
       background-image: url(../img/logo-small-3.png);
-      width: 180px;
+      width: 200px;
       height: 50px;
       background-repeat: no-repeat;
-      background-position: center;
-      left: 50%;
-      margin-left: -90px; } }
+      background-position: center; } }
   @media (max-width: 767px) {
     header .navbar-scroll-custom {
       -webkit-transform: translateY(-65px);
@@ -1747,7 +1737,7 @@ header {
       font-size: 85%; }
 
   #lang-id.smaller .language button {
-    color: rgba(0, 0, 0, 0.54);
+    color: #03a9f4;
     background-color: inherit;
     border: 0px;
     padding: 3px;
@@ -1933,7 +1923,7 @@ header {
   font-weight: thin;
   font-size: 20px; }
 #services-windsurf .services-sm-title, #services-bike .services-sm-title, #services-kayaking .services-sm-title, #services-rental .services-sm-title, #services-snorkeling .services-sm-title, #services-sup .services-sm-title, #najam-plovila .services-sm-title, #taxi-boat .services-sm-title, #price .services-sm-title, #boat .services-sm-title {
-  background-image: linear-gradient(109.6deg, #03a9f4 11.2%, #fafafa 91.1%);
+  background: linear-gradient(109.6deg, #03c3bb 11.2%, #b4c4ff 91.1%);
   color: #ffffff;
   text-align: left;
   padding: 15px  0 15px  10px;
@@ -1991,23 +1981,23 @@ header {
   padding-top: 30px;
   padding-bottom: 10px;
   font-size: 2.2rem;
-  color: #03a9f4;
+  color: #eb5e6e;
   font-weight: bolder; }
   #services-windsurf h6 .price-badge, #services-bike h6 .price-badge, #services-kayaking h6 .price-badge, #services-rental h6 .price-badge, #services-snorkeling h6 .price-badge, #services-sup h6 .price-badge, #najam-plovila h6 .price-badge, #taxi-boat h6 .price-badge, #price h6 .price-badge, #boat h6 .price-badge {
     display: inline-block;
     float: right;
-    background-color: #03a9f4;
+    background-color: #eb5e6e;
     border-radius: 5px;
     color: #ffffff;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid #03a9f4;
+    border: 1px solid #eb5e6e;
     font-weight: normal;
     font-size: 2rem; }
   #services-windsurf h6 .price-badge:hover, #services-bike h6 .price-badge:hover, #services-kayaking h6 .price-badge:hover, #services-rental h6 .price-badge:hover, #services-snorkeling h6 .price-badge:hover, #services-sup h6 .price-badge:hover, #najam-plovila h6 .price-badge:hover, #taxi-boat h6 .price-badge:hover, #price h6 .price-badge:hover, #boat h6 .price-badge:hover {
     background-color: #ffffff;
     color: #03a9f4;
-    border: 1px solid #03a9f4; }
+    border: 1px solid #eb5e6e; }
 
 #services-windsurf h4 {
   background-image: url(../img/windsurfing/windsurfing-bg.jpg);
@@ -2382,7 +2372,8 @@ header {
     white-space: nowrap;
     color: #ffffff;
     background-color: #03a9f4;
-    border-radius: 5px; }
+    border-radius: 5px;
+    border: none; }
   @media only screen and (min-width: 320px) {
     #onama #showtext {
       display: none;
@@ -2485,7 +2476,7 @@ header {
       padding-bottom: 20px; }
   #onama h3 {
     color: #03a9f4;
-    padding-bottom: 20px; }
+    padding-bottom: 40px; }
   @media only screen and (min-width: 320px) {
     #onama .onama-front {
       margin-bottom: 40px; } }
@@ -2505,7 +2496,7 @@ header {
   #galery h3 {
     margin-bottom: 20px;
     text-align: center;
-    color: #ffffff; }
+    color: #03a9f4; }
   @media only screen and (min-width: 320px) {
     #galery .cjenik-btn {
       width: 100%;
@@ -2516,8 +2507,7 @@ header {
       width: 60%; } }
 
 #testimonial-slider {
-  background-color: #ffffff;
-  padding-top: 20px; }
+  background-color: #ffffff; }
 
 #testimonial-slider-hr {
   background-color: #ffffff;
@@ -2526,31 +2516,21 @@ header {
 .testimonial {
   background-color: #ffffff;
   text-align: center;
-  padding: 40px 20%; }
+  padding: 40px 20%;
+  padding-top: 0px; }
 
 .testimonial .pic {
   border-radius: none;
   overflow: hidden;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 .testimonial .pic a img {
-  -webkit-filter: url(filters.svg#grayscale);
-          filter: url(filters.svg#grayscale);
-  /* Firefox 3.5+ */
-  filter: gray;
-  /* IE6-9 */
-  -webkit-filter: grayscale(1);
-  /* Google Chrome & Safari 6+ */
   width: 100%;
   height: auto;
   -webkit-transiton: 0.3s ease-in-out;
   -moz-transiton: 0.3s ease-in-out;
   -o-transiton: 0.3s ease-in-out; }
-
-.testimonial .pic img:hover {
-  -webkit-filter: none;
-  /* Google Chrome & Safari 6+ */
-  filter: none; }
 
 .testimonial .testimonial-title {
   font-size: 16px;
@@ -2603,7 +2583,7 @@ header {
 @media only screen and (min-width: 320px) {
   .imgwrapper {
     border-radius: 3px;
-    width: 19%;
+    width: 32%;
     float: left;
     position: relative;
     overflow: hidden;
@@ -2784,7 +2764,7 @@ header {
 #footer-bottom {
   min-height: 75px;
   color: #03a9f4;
-  background-image: linear-gradient(89.1deg, #27323d 0.7%, #429cc1 88.4%);
+  background: linear-gradient(109.6deg, #03c3bb 11.2%, #b4c4ff 91.1%);
   /* 
   overwrite bootstrap default margin-left, because the <label> doesn't contain the <input> element.
   */

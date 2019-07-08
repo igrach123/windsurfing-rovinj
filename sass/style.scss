@@ -125,11 +125,16 @@
     }
     h1{
         font-family: 'Montserrat', sans-serif;
+        color: $main-orange;
+        // background: linear-gradient(to right, $main-orange 15%, $bg-white 100%);
+	    // -webkit-background-clip: text;
+	    // -webkit-text-fill-color: transparent;
     }
     h2,h3,h4,h5,h6,thead{
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
         color: $bg-grey;
+        font-weight: 600;
     }
  
     h2{
@@ -225,17 +230,15 @@
 // h1 on the site
     @include xxs {
         h1{
-            font-size:2em;
+            font-size:3.5rem;
             margin-top: 0px;
             margin-bottom: 0px;
-            font-weight: 100;
-            padding-top: 170px;
-            padding-bottom: 100px;
+            font-weight: 600;
+            padding-top: 300px;
+            padding-bottom: 0px;
             text-align: center;
-            color:white;
             span.small{
-            letter-spacing: 10px;
-            
+            letter-spacing: 10px;           
                 margin-top: 0px;
                 color: $bg-grey-strong;
                 text-transform: uppercase;
@@ -250,7 +253,7 @@
     }
     @include sm {
         h1{
-            font-size:2.5em;
+            
             padding-bottom: 100px;
         }
         h2{
@@ -413,17 +416,18 @@
                 }
             
                 #logo1{
-                    left: 50%;
+                    position: static;
+                    margin-top: 15px;                  
                     width: 200px;
-                    margin-left: -100px;
+                    height: 75px;                                  
                     background-image: url(../img/logo-small-3.png);
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: contain;			
                 }
                 #logo1.smaller{
-                        width: 150px;
-                        margin-left: -75px;
+                    margin-top: 5px; 
+                        height: 50px;                   
                         background-image: url(../img/logo-small-3.png);
                         background-repeat: no-repeat;
                         background-position: center;
@@ -443,29 +447,25 @@
                 
                 
                 //change logo on scroll
-            #logo1{
-                left: 50%;
+            #logo1{               
                 transition:all 0.3s ease-in-out;
-                margin-top: 10px;
-                width: 400px;
-                height:100px;
-                margin-left: -200px;
+                margin-top: 15px;
+                width: 200px;
+                height:100px;               
                 background-image: url(../img/logo-big-3.png);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
-
-
             }
             #logo1.smaller{
-                margin-top: 0px;
+                margin-top: 5px;
                 background-image: url(../img/logo-small-3.png);
-                width: 180px;
+                width: 200px;
                 height: 50px;
                 background-repeat: no-repeat;
                 background-position: center;
-                left: 50%;
-                margin-left: -90px;
+               
+                
             }
         }
         
@@ -708,7 +708,7 @@
 
         #lang-id.smaller{
             .language button{
-                color:$second;
+                color:$main-blue;
                 background-color: inherit;
                 border:0px;
                 padding: 3px;
@@ -872,7 +872,8 @@
         } 
         
         .services-sm-title{
-        background-image: linear-gradient( 109.6deg,  ($main-blue) 11.2%, ($bg-grey-lighter) 91.1% );
+        // background-image: linear-gradient( 109.6deg,  ($main-blue) 11.2%, ($bg-grey-lighter) 91.1% );
+        background: $pink-gradient;
         color: $bg-white;
         text-align: left;
         padding:15px  0 15px  10px;
@@ -944,31 +945,30 @@
             padding-top: 30px;
             padding-bottom: 10px;
             font-size: 2.2rem;
-            color: $main-blue;
+            color: $main-orange;
             font-weight: bolder;
 
             .price-badge{
                 display: inline-block;
                 float: right;
-                background-color:$main-blue;
+                background-color:$main-orange;
                 border-radius: 5px;
                 color: $bg-white;
                 padding-left: 15px;
                 padding-right: 15px;
-                border: 1px solid $main-blue;
+                border: 1px solid $main-orange;
                 font-weight: normal;
                 font-size: 2rem;
             }
             .price-badge:hover{
                 background-color:$bg-white;
                 color: $main-blue;
-                border: 1px solid $main-blue;
+                border: 1px solid $main-orange;
             }
         }
         
 
 }     
-
 
     // MODAL WINDSURFING
     #services-windsurf{  
@@ -1366,6 +1366,7 @@
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
             border-radius: 5px;
+            border: none;
         }
 
         @include xxs{
@@ -1395,7 +1396,7 @@
         }   
         h3{
             color: $main-blue;
-            padding-bottom: 20px;
+            padding-bottom: 40px;
         }
         padding-top: 80px;
         
@@ -1430,7 +1431,7 @@
         h3{
             margin-bottom: 20px;
             text-align: center;
-            color: $bg-white;
+            color: $main-blue;
         }
         @include xxs {
             .cjenik-btn{
@@ -1450,7 +1451,7 @@
     //****************PARTNERI SECTION*******************//
     #testimonial-slider{
         background-color:$bg-white;
-        padding-top: 20px;
+        
     }
     #testimonial-slider-hr{
         background-color:$bg-white;
@@ -1461,31 +1462,24 @@
         background-color: $bg-white;
         text-align: center;
         padding: 40px 20%;
+        padding-top: 0px;
     }
     .testimonial .pic{
         
         border-radius: none;
         overflow: hidden;
         margin: 0 auto;
+        position: relative;
     }
     .testimonial .pic a img{
-        filter: url(filters.svg#grayscale);
-        /* Firefox 3.5+ */
-        filter: gray;
-        /* IE6-9 */
-        -webkit-filter: grayscale(1);
-        /* Google Chrome & Safari 6+ */
+
         width: 100%;
         height: auto;
         -webkit-transiton:0.3s ease-in-out;
         -moz-transiton:0.3s ease-in-out;
         -o-transiton:0.3s ease-in-out;
     }
-    .testimonial .pic img:hover{
-    -webkit-filter: none;
-        /* Google Chrome & Safari 6+ */
-        filter: none;
-    }
+
     .testimonial .testimonial-title{
         font-size: 16px;
         color: #9e9e9e;
@@ -1548,7 +1542,7 @@
     @include xxs {
         .imgwrapper{
             border-radius: 3px;
-            width: 19%;
+            width: 32%;
             float: left;
             position:relative;
             overflow: hidden;
@@ -1655,9 +1649,6 @@
 
     #footer{
         color: $primary;
-
-
-
         .facebook{
             display: inline-block;
             width: 35px;
@@ -1814,7 +1805,7 @@
     #footer-bottom{
         min-height: 75px;
         color: $main-blue;
-        background-image: linear-gradient( 89.1deg,  rgba(39, 50, 61, 1) 0.7%, rgba(66,156,193,1) 88.4% );
+        background: $pink-gradient;
         
         @include xxs {   
                 p{

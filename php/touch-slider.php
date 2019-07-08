@@ -6,7 +6,9 @@
                 <!-- Second Slide -->
                 <div class="item active">
                     <!-- Slide Background -->
-                    <img src="img/header/centar-top.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <img src="img/header/centar-top_sm.jpg" alt="Bootstrap Touch Slider"
+                        class="slide-image visible-sm" />
+                    <img src="img/header/centar-top.jpg" alt="Bootstrap Touch Slider" class="slide-image hidden-sm" />
                     <div class="bs-slider-overlay "></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">
@@ -21,7 +23,9 @@
                 <!-- Third Slide -->
                 <div class="item">
                     <!-- Slide Background -->
-                    <img src="img/header/kayak-top-2.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <img src="img/header/kayak-top-2_sm.jpg" alt="Bootstrap Touch Slider"
+                        class="slide-image visible-sm" />
+                    <img src="img/header/kayak-top-2.jpg" alt="Bootstrap Touch Slider" class="slide-image hidden-sm" />
                     <div class="bs-slider-overlay "></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">
@@ -34,7 +38,8 @@
                 </div>
                 <div class="item">
                     <!-- Slide Background -->
-                    <img src="img/header/ws-top.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <img src="img/header/ws-top_sm.jpg" alt="Bootstrap Touch Slider" class="slide-image visible-sm" />
+                    <img src="img/header/ws-top.jpg" alt="Bootstrap Touch Slider" class="slide-image hidden-sm" />
                     <div class="bs-slider-overlay "></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">

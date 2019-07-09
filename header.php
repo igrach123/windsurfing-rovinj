@@ -1,11 +1,16 @@
 <header class="" id="home">
     <div class="container-fluid hidden-xs" id="call">
         <div class="container">
-            <a href="https://goo.gl/maps/ZRzkjmbGhNVTY5YY8" target="_blank"><img src="img/social/map-marker.png"
-                    alt="map"> RED ISLAND </a>
-            <a href="tel:+385 (0)92 299 150">
-                <img src="img/social/whatsapp.png" alt="whatsapp"> / <img src="img/social/viber.png" alt="viber">
-                +385 (0)92 299 150</a>
+
+            <a href="tel:+385 (0)92 299 1550"> <span class="fa fa-phone top-phone"></span>
+                +385 (0)92 299 1550</a>
+            <a href="https://goo.gl/maps/ZRzkjmbGhNVTY5YY8" target="_blank"> <span
+                    class="fa fa-map-marker top-map"></span> RED ISLAND
+            </a>
+            <a class="fb-top " href="https://www.facebook.com/wsurfrovinj/" target="_blank"><span
+                    class="fa fa-facebook "></span></a>
+            <a class="in-top" href="https://www.instagram.com/windsurfingrovinj/" target="_blank">
+                <span class="fa fa-instagram "></span></a>
         </div>
     </div>
     <nav class="navbar navbar-default" data-nav-status="toggle" role="navigation" data-spy="affix" id="myNavbar">
@@ -29,10 +34,10 @@
                             class="scroll ">HOME</a></li>
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services"
                             class="scroll">SERVICES</a></li>
-                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
+                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#onama"
                             class="scroll">ABOUT</a></li>
-                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
-                            class="scroll">LOCATION</a></li>
+                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="scroll">REACH
+                            US</a></li>
 
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer"
                             class="scroll">CONTACT</a></li>

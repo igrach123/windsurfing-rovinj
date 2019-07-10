@@ -57,7 +57,25 @@ $(document).ready(function() {
 //Owl Carousel 1
 $(document).ready(function() {
   $("#testimonial-slider-hr").owlCarousel({
-    items: 2,
+    items: 1,
+    itemsTablet: [767, 1],
+    itemsDesktopSmall: [979, 2],
+    responsiveClass: true,
+
+    pagination: false,
+    stopOnHover: true,
+    transitionStyle: "fade",
+    navigation: true,
+    navigationText: [
+      "<i class='fa fa-chevron-left fa-3x'></i>",
+      "<i class='fa fa-chevron-right fa-3x'></i>"
+    ],
+    autoPlay: true
+  });
+});
+$(document).ready(function() {
+  $("#testimonials").owlCarousel({
+    items: 4,
     itemsTablet: [767, 1],
     itemsDesktopSmall: [979, 2],
     responsiveClass: true,

@@ -89,6 +89,7 @@
     <!-- end of services -->
 
     <?php include "php/galery.php"?>
+    <?php include "php/testimonials.php"?>
     <!-- modal -->
     <?php include "php/promo.php"?>
 

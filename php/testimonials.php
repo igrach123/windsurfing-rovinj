@@ -1,16 +1,16 @@
 <section class="" id="peoplesay">
-
+    <h3 class="text-center">WHAT PEOPLE SAY</h3>
     <!-- OWL CAROUSEL -->
     <div id="testimonials" class="owl-carousel">
         <div class="testimonial">
             <div class="pic">
                 <div class="row">
-                    <div class="col-xs-2 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2">
+                    <div class="col-xs-2 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2 col-lg-1 col-lg-offset-2">
                         <a href="https://www.google.com/search?q=google+widnsurfing+rovinj&oq=google+widnsurfing+rovinj&aqs=chrome..69i57j69i64.3782j0j7&sourceid=chrome&ie=UTF-8#lrd=0x477cc0f0114319cb:0x36783d683a12953,1,,,"
                             target="_blank"> <img src="img/partneri/bruno.png" alt="bruno" class=""></a>
                         <h5 class="">Bruno Conti Rossini</h5>
                     </div>
-                    <div class="col-xs-12 col-sm-10 col-md-10">
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-7">
                         <p class="text-left">
                             (Translated by Google) Environment nice, very committed instructors, excellent results.
                             After 6 lessons my kids were able to go around the island Sveti Andrjia completely
@@ -30,12 +30,12 @@
         <div class="testimonial">
             <div class="pic">
                 <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2">
+                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2 col-lg-1 col-lg-offset-2">
                         <a href="https://www.facebook.com/pg/wsurfrovinj/reviews/" target="_blank"> <img
                                 src="img/partneri/marie.png" alt="marie"></a>
                         <h5 class="">Markéta Marie </h5>
                     </div>
-                    <div class="col-xs-12 col-sm-10 col-md-10">
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-7">
                         <p class="text-left">
                             Excellent place to learn windsurfing. The two little bays allow you to flexibly choose
                             between two sea conditions. The teachers are friendly and ready to help. However you have to
@@ -53,12 +53,12 @@
         <div class="testimonial">
             <div class="pic">
                 <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2">
+                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2 col-lg-1 col-lg-offset-2">
                         <a href="https://www.google.com/search?q=google+widnsurfing+rovinj&oq=google+widnsurfing+rovinj&aqs=chrome..69i57j69i64.3782j0j7&sourceid=chrome&ie=UTF-8#lrd=0x477cc0f0114319cb:0x36783d683a12953,1,,,"
                             target="_blank"> <img src="img/partneri/freda.png" alt="freda"></a>
                         <h5 class="">Fedja Nikolic </h5>
                     </div>
-                    <div class="col-xs-12 col-sm-10 col-md-10">
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-7">
                         <p class="text-left">
                             Crew is great, good for kids, great spot for first timers
                         </p>
@@ -74,12 +74,12 @@
         <div class="testimonial">
             <div class="pic">
                 <div class="row">
-                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2">
+                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2 col-lg-1 col-lg-offset-2">
                         <a href="https://www.facebook.com/pg/wsurfrovinj/reviews/" target="_blank"> <img
                                 src="img/partneri/daniela.png" alt="daniela"></a>
                         <h5 class="">Danijela Ceric-Kukic</h5>
                     </div>
-                    <div class="col-xs-12 col-sm-10 col-md-10">
+                    <div class="col-xs-12 col-sm-10 col-md-10 col-lg-7">
                         <p class="text-left">
                             Underbara och duktiga instruktörer ! Verkligen varmt rekommenderas !
                             <br>

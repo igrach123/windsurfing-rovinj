@@ -1,6 +1,6 @@
 <div class="container-fluid no-padding" id="onama">
 
-    <div class="row text-center">
+    <div class="row text-center onama-wrapper">
         <div class="col-sm-6 onama-front ">
             <h3>OUR TEAM</h3>
             <?php include "php/team-slide.php" ?>

@@ -1400,6 +1400,10 @@
 
     // o nama
     #onama{
+        .onama-wrapper{
+            max-width: 1920px;
+            margin: 0 auto;
+        }
         .badge{
             padding: 5px 15px 5px;
             font-size: 18px;
@@ -1446,7 +1450,7 @@
         
         background-color:$bg-white;
         margin: 0 auto;
-        max-width: 1920px;
+       
         .onama-front{
            
             @include xxs{

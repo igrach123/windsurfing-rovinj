@@ -75,11 +75,10 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
   $("#testimonials").owlCarousel({
-    items: 4,
+    items: 1,
     itemsTablet: [767, 1],
-    itemsDesktopSmall: [979, 2],
+    itemsDesktopSmall: [1199, 1],
     responsiveClass: true,
-
     pagination: false,
     stopOnHover: true,
     transitionStyle: "fade",

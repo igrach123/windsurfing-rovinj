@@ -8,7 +8,7 @@
                 <h4 class="modal-title">KAYAKING</h4>
             </div>
             <div class="modal-body">
-                <h5 class="services-sm-title">KAYAK RENTAL</h5>
+                <h5 class="services-sm-title">KAYAK RENTAL <span class="price-badge">80,00 HRK</span></h5>
 
                 <p class="text-muted">Possition of <strong>Windsurf center Red island</strong> is on hard of Rovinj
                     archipelago. On a few
@@ -18,7 +18,7 @@
                     Every of this islands hiding untouched beaches and coves which can only come from the sea.
                 </p>
                 <hr>
-                <h5 class="services-sm-title">KAYAK SUNSET TOUR</h5>
+                <h5 class="services-sm-title">KAYAK SUNSET TOUR <span class="price-badge">200,00 HRK</span></h5>
 
                 <p class="text-muted">Eveyone already know that Rovinj have one of the most beautiful sunset, but if you
                     want to expirience sunset with complete peace it will be good to move away on the sea without noise
@@ -32,6 +32,55 @@
 
                 </p>
                 <hr>
+                <h5 class="services-sm-title">PRICE LIST</h5>
+                <h6 class="text-muted text-center h7"><b>RENTAL</b></h6>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">1H KAYAK RENTAL </th>
+                                <th scope="col">2H KAYAK RENTAL </th>
+                                <th scope="col">4H KAYAK RENTAL </th>
+                                <th scope="col">8H KAYAK RENTAL </th>
+
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>80.00 kn</td>
+                                <td>150,00 kn</td>
+                                <td>250,00 kn</td>
+                                <td>400,00 kn</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr>
+                <h6 class="text-muted text-center h7"><b>TOUR</b></h6>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">KAYAK SUNSET TOUR 18:00-21:00 </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>200.00 kn</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center">
+                    <a href="img/kayak/kayak-price.jpg" class="btn btn-default ">DOWNLOAD PRICE
+                        LIST</a>
+                </div>
+                <hr>
+                <h5 class="services-sm-title">GALLERY & SOCIAL</h5>
+
                 <!-- galerija -->
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">

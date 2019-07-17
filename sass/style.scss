@@ -125,7 +125,7 @@
     }
     h1{
         font-family: 'Montserrat', sans-serif;
-        color: rgb(221, 0, 30);
+        color: $bg-white;
         // background: linear-gradient(to right, $main-orange 15%, $bg-white 100%);
 	    // -webkit-background-clip: text;
 	    // -webkit-text-fill-color: transparent;
@@ -425,7 +425,7 @@
                 #logo1{
                     position: static;
                     margin-top: -30px;                  
-                    width: 200px;
+                    width: 150px;
                     height: 80px;                                  
                     background-image: url(../img/logo-small-3.png);
                     background-repeat: no-repeat;
@@ -584,8 +584,17 @@
     @include xxs {
         #lang-id{
             margin-top: 15px;
-            margin-left: 4%;
-            font-size: 18px;
+            margin-left: 0%;
+            font-size: 18px;          
+            a{
+                display: inline;
+                padding: 5px 10px;
+                img{
+                    width: 30px;
+                }
+            }
+                
+            
 
             .language button{
                 color:$second;
@@ -907,7 +916,7 @@
     //cose colore
 
     }
-    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat,#price,#boat{
+    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat,#price,#boat,#services-tenerife{
         .intro{
             font-family: 'Roboto', cursive;
             color: $third;
@@ -983,6 +992,26 @@
         filter: alpha(opacity=20);
         opacity: 0.5;
         margin-right: 10px
+    }
+    h5{
+        .price-badge{
+            display: inline-block;
+            float: right;
+            background-color:$main-orange;
+            border-radius: 5px;
+            color: $bg-white;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-right: 15px;
+            border: 1px solid $main-orange;
+            font-weight: normal;
+            font-size: 2rem;
+        }
+        .price-badge:hover{
+            background-color:inherit;
+            color: $main-orange;
+            border: 1px solid $main-orange;
+        }
     }
 
         h6 {
@@ -1102,6 +1131,14 @@
         }
 
     }
+    #services-tenerife{
+         h4{
+            background-image: url(../img/tenerife/tenerife-bg-sm.jpg); 
+            background-size: cover;   
+            background-repeat: no-repeat;
+            background-position: center center;  
+        }
+    }
     // services stand up padle SUP
     #services-bike{
         
@@ -1143,6 +1180,20 @@
         h3{
             color: $bg-white;
             font-weight: 900;
+            @include xxs{
+                font-size: 2.5rem;
+            }
+            @include xs{
+                font-size: 3.5rem;
+            }
+            @include md{
+                font-size: 4.5rem;
+            }
+            
+        }
+        .btn{
+            padding-right: 100px !important;
+            padding-left: 100px !important;
         }
         background-attachment: cover;
         background-repeat: no-repeat;

@@ -42,7 +42,7 @@
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer"
                             class="scroll">CONTACT</a></li>
                     <li id="lang-id">
-                        <div class="dropdown language">
+                        <!-- <div class="dropdown language">
                             <button class="btn btn-warning btn-xs dropdown-toggle language" type="button"
                                 data-toggle="dropdown">EN
                                 <span class="caret"></span>
@@ -50,7 +50,9 @@
                             <ul class="dropdown-menu">
                                 <li><a href="#">HR</a></li>
                             </ul>
-                        </div>
+                        </div> -->
+                        <a href="index.php"> <img src="img/eng-flag.png" alt="eng"></a>
+                        <a href="index.php"> <img src="img/cro-flag.png" alt="hr"></a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->

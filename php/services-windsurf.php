@@ -21,7 +21,7 @@
 
 
                 <hr>
-                <h6> <span><i class="fa fa-star" aria-hidden="true"></i></span> Windsurfing course (beginners) -
+                <!-- <h6> <span><i class="fa fa-star" aria-hidden="true"></i></span> Windsurfing course (beginners) -
                     Individual <span class=" price-badge">900,00 HRK</span></h6>
                 <p>Available to people from 6 to 66 years of age. In the individual course you can choose between
                     3-, 5-
@@ -30,29 +30,24 @@
                     theory
                     and the simulator. The following lessons will continue on the sea where we practice starting,
                     standing and turns on the board. Everything what’ve we learned on land in introduction part.</p>
-                <hr>
+                <hr> -->
                 <h6><span><i class="fa fa-star" aria-hidden="true"></i></span> Windsurfing course (beginners) -
                     Group <span class=" price-badge">900,00 HRK</span>
                 </h6>
-                <p>Available to people from 6 to 66 years of age.The first lesson takes place on land and It
-                    consists of
-                    getting to know the equipment, theory and the simulator.Course lasts for eight hours. he number
-                    of
-                    days and the time of the course is adjusted to the participant. It starts in the morning from
-                    10am
-                    to 12am and in the afternoon from 15pm to 17pm. The following lessons will continue on the sea
-                    in
-                    perfect conditions for beginners, right in front of the centre.
-                    Special attention is given to children from 6 to 12 years of age and most of the equipment in
-                    the
+                <p>Available to people from 6 years old. The first lesson takes place on land and It consists of getting
+                    to know the equipment, theory and the simulator.Course lasts for eight hours. The number of days and
+                    the time of the course is adjusted to the participant. It starts in the morning from 10am to 12am
+                    and in the afternoon from 15pm to 17pm. The following lessons will continue on the sea in perfect
+                    conditions for beginners, right in front of the centre.
+                    Special attention is given to children from 6 to 12 years of age and most of the equipment in the
                     centre is customised for them.
-                    The course is carried out in six different languages: Croatian, English, German, Italian,
-                    Russian
+                    The course is carried out in six different languages: Croatian, English, German, Italian, Russian
                     and Slovenian.
                     While learning windsurfing, the beginners use the most modern materials adapted for them which
                     means, light sails and stable boards appropriate for their age.
                     Maximum six persons per group, which allows instructors to dedicate enough attention to each
-                    participant.</p>
+                    participant.
+                </p>
                 <hr>
 
 
@@ -115,11 +110,12 @@
                         </tbody>
                     </table>
                 </div>
+                
                 <div class="text-center">
                     <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
                         LIST</a>
-
                 </div>
+
                 <hr>
                 <h5 class="services-sm-title">GALLERY & SOCIAL</h5>
                 <!-- galerija -->
@@ -127,33 +123,28 @@
                     <div class="panel-body">
                         <div id="bikes2" class="row ">
                             <div class=" botmargin col-xs-4 col-sm-6 ">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
+                                <a href="img/gallery/a9.jpg" title="Windsurfing School">
+                                    <img src="img/gallery/a9_sm.jpg" data-src="img/gallery/a9_sm.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
+                                <a href="img/gallery/a8.jpg" title="Windsurfing School">
+                                    <img src="img/gallery/a8_sm.jpg" data-src="img/gallery/a8.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
                             <div class=" botmargin col-xs-4  col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
+                                <a href="img/gallery/g5.jpg" title="Windsurfing School">
+                                    <img src="img/gallery/g5_sm.jpg" data-src="img/gallery/g5.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
+                                <a href="img/gallery/g9.jpg" title="Windsurfing School">
+                                    <img src="img/gallery/g9_sm.jpg" data-src="img/gallery/g9.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
+                                <a href="img/gallery/g1.jpg" title="Windsurfing School">
+                                    <img src="img/gallery/g1_sm.jpg" data-src="img/gallery/g1.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
 

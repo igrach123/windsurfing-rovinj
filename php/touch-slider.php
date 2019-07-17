@@ -14,9 +14,9 @@
                     <div class="slide-text slide_style_center">
                         <h1 data-animation="animated flipInX"> <?php echo "$the_sitetitle"; ?> </h1>
                         <p data-animation="animated lightSpeedIn">Memorable experience</p>
-                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'
-                            class="btn btn-primary scroll" data-animation="animated fadeInUp"> <i
-                                class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
+                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
+                            data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x"
+                                aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <!-- End of Slide -->
@@ -31,9 +31,9 @@
                     <div class="slide-text slide_style_center">
                         <h1 data-animation="animated zoomInLeft"><?php echo "$the_sitetitle"; ?></h1>
                         <p data-animation="animated fadeInRight">Discover Istria</p>
-                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'
-                            class="btn btn-primary scroll" data-animation="animated fadeInLeft"><i
-                                class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
+                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
+                            data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x"
+                                aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div class="item">
@@ -45,9 +45,9 @@
                     <div class="slide-text slide_style_center">
                         <h1 data-animation="animated zoomInLeft"><?php echo "$the_sitetitle"; ?></h1>
                         <p data-animation="animated fadeInRight">Windsurfing</p>
-                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'
-                            class="btn btn-primary scroll" data-animation="animated fadeInLeft"><i
-                                class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
+                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
+                            data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x"
+                                aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <!-- End of Slide -->

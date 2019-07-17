@@ -10,7 +10,7 @@
             <div class="modal-body">
                 <h5 class="services-sm-title">ABOUT</h5>
 
-                <p>
+                <p class="text-muted">
                     We’ve all done it because it seems right at the time. You want the paddle to scoop the water as
                     you try to balance and paddle without falling in. However, as we all eventually find out, the
                     paddle goes the other way as it works more effectively when in the standing position and also
@@ -20,6 +20,39 @@
                     angle through the middle of the stroke for the most power.</b>
                 </p>
                 <hr>
+                <h5 class="services-sm-title">PRICE LIST</h5>
+                <h6 class="text-muted text-center h7"><b>RENTAL</b></h6>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">1H </th>
+                                <th scope="col">2H </th>
+                                <th scope="col">3H FLEX </th>
+                                <th scope="col">5H FLEX </th>
+                                <th scope="col">8H FLEX </th>
+
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>100.00 kn</td>
+                                <td>190,00 kn</td>
+                                <td>260,00 kn</td>
+                                <td>400,00 kn</td>
+                                <td>550,00 kn</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center">
+                    <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
+                        LIST</a>
+                </div>
+                <hr>
+                <h5 class="services-sm-title">GALLERY & SOCIAL</h5>
                 <!-- galerija -->
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">

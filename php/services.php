@@ -32,7 +32,7 @@
                 <div class=" card-2" data-mh="my-group">
                     <a class="s-img-h-3" href="#services-bike" data-toggle="modal" role="button"
                         data-target="#services-bike">
-                        <p class="services-info">Rent</p>
+                        <p class="services-info">Rent & SUP Yoga</p>
                         <h3 class="title">STAND UP PADDLE</h3>
                     </a>
                 </div>

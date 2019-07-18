@@ -73,29 +73,38 @@
                     <li>
                         <h5> <span class="fa fa-map-marker"></span> BOAT DOCKING STATIONS </h5>
                     </li>
-                    <li><a href="https://goo.gl/maps/BCngHH2HKN8RS5WS7" target="_blank">Delfin Dock Station</a>
-                    </li>
-                    <li><a href="https://goo.gl/maps/iinY4j5iNL1tbNKc9" target="_blank">Mali Mol - Piccolo Molo, Trg
-                            Maršala Tita</a>
+                    <li><a href="https://goo.gl/maps/BCngHH2HKN8RS5WS7" target="_blank"
+                            class="btn btn-default btn-sm"><span class="fa fa-map-marker"></span> Delfin
+                            Dock Station</a> <br>
+                        <b class="text-muted">To Windsurf Centar - Red Island</b>
                     </li>
                     <br>
-                    <li class="text-left">
-                        <button id="brod" class="btn btn-info btn-sm" data-toggle="modal" type="button"
-                            data-target="#boat">BOAT SCHEDULE
+                    <li><a href="https://goo.gl/maps/iinY4j5iNL1tbNKc9" target="_blank"
+                            class="btn btn-default btn-sm"><span class="fa fa-map-marker"></span> Mali
+                            Mol
+                            Trg
+                            Maršala Tita</a> <br>
+                        <b class="text-muted">To Windsurf Centar - Red Island</b>
+                    </li>
+                    <br>
+                    <li class="">
+                        <button id="brod" class="btn btn-default btn-sm" data-toggle="modal" type="button"
+                            data-target="#boat"><span class="fa fa-clock-o"></span> BOAT SCHEDULE
                         </button>
                     </li>
 
                     <hr>
-                    <li>
+
+                    <li class="bot-contact">
                         <h5><span class="fa fa-phone"></span> TEL / <span class="fa fa-whatsapp"></span> WHATSAPP -
                             VIBER</h5>
                     </li>
-                    <li> <a href="tel:+385 (0)92299150"> +385 (0)92 299 150</a></li>
+                    <li class="bot-contact"> <a href="tel:+385 (0)92299150"> +385 (0)92 299 150</a></li>
                     <hr>
-                    <li>
+                    <li class="bot-contact">
                         <h5><span class="fa fa-envelope-o"></span> EMAIL</h5>
                     </li>
-                    <li>
+                    <li class="bot-contact">
                         <script TYPE="text/javascript">
                         emailE = ('info@windsurfing-rovinj' + '.com')
                         document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')

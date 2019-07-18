@@ -1242,6 +1242,10 @@ h2.pmd-card-title-text {
   .instagram-modal-link-sm:hover .fa {
     color: #bc2a8d !important; }
 
+@media only screen and (min-width: 320px) {
+  .fb-top,
+  .in-top {
+    display: inline-block !important; } }
 html {
   padding: 0px 0px;
   margin: 0px 0px; }
@@ -1674,13 +1678,38 @@ header {
 @media only screen and (min-width: 320px) {
   #lang-id {
     margin-top: 15px;
-    margin-left: 0%;
+    margin-left: 2%;
     font-size: 18px; }
     #lang-id a {
       display: inline;
-      padding: 5px 10px; }
+      padding: 1px 1px;
+      border-radius: 50%; }
       #lang-id a img {
         width: 30px; }
+    #lang-id a:hover, #lang-id a:active {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    #lang-id a:focus::before.a:hover::before {
+      text-decoration: none;
+      -webkit-transform: translate(-50%, 0) scaleX(1);
+              transform: translate(-50%, 0) scaleX(1); }
+    #lang-id a::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 80%;
+      height: 2px;
+      background-color: inherit;
+      -webkit-transform-origin: center;
+              transform-origin: center;
+      -webkit-transform: translate(-50%, 0) scaleX(0);
+              transform: translate(-50%, 0) scaleX(0);
+      -webkit-transition: -webkit-transform 0.3s ease-in-out;
+      transition: -webkit-transform 0.3s ease-in-out;
+      transition: transform 0.3s ease-in-out;
+      transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
     #lang-id .language button {
       color: rgba(0, 0, 0, 0.54);
       background-color: rgba(0, 210, 255, 0.5);
@@ -1720,6 +1749,12 @@ header {
       color: #eb5e6e;
       white-space: nowrap;
       font-size: 120%; } }
+@media only screen and (min-width: 320px) {
+  .top-phone {
+    color: #03a9f4; }
+
+  .top-map {
+    color: #dd0000; } }
 @media only screen and (min-width: 768px) {
   #call {
     padding: 5px;
@@ -1766,7 +1801,7 @@ header {
 
   #lang-id {
     margin-top: 0px;
-    margin-left: 0%; }
+    margin-left: 10px; }
     #lang-id .language button {
       color: #ffffff;
       background-color: inherit;
@@ -1841,6 +1876,9 @@ header {
     color: #eb5e6e;
     white-space: nowrap;
     font-size: 85%; } }
+@media only screen and (min-width: 768px) and (min-width: 992px) {
+  #lang-id {
+    margin-left: 15px; } }
 .btn-warning, .dropdown-toggle.btn-warning {
   background-color: inherit; }
 
@@ -1943,7 +1981,7 @@ header {
       padding: 40px;
       margin-bottom: 0;
       color: #ffffff;
-      background-color: rgba(137, 233, 248, 0.6);
+      background-color: rgba(235, 94, 110, 0.6);
       font-weight: 900;
       transition: 0.6s ease-in-out;
       -webkit-transition: 0.6s ease-in-out; }
@@ -1976,7 +2014,7 @@ header {
     #services .s-img-h-1:focus h3,
     #services .s-img-h-2:focus h3,
     #services .s-img-h-3:focus h3 {
-      background-color: #89e9f8; }
+      background-color: #eb5e6e; }
   #services .btn-services {
     margin-bottom: 20px; }
   #services .pmd-card {
@@ -2502,8 +2540,8 @@ header {
        */
     background: linear-gradient(109.6deg, #03c3bb 11.2%, #b4c4ff 91.1%);
     margin-top: 80px;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 120px;
     color: #ffffff; }
     #onama .video-bot .lazyYT-container {
       direction: ltr;
@@ -2579,7 +2617,8 @@ header {
     #onama .video-bot h4 {
       color: #ffffff;
       padding-top: 20px;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      font-size: 2.5rem; }
   #onama h3 {
     color: #03a9f4;
     padding-bottom: 40px; }
@@ -2795,6 +2834,17 @@ header {
   #footer .contact-info hr {
     margin-left: 0%;
     width: 60%; }
+  #footer .contact-info li .btn-default:hover {
+    background-color: inherit;
+    color: #03a9f4;
+    border: 1px solid #03a9f4;
+    -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out; }
+  #footer .bot-contact a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87); }
+  #footer .bot-contact a:hover, #footer .bot-contact a:focus {
+    color: #03a9f4; }
   #footer .contact-list li .small {
     color: #e0e0e0;
     margin-top: 20px; }
@@ -2825,12 +2875,6 @@ header {
   @media only screen and (min-width: 320px) {
     #footer {
       text-align: center; } }
-  #footer .row a {
-    color: rgba(0, 0, 0, 0.87);
-    text-decoration: none; }
-  #footer .row a:hover, #footer .row a:active {
-    text-decoration: none;
-    color: #03a9f4; }
   @media only screen and (min-width: 768px) {
     #footer .row .footer-content {
       text-align: center; } }

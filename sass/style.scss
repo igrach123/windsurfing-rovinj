@@ -584,17 +584,41 @@
     @include xxs {
         #lang-id{
             margin-top: 15px;
-            margin-left: 0%;
+            margin-left: 2%;
             font-size: 18px;          
             a{
                 display: inline;
-                padding: 5px 10px;
+                padding: 1px 1px;
+                border-radius: 50%;
                 img{
                     width: 30px;
                 }
             }
-                
-            
+            a:hover,a:active{
+                box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            }
+            //removed cool animaton from lang id
+            a:focus::before.a:hover::before{
+                text-decoration: none;
+                transform: translate(-50%, 0) scaleX(1);   
+            }
+            a::before{
+                content: ''; 
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                width: 80%;
+                height: 2px;
+                background-color: inherit;
+                transform-origin: center;
+                transform: translate(-50%, 0) scaleX(0);
+                transition: transform 0.3s ease-in-out;
+            }
+           
+         
+
 
             .language button{
                 color:$second;
@@ -652,7 +676,14 @@
 
     }
 
-
+    @include xxs{
+        .top-phone{
+            color: $main-blue;
+        }
+        .top-map{
+            color: #dd0000;
+        } 
+    }
     @include sm {
         #call{
             padding: 5px;
@@ -707,7 +738,7 @@
         }
         #lang-id{
             margin-top: 0px;
-            margin-left: 0%;
+            margin-left: 10px;
 
             .language button{
                 color:$bg-white;
@@ -805,6 +836,11 @@
                 color:$main-orange;
                 white-space: nowrap;
                 font-size: 85%;
+            }
+        }
+        @include md{
+            #lang-id{
+                margin-left: 15px;
             }
         }
 
@@ -1484,13 +1520,14 @@
             @import "layzYT"; 
             background: $pink-gradient;
             margin-top: 80px;
-            padding-top: 40px;
-            padding-bottom: 80px;
+            padding-top: 80px;
+            padding-bottom: 120px;
             color: $bg-white;
             h4{
                 color: $bg-white;
                 padding-top: 20px;
                 padding-bottom: 20px;
+                font-size:2.5rem;
             }
         }   
         h3{
@@ -1782,11 +1819,31 @@
             padding-top: 80px;
         }
         .contact-info{
-        hr{
-            margin-left: 0%;
-            width: 60%;
-            
+            hr{
+                margin-left: 0%;
+                width: 60%;
+                
+            }
+            li{
+                .btn-default:hover {
+                    background-color: inherit;
+                    color: #03a9f4;
+                    border: 1px solid #03a9f4;
+                    -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+                    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+                }
+
+            }
+         
         }
+        .bot-contact{
+            a{
+                text-decoration: none;
+                color: $primary;
+            }
+            a:hover,a:focus{
+                color: $main-blue;
+            }
         }
         .contact-list{
             li{
@@ -1837,23 +1894,16 @@
 
         }
         .row{
-            a{
-                color: $primary;
-                text-decoration:none;
-            }
-            a:hover,a:active{
-                text-decoration: none;
-                color: $main-blue;
-            }
+         
             @include sm {
-            .footer-content{
-                text-align: center;
-            }
+                .footer-content{
+                    text-align: center;
+                }
             }
             @include md {
-            .footer-content{
-                text-align: left;
-            }
+                .footer-content{
+                    text-align: left;
+                }
             }
             
             

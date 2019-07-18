@@ -1,5 +1,5 @@
 <div class="container-fluid no-padding" id="onama">
-
+    <h2 class="text-center">ABOUT US</h2>
     <div class="row text-center onama-wrapper">
         <div class="col-sm-6 onama-front ">
             <h3>OUR TEAM</h3>
@@ -7,7 +7,7 @@
         </div>
 
         <div class="col-sm-6 d  onama-front ocrvneom">
-            <h3>ABOUT US</h3>
+            <h3>WINDSURF CENTAR</h3>
             <p class=" text-justify text-muted">
                 <img src="img/crveni-bg.jpg" alt="red island rovinj" class="img-responsive card-2">
                 <b> Windsurf center Red Island </b> is established in the 1970s. It was one of the first windsurf

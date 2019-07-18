@@ -41,6 +41,16 @@
 
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer"
                             class="scroll">CONTACT</a></li>
+                    <li class="visible-xs"><a href="tel:+385 (0)92 299 1550"> <span
+                                class="fa fa-phone top-phone"></span>
+                            +385 (0)92 299 1550</a> </li>
+                    <li class="visible-xs"> <a href="https://goo.gl/maps/ZRzkjmbGhNVTY5YY8" target="_blank"> <span
+                                class="fa fa-map-marker top-map"></span> RED ISLAND
+                        </a> </li>
+                    <li class="visible-xs"><a class="fb-top " href="https://www.facebook.com/wsurfrovinj/"
+                            target="_blank"><span class="fa fa-facebook "></span></a>
+                        <a class="in-top" href="https://www.instagram.com/windsurfingrovinj/" target="_blank">
+                            <span class="fa fa-instagram "></span></a></li>
                     <li id="lang-id">
                         <!-- <div class="dropdown language">
                             <button class="btn btn-warning btn-xs dropdown-toggle language" type="button"

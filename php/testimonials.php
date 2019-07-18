@@ -1,5 +1,5 @@
 <section class="" id="peoplesay">
-    <h3 class="text-center">WHAT PEOPLE SAY</h3>
+    <h2 class="text-center">WHAT PEOPLE SAY</h2>
     <!-- OWL CAROUSEL -->
     <div id="testimonials" class="owl-carousel">
         <div class="testimonial">

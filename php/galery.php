@@ -3,7 +3,7 @@
 
     <div class="row">
         <div class="col-sm-12" id="bike-gallery">
-            <h3>GALLERY</h3>
+            <h2>GALLERY</h2>
             <!-- galerija -->
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">

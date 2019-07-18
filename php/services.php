@@ -39,10 +39,10 @@
             </div>
         </div>
         <br><br><br>
-        <div class="text-center">
+        <!-- <div class="text-center">
             <a href="#footer" class="btn btn-default scroll" data-scroll
                 data-options='{ "easing": "easeInOutQuad" }'>SPECIAL OFFER FOR GROUPS</a>
-        </div>
+        </div> -->
     </div>
 
 </section>

@@ -76,3 +76,9 @@
   background-color: inherit !important;
   border: 1px solid #bc2a8d;
 }
+@include xxs {
+  .fb-top,
+  .in-top {
+    display: inline-block !important;
+  }
+}

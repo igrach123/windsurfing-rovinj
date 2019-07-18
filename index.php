@@ -97,6 +97,7 @@
     <!-- unutra je samo div koji nesto zatvara -->
     <?php include "php/partner-slide.php" ?>
     <?php include "php/boat-times.php"?>
+    <?php include "php/top-location.php"?>
 
     <?php include "footer.php"?>
 

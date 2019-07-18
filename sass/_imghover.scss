@@ -45,7 +45,7 @@
     padding: 40px;
     margin-bottom: 0;
     color: $bg-white;
-    background-color: rgba($torkis-blue, 0.6);
+    background-color: rgba($main-orange, 0.6);
     font-weight: 900;
     transition: 0.6s ease-in-out;
     -webkit-transition: 0.6s ease-in-out;
@@ -70,6 +70,6 @@
 .s-img-h-3:focus {
   text-decoration: none;
   h3 {
-    background-color: rgba($torkis-blue, 1);
+    background-color: rgba($main-orange, 1);
   }
 }

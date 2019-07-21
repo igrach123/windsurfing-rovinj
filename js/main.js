@@ -90,6 +90,23 @@ $(document).ready(function() {
     autoPlay: true
   });
 });
+$(document).ready(function() {
+  $("#testimonial-slider-partneri2").owlCarousel({
+    items: 5,
+    itemsTablet: [767, 2],
+    itemsDesktopSmall: [1199, 4],
+    responsiveClass: true,
+    pagination: false,
+    stopOnHover: true,
+    transitionStyle: "fade",
+    navigation: true,
+    navigationText: [
+      "<i class='fa fa-chevron-left fa-3x'></i>",
+      "<i class='fa fa-chevron-right fa-3x'></i>"
+    ],
+    autoPlay: true
+  });
+});
 
 //Navbar Scroll Event
 var lastScrollTop = 0;

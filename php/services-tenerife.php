@@ -39,34 +39,19 @@
                 <div class="panel-body">
                     <div id="tesla" class="row">
                         <div class=" botmargin col-xs-4 col-sm-6 ">
-                            <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                <img src="img/windsurfing/windsurfing-bg.jpg"
-                                    data-src="img/windsurfing/windsurfing-bg.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                            <a href="img/tenerife/tenererife-1.jpg" title="Tenerife">
+                                <img src="img/tenerife/tenererife-1.jpg" data-src="img/tenerife/tenererife-1.jpg"
+                                    class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
                         </div>
                         <div class=" botmargin  col-xs-4 col-sm-3">
-                            <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                <img src="img/windsurfing/windsurfing-bg.jpg"
-                                    data-src="img/windsurfing/windsurfing-bg.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                            <a href="img/tenerife/tenererife-2.jpg" title="Tenerife">
+                                <img src="img/tenerife/tenererife-2.jpg" data-src="img/tenerife/tenererife-2.jpg"
+                                    class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
                         </div>
                         <div class=" botmargin col-xs-4  col-sm-3">
-                            <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                <img src="img/windsurfing/windsurfing-bg.jpg"
-                                    data-src="img/windsurfing/windsurfing-bg.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                        </div>
-                        <div class=" botmargin  col-xs-4 col-sm-3">
-                            <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                <img src="img/windsurfing/windsurfing-bg.jpg"
-                                    data-src="img/windsurfing/windsurfing-bg.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
-                        </div>
-                        <div class=" botmargin  col-xs-4 col-sm-3">
-                            <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                <img src="img/windsurfing/windsurfing-bg.jpg"
-                                    data-src="img/windsurfing/windsurfing-bg.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                            <a href="img/tenerife/tenererife-3.jpg" title="Tenerife">
+                                <img src="img/tenerife/tenererife-3.jpg" data-src="img/tenerife/tenererife-3.jpg"
+                                    class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
                         </div>
 
                     </div>

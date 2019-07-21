@@ -1971,9 +1971,16 @@ header {
               text-emphasis: none;
       text-align: center;
       margin-bottom: 150px;
-      font-size: 2.8rem;
-      color: #ffffff;
-      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+      font-size: 2.4rem;
+      color: #ffffff; }
+      #services .s-img-h-1 .services-info span,
+      #services .s-img-h-2 .services-info span,
+      #services .s-img-h-3 .services-info span {
+        border: 1px solid #eb5e6e;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.6s ease-in-out;
+        -webkit-transition: 0.6s ease-in-out; }
     #services .s-img-h-1 h3,
     #services .s-img-h-2 h3,
     #services .s-img-h-3 h3 {
@@ -1990,11 +1997,16 @@ header {
         #services .s-img-h-2 h3,
         #services .s-img-h-3 h3 {
           font-size: 2.2rem; } }
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 480px) {
         #services .s-img-h-1 h3,
         #services .s-img-h-2 h3,
         #services .s-img-h-3 h3 {
-          font-size: 2.5rem; } }
+          font-size: 2.4rem; } }
+      @media only screen and (min-width: 992px) {
+        #services .s-img-h-1 h3,
+        #services .s-img-h-2 h3,
+        #services .s-img-h-3 h3 {
+          font-size: 3rem; } }
   #services .s-img-h-1 {
     background-image: url("../img/services/windsurfing-s-bg.jpg"); }
   #services .s-img-h-2 {
@@ -2015,6 +2027,13 @@ header {
     #services .s-img-h-2:focus h3,
     #services .s-img-h-3:focus h3 {
       background-color: #eb5e6e; }
+    #services .s-img-h-1:hover .services-info span,
+    #services .s-img-h-2:hover .services-info span,
+    #services .s-img-h-3:hover .services-info span,
+    #services .s-img-h-1:focus .services-info span,
+    #services .s-img-h-2:focus .services-info span,
+    #services .s-img-h-3:focus .services-info span {
+      background-color: #eb5e6e; }
   #services .btn-services {
     margin-bottom: 20px; }
   #services .pmd-card {
@@ -2025,12 +2044,12 @@ header {
   #services .h7 {
     color: #89e9f8; }
 
-#services-windsurf .intro, #services-bike .intro, #services-kayaking .intro, #services-rental .intro, #services-snorkeling .intro, #services-sup .intro, #najam-plovila .intro, #taxi-boat .intro, #price .intro, #boat .intro, #services-tenerife .intro {
+#services-windsurf .intro, #services-bike .intro, #services-kayaking .intro, #services-rental .intro, #services-snorkeling .intro, #services-sup .intro, #najam-plovila .intro, #taxi-boat .intro, #price .intro, #boat .intro, #services-tenerife .intro, #top-location .intro {
   font-family: 'Roboto', cursive;
   color: rgba(0, 0, 0, 0.38);
   font-weight: thin;
   font-size: 20px; }
-#services-windsurf .services-sm-title, #services-bike .services-sm-title, #services-kayaking .services-sm-title, #services-rental .services-sm-title, #services-snorkeling .services-sm-title, #services-sup .services-sm-title, #najam-plovila .services-sm-title, #taxi-boat .services-sm-title, #price .services-sm-title, #boat .services-sm-title, #services-tenerife .services-sm-title {
+#services-windsurf .services-sm-title, #services-bike .services-sm-title, #services-kayaking .services-sm-title, #services-rental .services-sm-title, #services-snorkeling .services-sm-title, #services-sup .services-sm-title, #najam-plovila .services-sm-title, #taxi-boat .services-sm-title, #price .services-sm-title, #boat .services-sm-title, #services-tenerife .services-sm-title, #top-location .services-sm-title {
   background: linear-gradient(109.6deg, #03c3bb 11.2%, #b4c4ff 91.1%);
   color: #ffffff;
   text-align: left;
@@ -2038,22 +2057,22 @@ header {
   font-size: 2.4rem;
   font-weight: 400;
   border-radius: 5px; }
-#services-windsurf .services-sm-title2, #services-bike .services-sm-title2, #services-kayaking .services-sm-title2, #services-rental .services-sm-title2, #services-snorkeling .services-sm-title2, #services-sup .services-sm-title2, #najam-plovila .services-sm-title2, #taxi-boat .services-sm-title2, #price .services-sm-title2, #boat .services-sm-title2, #services-tenerife .services-sm-title2 {
+#services-windsurf .services-sm-title2, #services-bike .services-sm-title2, #services-kayaking .services-sm-title2, #services-rental .services-sm-title2, #services-snorkeling .services-sm-title2, #services-sup .services-sm-title2, #najam-plovila .services-sm-title2, #taxi-boat .services-sm-title2, #price .services-sm-title2, #boat .services-sm-title2, #services-tenerife .services-sm-title2, #top-location .services-sm-title2 {
   color: #03a9f4;
   padding: 30px 0px 0px 0px;
   text-align: center;
   font-size: 28px;
   font-weight: 600; }
-#services-windsurf .btn-info, #services-bike .btn-info, #services-kayaking .btn-info, #services-rental .btn-info, #services-snorkeling .btn-info, #services-sup .btn-info, #najam-plovila .btn-info, #taxi-boat .btn-info, #price .btn-info, #boat .btn-info, #services-tenerife .btn-info {
+#services-windsurf .btn-info, #services-bike .btn-info, #services-kayaking .btn-info, #services-rental .btn-info, #services-snorkeling .btn-info, #services-sup .btn-info, #najam-plovila .btn-info, #taxi-boat .btn-info, #price .btn-info, #boat .btn-info, #services-tenerife .btn-info, #top-location .btn-info {
   border-radius: 0px;
   position: absolute;
   right: 0;
   bottom: 0; }
-#services-windsurf .modal-header, #services-bike .modal-header, #services-kayaking .modal-header, #services-rental .modal-header, #services-snorkeling .modal-header, #services-sup .modal-header, #najam-plovila .modal-header, #taxi-boat .modal-header, #price .modal-header, #boat .modal-header, #services-tenerife .modal-header {
+#services-windsurf .modal-header, #services-bike .modal-header, #services-kayaking .modal-header, #services-rental .modal-header, #services-snorkeling .modal-header, #services-sup .modal-header, #najam-plovila .modal-header, #taxi-boat .modal-header, #price .modal-header, #boat .modal-header, #services-tenerife .modal-header, #top-location .modal-header {
   padding: 0px; }
-#services-windsurf thead, #services-bike thead, #services-kayaking thead, #services-rental thead, #services-snorkeling thead, #services-sup thead, #najam-plovila thead, #taxi-boat thead, #price thead, #boat thead, #services-tenerife thead {
+#services-windsurf thead, #services-bike thead, #services-kayaking thead, #services-rental thead, #services-snorkeling thead, #services-sup thead, #najam-plovila thead, #taxi-boat thead, #price thead, #boat thead, #services-tenerife thead, #top-location thead {
   color: rgba(0, 0, 0, 0.54); }
-#services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4 {
+#services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4, #top-location h4 {
   color: #ffffff;
   text-align: center;
   font-size: 4rem;
@@ -2062,19 +2081,19 @@ header {
   vertical-align: middle;
   /*middle centred*/ }
   @media only screen and (min-width: 320px) {
-    #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4 {
+    #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4, #top-location h4 {
       padding-top: 75px;
       padding-bottom: 75px; } }
   @media only screen and (min-width: 992px) {
-    #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4 {
+    #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4, #top-location h4 {
       padding-top: 125px;
       padding-bottom: 125px; } }
-  #services-windsurf h4 .social-wrapper, #services-bike h4 .social-wrapper, #services-kayaking h4 .social-wrapper, #services-rental h4 .social-wrapper, #services-snorkeling h4 .social-wrapper, #services-sup h4 .social-wrapper, #najam-plovila h4 .social-wrapper, #taxi-boat h4 .social-wrapper, #price h4 .social-wrapper, #boat h4 .social-wrapper, #services-tenerife h4 .social-wrapper {
+  #services-windsurf h4 .social-wrapper, #services-bike h4 .social-wrapper, #services-kayaking h4 .social-wrapper, #services-rental h4 .social-wrapper, #services-snorkeling h4 .social-wrapper, #services-sup h4 .social-wrapper, #najam-plovila h4 .social-wrapper, #taxi-boat h4 .social-wrapper, #price h4 .social-wrapper, #boat h4 .social-wrapper, #services-tenerife h4 .social-wrapper, #top-location h4 .social-wrapper {
     position: absolute;
     display: inline;
     left: 15px;
     bottom: 15px; }
-#services-windsurf .close, #services-bike .close, #services-kayaking .close, #services-rental .close, #services-snorkeling .close, #services-sup .close, #najam-plovila .close, #taxi-boat .close, #price .close, #boat .close, #services-tenerife .close {
+#services-windsurf .close, #services-bike .close, #services-kayaking .close, #services-rental .close, #services-snorkeling .close, #services-sup .close, #najam-plovila .close, #taxi-boat .close, #price .close, #boat .close, #services-tenerife .close, #top-location .close {
   padding-right: 10px;
   float: right;
   font-size: 50px;
@@ -2085,7 +2104,7 @@ header {
   filter: alpha(opacity=20);
   opacity: 0.5;
   margin-right: 10px; }
-#services-windsurf h5 .price-badge, #services-bike h5 .price-badge, #services-kayaking h5 .price-badge, #services-rental h5 .price-badge, #services-snorkeling h5 .price-badge, #services-sup h5 .price-badge, #najam-plovila h5 .price-badge, #taxi-boat h5 .price-badge, #price h5 .price-badge, #boat h5 .price-badge, #services-tenerife h5 .price-badge {
+#services-windsurf h5 .price-badge, #services-bike h5 .price-badge, #services-kayaking h5 .price-badge, #services-rental h5 .price-badge, #services-snorkeling h5 .price-badge, #services-sup h5 .price-badge, #najam-plovila h5 .price-badge, #taxi-boat h5 .price-badge, #price h5 .price-badge, #boat h5 .price-badge, #services-tenerife h5 .price-badge, #top-location h5 .price-badge {
   display: inline-block;
   float: right;
   background-color: #eb5e6e;
@@ -2097,17 +2116,17 @@ header {
   border: 1px solid #eb5e6e;
   font-weight: normal;
   font-size: 2rem; }
-#services-windsurf h5 .price-badge:hover, #services-bike h5 .price-badge:hover, #services-kayaking h5 .price-badge:hover, #services-rental h5 .price-badge:hover, #services-snorkeling h5 .price-badge:hover, #services-sup h5 .price-badge:hover, #najam-plovila h5 .price-badge:hover, #taxi-boat h5 .price-badge:hover, #price h5 .price-badge:hover, #boat h5 .price-badge:hover, #services-tenerife h5 .price-badge:hover {
+#services-windsurf h5 .price-badge:hover, #services-bike h5 .price-badge:hover, #services-kayaking h5 .price-badge:hover, #services-rental h5 .price-badge:hover, #services-snorkeling h5 .price-badge:hover, #services-sup h5 .price-badge:hover, #najam-plovila h5 .price-badge:hover, #taxi-boat h5 .price-badge:hover, #price h5 .price-badge:hover, #boat h5 .price-badge:hover, #services-tenerife h5 .price-badge:hover, #top-location h5 .price-badge:hover {
   background-color: inherit;
   color: #eb5e6e;
   border: 1px solid #eb5e6e; }
-#services-windsurf h6, #services-bike h6, #services-kayaking h6, #services-rental h6, #services-snorkeling h6, #services-sup h6, #najam-plovila h6, #taxi-boat h6, #price h6, #boat h6, #services-tenerife h6 {
+#services-windsurf h6, #services-bike h6, #services-kayaking h6, #services-rental h6, #services-snorkeling h6, #services-sup h6, #najam-plovila h6, #taxi-boat h6, #price h6, #boat h6, #services-tenerife h6, #top-location h6 {
   padding-top: 30px;
   padding-bottom: 10px;
   font-size: 2.2rem;
   color: #eb5e6e;
   font-weight: bolder; }
-  #services-windsurf h6 .price-badge, #services-bike h6 .price-badge, #services-kayaking h6 .price-badge, #services-rental h6 .price-badge, #services-snorkeling h6 .price-badge, #services-sup h6 .price-badge, #najam-plovila h6 .price-badge, #taxi-boat h6 .price-badge, #price h6 .price-badge, #boat h6 .price-badge, #services-tenerife h6 .price-badge {
+  #services-windsurf h6 .price-badge, #services-bike h6 .price-badge, #services-kayaking h6 .price-badge, #services-rental h6 .price-badge, #services-snorkeling h6 .price-badge, #services-sup h6 .price-badge, #najam-plovila h6 .price-badge, #taxi-boat h6 .price-badge, #price h6 .price-badge, #boat h6 .price-badge, #services-tenerife h6 .price-badge, #top-location h6 .price-badge {
     display: inline-block;
     float: right;
     background-color: #eb5e6e;
@@ -2118,7 +2137,7 @@ header {
     border: 1px solid #eb5e6e;
     font-weight: normal;
     font-size: 2rem; }
-  #services-windsurf h6 .price-badge:hover, #services-bike h6 .price-badge:hover, #services-kayaking h6 .price-badge:hover, #services-rental h6 .price-badge:hover, #services-snorkeling h6 .price-badge:hover, #services-sup h6 .price-badge:hover, #najam-plovila h6 .price-badge:hover, #taxi-boat h6 .price-badge:hover, #price h6 .price-badge:hover, #boat h6 .price-badge:hover, #services-tenerife h6 .price-badge:hover {
+  #services-windsurf h6 .price-badge:hover, #services-bike h6 .price-badge:hover, #services-kayaking h6 .price-badge:hover, #services-rental h6 .price-badge:hover, #services-snorkeling h6 .price-badge:hover, #services-sup h6 .price-badge:hover, #najam-plovila h6 .price-badge:hover, #taxi-boat h6 .price-badge:hover, #price h6 .price-badge:hover, #boat h6 .price-badge:hover, #services-tenerife h6 .price-badge:hover, #top-location h6 .price-badge:hover {
     background-color: #ffffff;
     color: #03a9f4;
     border: 1px solid #eb5e6e; }
@@ -2153,17 +2172,23 @@ header {
     #price h4 {
       background-image: url(../img/services/price.jpg); } }
 
-#boat h4 {
+#boat h4, #top-location h4 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   translate: all 0.3s ease-in-out; }
   @media only screen and (min-width: 320px) {
-    #boat h4 {
+    #boat h4, #top-location h4 {
       background-image: url(../img/gallery/Rovinj_sm.jpg); } }
   @media only screen and (min-width: 768px) {
-    #boat h4 {
+    #boat h4, #top-location h4 {
       background-image: url(../img/gallery/rovinj_md.jpg); } }
+
+#top-location h5 {
+  margin-bottom: 20px !important;
+  margin-top: 60px !important; }
+#top-location .google-maps iframe {
+  width: 100% !important; }
 
 #services-kayaking h4 {
   background-image: url(../img/kayak/kayak-bg.jpg);
@@ -2800,6 +2825,18 @@ header {
   #routes .col-xs-6 {
     padding-left: 0px; }
 
+#testimonial-slider-partneri2 .testimonial {
+  padding-top: 40px;
+  margin-bottom: 40px; }
+  @media only screen and (min-width: 320px) {
+    #testimonial-slider-partneri2 .testimonial .pic a img {
+      margin: 0 auto;
+      width: 80px; } }
+  @media only screen and (min-width: 992px) {
+    #testimonial-slider-partneri2 .testimonial .pic a img {
+      margin: 0 auto;
+      width: 120px; } }
+
 #footer {
   color: rgba(0, 0, 0, 0.87); }
   #footer .facebook {
@@ -2928,7 +2965,8 @@ header {
       #footer-bottom .footer-bottom-center p {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
-        color: #ffffff; }
+        color: #ffffff;
+        text-transform: uppercase; }
     #footer-bottom img {
       width: 60px;
       margin: 0 auto;
@@ -2943,10 +2981,10 @@ header {
   @media only screen and (min-width: 768px) {
     #footer-bottom p {
       display: inline-block;
-      font-size: 100%; }
+      font-size: 120%; }
     #footer-bottom img {
       width: 80px;
-      padding-top: 10px; } }
+      padding-top: 12px; } }
   @media only screen and (min-width: 768px) {
     #footer-bottom .footer-bottom-left {
       width: 25%;
@@ -2967,7 +3005,8 @@ header {
           color: #b8bec5;
           text-decoration: none; }
       #footer-bottom .footer-bottom-right .izradio {
-        margin-top: 10px; }
+        margin-top: 10px;
+        color: #ffffff; }
       #footer-bottom .footer-bottom-right .cw-logo {
         margin-top: 10px;
         display: inline-block;

@@ -952,7 +952,7 @@
     //cose colore
 
     }
-    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat,#price,#boat,#services-tenerife{
+    #services-windsurf,#services-bike,#services-kayaking,#services-rental,#services-snorkeling,#services-sup,#najam-plovila,#taxi-boat,#price,#boat,#services-tenerife,#top-location{
         .intro{
             font-family: 'Roboto', cursive;
             color: $third;
@@ -1120,7 +1120,7 @@
             width: 100%;
         }        
     }
-    #boat{
+    #boat,#top-location{
         h4{
             @include xxs{
                 background-image: url(../img/gallery/Rovinj_sm.jpg); 
@@ -1134,7 +1134,18 @@
             translate: all 0.3s ease-in-out;
         }        
     }
-
+#top-location{
+    h5{
+        margin-bottom: 20px !important;
+        margin-top: 60px !important;
+    }
+    .google-maps{
+        iframe{
+            width: 100% !important;
+        }
+    }
+    
+}
   
     // service-kayaking
     #services-kayaking{
@@ -1782,7 +1793,32 @@
         }
     }
     //******************FOOTER SECTION *********************//
+    //foter partneri
+    #testimonial-slider-partneri2{
+        .testimonial{
+            padding-top: 40px;
+            margin-bottom: 40px;
+            .pic{
+                a{
+                    @include xxs{
+                        img{
+                            margin: 0 auto;
+                            width: 80px;
+                        }  
+                    }
+                    @include md{
+                        img{
+                            margin: 0 auto;
+                            width: 120px;
+                        }  
+                    }
 
+                    
+                }
+            }
+        }
+    }
+    //footer
     #footer{
         color: $primary;
         .facebook{
@@ -1968,6 +2004,7 @@
                         font-family: "Roboto", sans-serif;
                         font-weight: 100;  
                             color: $bg-white;
+                            text-transform: uppercase;
                         }
                 }
             img{
@@ -1977,8 +2014,7 @@
             }
         }
         @include xs {
-                p{
-            
+                p{           
                 display: inline-block;
                 font-size:90%;
             }
@@ -1990,11 +2026,11 @@
         @include sm {
                 p{
                 display: inline-block;
-                font-size: 100%;
+                font-size: 120%;
             }
             img{
                 width: 80px;
-                padding-top: 10px;
+                padding-top: 12px;
             }
         }
         @include sm {
@@ -2024,6 +2060,7 @@
                 }
                 .izradio{
                     margin-top: 10px;
+                    color: $bg-white;
                 }
                 .cw-logo{
                     margin-top: 10px;

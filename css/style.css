@@ -2075,7 +2075,6 @@ header {
 #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4, #top-location h4 {
   color: #ffffff;
   text-align: center;
-  font-size: 4rem;
   font-weight: 900;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
   vertical-align: middle;
@@ -2083,11 +2082,16 @@ header {
   @media only screen and (min-width: 320px) {
     #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4, #top-location h4 {
       padding-top: 75px;
-      padding-bottom: 75px; } }
+      padding-bottom: 75px;
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 768px) {
+    #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4, #top-location h4 {
+      font-size: 3.5rem; } }
   @media only screen and (min-width: 992px) {
     #services-windsurf h4, #services-bike h4, #services-kayaking h4, #services-rental h4, #services-snorkeling h4, #services-sup h4, #najam-plovila h4, #taxi-boat h4, #price h4, #boat h4, #services-tenerife h4, #top-location h4 {
       padding-top: 125px;
-      padding-bottom: 125px; } }
+      padding-bottom: 125px;
+      font-size: 4rem; } }
   #services-windsurf h4 .social-wrapper, #services-bike h4 .social-wrapper, #services-kayaking h4 .social-wrapper, #services-rental h4 .social-wrapper, #services-snorkeling h4 .social-wrapper, #services-sup h4 .social-wrapper, #najam-plovila h4 .social-wrapper, #taxi-boat h4 .social-wrapper, #price h4 .social-wrapper, #boat h4 .social-wrapper, #services-tenerife h4 .social-wrapper, #top-location h4 .social-wrapper {
     position: absolute;
     display: inline;
@@ -2116,6 +2120,12 @@ header {
   border: 1px solid #eb5e6e;
   font-weight: normal;
   font-size: 2rem; }
+  @media only screen and (min-width: 320px) {
+    #services-windsurf h5 .price-badge, #services-bike h5 .price-badge, #services-kayaking h5 .price-badge, #services-rental h5 .price-badge, #services-snorkeling h5 .price-badge, #services-sup h5 .price-badge, #najam-plovila h5 .price-badge, #taxi-boat h5 .price-badge, #price h5 .price-badge, #boat h5 .price-badge, #services-tenerife h5 .price-badge, #top-location h5 .price-badge {
+      display: block; } }
+  @media only screen and (min-width: 768px) {
+    #services-windsurf h5 .price-badge, #services-bike h5 .price-badge, #services-kayaking h5 .price-badge, #services-rental h5 .price-badge, #services-snorkeling h5 .price-badge, #services-sup h5 .price-badge, #najam-plovila h5 .price-badge, #taxi-boat h5 .price-badge, #price h5 .price-badge, #boat h5 .price-badge, #services-tenerife h5 .price-badge, #top-location h5 .price-badge {
+      display: inline-block; } }
 #services-windsurf h5 .price-badge:hover, #services-bike h5 .price-badge:hover, #services-kayaking h5 .price-badge:hover, #services-rental h5 .price-badge:hover, #services-snorkeling h5 .price-badge:hover, #services-sup h5 .price-badge:hover, #najam-plovila h5 .price-badge:hover, #taxi-boat h5 .price-badge:hover, #price h5 .price-badge:hover, #boat h5 .price-badge:hover, #services-tenerife h5 .price-badge:hover, #top-location h5 .price-badge:hover {
   background-color: inherit;
   color: #eb5e6e;
@@ -2141,6 +2151,8 @@ header {
     background-color: #ffffff;
     color: #03a9f4;
     border: 1px solid #eb5e6e; }
+  #services-windsurf h6 span, #services-bike h6 span, #services-kayaking h6 span, #services-rental h6 span, #services-snorkeling h6 span, #services-sup h6 span, #najam-plovila h6 span, #taxi-boat h6 span, #price h6 span, #boat h6 span, #services-tenerife h6 span, #top-location h6 span {
+    margin-right: 0px; }
 
 #services-windsurf h4 {
   background-image: url(../img/windsurfing/windsurfing-bg.jpg);
@@ -2476,6 +2488,8 @@ header {
   position: relative;
   overflow: hidden;
   height: 400px; }
+  .google-maps iframe {
+    width: 100% !important; }
 
 @media only screen and (min-width: 320px) {
   #mapid {

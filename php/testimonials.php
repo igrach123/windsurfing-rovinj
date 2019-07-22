@@ -5,10 +5,10 @@
         <div class="testimonial">
             <div class="pic">
                 <div class="row">
-                    <div class="col-xs-2 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2 col-lg-1 col-lg-offset-2">
+                    <div class="col-xs-4 col-xs-offset-4 col-sm-offset-0 col-sm-2 col-md-2 col-lg-1 col-lg-offset-2">
                         <a href="https://www.google.com/search?q=google+widnsurfing+rovinj&oq=google+widnsurfing+rovinj&aqs=chrome..69i57j69i64.3782j0j7&sourceid=chrome&ie=UTF-8#lrd=0x477cc0f0114319cb:0x36783d683a12953,1,,,"
                             target="_blank"> <img src="img/partneri/bruno.png" alt="bruno" class=""></a>
-                        <h5 class="">Bruno Conti Rossini</h5>
+                        <h5 class="">Bruno Rossini</h5>
                     </div>
                     <div class="col-xs-12 col-sm-10 col-md-10 col-lg-7">
                         <p class="text-left">

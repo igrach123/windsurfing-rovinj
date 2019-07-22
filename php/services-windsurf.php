@@ -51,7 +51,8 @@
                 <hr>
 
 
-                <h6> <span><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>
+                <h6> <span><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i>
                     </span> Advanced windsurfing course <span class=" price-badge">1000,00 HRK</span></h6>
                 <p>Advanced windsurfing course is intended for those who have successfully mastered the elements of
                     the
@@ -110,7 +111,7 @@
                         </tbody>
                     </table>
                 </div>
-                
+
                 <div class="text-center">
                     <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
                         LIST</a>

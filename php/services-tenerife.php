@@ -27,48 +27,49 @@
                 <img class="img-responsive lazy-img visible-xs" src="img/tenerife/tenerife-480.jpg"
                     data-echo="img/tenerife/tenerife-480.jpg" alt="Premantura">
 
-            </div>
-            <div class="text-center">
-                <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
-                    LIST</a>
-            </div>
-            <hr>
-            <h5 class="services-sm-title">GALLERY & SOCIAL</h5>
-            <!-- galerija -->
-            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                    <div id="tesla" class="row">
-                        <div class=" botmargin col-xs-4 col-sm-6 ">
-                            <a href="img/tenerife/tenererife-1.jpg" title="Tenerife">
-                                <img src="img/tenerife/tenererife-1.jpg" data-src="img/tenerife/tenererife-1.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
-                        </div>
-                        <div class=" botmargin  col-xs-4 col-sm-3">
-                            <a href="img/tenerife/tenererife-2.jpg" title="Tenerife">
-                                <img src="img/tenerife/tenererife-2.jpg" data-src="img/tenerife/tenererife-2.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
-                        </div>
-                        <div class=" botmargin col-xs-4  col-sm-3">
-                            <a href="img/tenerife/tenererife-3.jpg" title="Tenerife">
-                                <img src="img/tenerife/tenererife-3.jpg" data-src="img/tenerife/tenererife-3.jpg"
-                                    class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
-                        </div>
 
-                    </div>
-                </div> <!-- panel body -->
-            </div> <!-- collapse one -->
-
-            <div class="modal-footer">
-                <div class="text-left social-wrapper pull-left">
-                    <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/" target="_blank"><span
-                            class="fa fa-facebook fa-2x"></span></a>
-                    <a class="instagram-modal-link " href="https://www.instagram.com/windsurfingrovinj/"
-                        target="_blank">
-                        <span class="fa fa-instagram fa-2x"></span></a>
+                <div class="text-center">
+                    <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
+                        LIST</a>
                 </div>
-                <button type="button" class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
-            </div>
-        </div><!-- MODAL BODY -->
-    </div> <!-- modal content -->
-</div><!-- end  of Modal dialog -->
+                <hr>
+                <h5 class="services-sm-title">GALLERY & SOCIAL</h5>
+                <!-- galerija -->
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <div id="tesla2" class="row">
+                            <div class=" botmargin col-xs-4 col-sm-6 ">
+                                <a href="img/tenerife/tenererife-1.jpg" title="Tenerife">
+                                    <img src="img/tenerife/tenererife-1.jpg" data-src="img/tenerife/tenererife-1.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
+                            </div>
+                            <div class=" botmargin  col-xs-4 col-sm-3">
+                                <a href="img/tenerife/tenererife-2.jpg" title="Tenerife">
+                                    <img src="img/tenerife/tenererife-2.jpg" data-src="img/tenerife/tenererife-2.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
+                            </div>
+                            <div class=" botmargin col-xs-4  col-sm-3">
+                                <a href="img/tenerife/tenererife-3.jpg" title="Tenerife">
+                                    <img src="img/tenerife/tenererife-3.jpg" data-src="img/tenerife/tenererife-3.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
+                            </div>
+
+                        </div>
+                    </div> <!-- panel body -->
+                </div> <!-- collapse one -->
+
+                <div class="modal-footer">
+                    <div class="text-left social-wrapper pull-left">
+                        <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
+                            target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
+                        <a class="instagram-modal-link " href="https://www.instagram.com/windsurfingrovinj/"
+                            target="_blank">
+                            <span class="fa fa-instagram fa-2x"></span></a>
+                    </div>
+                    <button type="button" class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- MODAL BODY -->
+
+        </div> <!-- modal content -->
+    </div><!-- end  of Modal dialog -->
 </div>

@@ -27,7 +27,7 @@
                 <img class="img-responsive lazy-img visible-xs" src="img/tenerife/tenerife-480.jpg"
                     data-echo="img/tenerife/tenerife-480.jpg" alt="Premantura">
 
-
+                <hr>
                 <div class="text-center">
                     <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
                         LIST</a>

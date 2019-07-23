@@ -41,13 +41,13 @@
 
   h3 {
     @include xxs {
-      font-size: 2.2rem;
+      font-size: 2rem;
     }
     @include xs {
       font-size: 2.4rem;
     }
     @include md {
-      font-size: 3rem;
+      font-size: 2.8rem;
     }
     text-align: center;
     padding: 40px;

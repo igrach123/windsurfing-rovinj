@@ -52,15 +52,6 @@
                         <a class="in-top" href="https://www.instagram.com/windsurfingrovinj/" target="_blank">
                             <span class="fa fa-instagram "></span></a></li>
                     <li id="lang-id">
-                        <!-- <div class="dropdown language">
-                            <button class="btn btn-warning btn-xs dropdown-toggle language" type="button"
-                                data-toggle="dropdown">EN
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">HR</a></li>
-                            </ul>
-                        </div> -->
                         <a href="index.php"> <img src="img/eng-flag.png" alt="eng"></a>
                         <a href="index.php"> <img src="img/cro-flag.png" alt="hr"></a>
                     </li>

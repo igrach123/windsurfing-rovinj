@@ -35,7 +35,7 @@
     <link href="#" rel="canonical" /> <!-- dodati stranicu na kraju -->
     <link href="index.php" rel="alternate" hreflang="en">
     <meta name="keywords"
-        content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental and Tours, SUP rental">
+        content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental and Tours, Stand Up Paddle rental">
     <meta name="description"
         content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental, Kazaking Tours, Stand up Paddle rental">
     <meta http-equiv="content-language" content="en,hr">
@@ -100,15 +100,11 @@
     <?php include "php/top-location.php"?>
 
     <?php include "footer.php"?>
-
-
-
+    
     <!--JavaScript, jquerry and plugins-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <script src="form.js"></script>
-
     <script src="js/main-js-backup-min.js"></script>
     <script src="js/galleries.js"></script>
 

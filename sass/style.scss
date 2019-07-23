@@ -1063,11 +1063,21 @@
     }
 
         h6 {
+            @include xxs{
+                font-size: 1.8rem;
+            }
+            @include xs{
+                font-size: 2rem;
+            }
+            @include sm{
+                font-size: 2.2rem;
+            }
             padding-top: 30px;
             padding-bottom: 10px;
-            font-size: 2.2rem;
+           
             color: $main-orange;
             font-weight: bolder;
+            text-align: left;
 
             .price-badge{
                 display: inline-block;

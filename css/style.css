@@ -1996,7 +1996,7 @@ header {
         #services .s-img-h-1 h3,
         #services .s-img-h-2 h3,
         #services .s-img-h-3 h3 {
-          font-size: 2.2rem; } }
+          font-size: 2rem; } }
       @media only screen and (min-width: 480px) {
         #services .s-img-h-1 h3,
         #services .s-img-h-2 h3,
@@ -2006,7 +2006,7 @@ header {
         #services .s-img-h-1 h3,
         #services .s-img-h-2 h3,
         #services .s-img-h-3 h3 {
-          font-size: 3rem; } }
+          font-size: 2.8rem; } }
   #services .s-img-h-1 {
     background-image: url("../img/services/windsurfing-s-bg.jpg"); }
   #services .s-img-h-2 {
@@ -2133,9 +2133,18 @@ header {
 #services-windsurf h6, #services-bike h6, #services-kayaking h6, #services-rental h6, #services-snorkeling h6, #services-sup h6, #najam-plovila h6, #taxi-boat h6, #price h6, #boat h6, #services-tenerife h6, #top-location h6 {
   padding-top: 30px;
   padding-bottom: 10px;
-  font-size: 2.2rem;
   color: #eb5e6e;
-  font-weight: bolder; }
+  font-weight: bolder;
+  text-align: left; }
+  @media only screen and (min-width: 320px) {
+    #services-windsurf h6, #services-bike h6, #services-kayaking h6, #services-rental h6, #services-snorkeling h6, #services-sup h6, #najam-plovila h6, #taxi-boat h6, #price h6, #boat h6, #services-tenerife h6, #top-location h6 {
+      font-size: 1.8rem; } }
+  @media only screen and (min-width: 480px) {
+    #services-windsurf h6, #services-bike h6, #services-kayaking h6, #services-rental h6, #services-snorkeling h6, #services-sup h6, #najam-plovila h6, #taxi-boat h6, #price h6, #boat h6, #services-tenerife h6, #top-location h6 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 768px) {
+    #services-windsurf h6, #services-bike h6, #services-kayaking h6, #services-rental h6, #services-snorkeling h6, #services-sup h6, #najam-plovila h6, #taxi-boat h6, #price h6, #boat h6, #services-tenerife h6, #top-location h6 {
+      font-size: 2.2rem; } }
   #services-windsurf h6 .price-badge, #services-bike h6 .price-badge, #services-kayaking h6 .price-badge, #services-rental h6 .price-badge, #services-snorkeling h6 .price-badge, #services-sup h6 .price-badge, #najam-plovila h6 .price-badge, #taxi-boat h6 .price-badge, #price h6 .price-badge, #boat h6 .price-badge, #services-tenerife h6 .price-badge, #top-location h6 .price-badge {
     display: inline-block;
     float: right;

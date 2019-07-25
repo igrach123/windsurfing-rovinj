@@ -394,6 +394,8 @@
                 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
                     border:none;
                     background-color:#ffffff;
+                    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
                 }
                 // navigation hover colors
                 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -410,6 +412,7 @@
 
                 
         }
+        
         @include sm {
                 .navbar-collapse{
                     padding-top: 15px;
@@ -443,6 +446,8 @@
                 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
                     border:none;
                     background-color:inherit;
+                    box-shadow: none;
+                    
                 }
 
                 //cool underline animation for navbar
@@ -1065,6 +1070,7 @@
         h6 {
             @include xxs{
                 font-size: 1.8rem;
+                text-align: left;
             }
             @include xs{
                 font-size: 2rem;
@@ -1073,8 +1079,7 @@
                 font-size: 2.2rem;
             }
             padding-top: 30px;
-            padding-bottom: 10px;
-           
+            padding-bottom: 10px;          
             color: $main-orange;
             font-weight: bolder;
             text-align: left;

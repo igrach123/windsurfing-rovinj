@@ -29,8 +29,33 @@
 
                 <hr>
                 <div class="text-center">
-                    <a href="img/services/price.jpg" class="btn btn-default ">DOWNLOAD PRICE
-                        LIST</a>
+                    <p class="text-uppercase text-muted"> Contact Us for more information!! </p>
+                    <ul class="list-unstyled">
+
+                        <li class="tenerife-contact">
+                            <h5><span class="fa fa-phone"></span> TEL / <span class="fa fa-whatsapp"></span> WHATSAPP -
+                                VIBER</h5>
+                        </li>
+                        <li class="tenerife-contact"> <a href="tel:+385 (0)922991550"> +385 (0)92 299 1550</a></li>
+                        <hr>
+                        <li class="tenerife-contact">
+                            <h5><span class="fa fa-envelope-o"></span> EMAIL</h5>
+                        </li>
+                        <li class="tenerife-contact">
+                            <script TYPE="text/javascript">
+                            emailE = ('info@windsurfing-rovinj' + '.com')
+                            document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')
+                            </script>
+
+                            <noscript>
+                                <em>Email address protected by JavaScript.<BR>
+                                    Please enable JavaScript to contact me.</em>
+                            </noscript>
+                        </li>
+                        <hr>
+                        <li><a href="https://oceancalling.net" target="_blank" rel="noopener noreferrer">OCEAN CALLING
+                                WINDSURF - El Medano</a></li>
+                    </ul>
                 </div>
                 <hr>
                 <h5 class="services-sm-title">GALLERY & SOCIAL</h5>

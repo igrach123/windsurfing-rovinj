@@ -14,7 +14,6 @@
                 centers
                 in
                 Croatia and also one of the favourite gathering places for windsurfers from all over Europe.
-
                 The center is located on a beautiful island Sveti Andrija (St. Andrew's), also known as Crveni
                 otok (Red
                 Island), near Rovinj, which is famous for its beautiful beaches and rich history. Here you can
@@ -26,10 +25,8 @@
             <p class="text-muted text-justify" id="showtext">
                 Due to its geographical location and climate, Sveti Andrija island has the perfect conditions
                 for
-                learning basics, as well as advanced windsurfing skills. Windsurf center Crveni otok also offers
-                catamaran rides so you can visit the whole archipelago of Rovinj which is one of the richest and
-                most
-                beautiful in Northern Adriatic with its 19 islands and cliffs.
+                learning basics, as well as advanced windsurfing skills. Windsurf center Crveni otok also kayak and
+                stand up paddle so you can visit.
             </p>
             <button id="morebtn" class="badge"><span class="fa fa-sort-desc"></span></button> <button id="morebtn-hide"
                 class="badge"><span class="fa fa-sort-up"></span></button>

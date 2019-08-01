@@ -222,11 +222,11 @@
             </div>
             <div class="testimonial">
                 <div class="pic">
-                    <a href=" http://www.exokayak.com/" target="_blank">
-                        <img src="img/partneri/logo-exo.jpg" alt="exo" class="img-responsive">
+                    <a href="https://www.oceankayak.com/" target="_blank">
+                        <img src="img/partneri/logo-ocean.jpg" alt="exo" class="img-responsive">
                     </a>
                 </div>
-                <h3 class="testimonial-title">Exo kayak</h3>
+                <h3 class="testimonial-title">Ocean kayak</h3>
             </div>
             <div class="testimonial">
                 <div class="pic">

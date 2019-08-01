@@ -284,6 +284,11 @@
         .small-premanutra{
             letter-spacing:10px;
         }
+        .a-down:active,.a-down:hover,.a-down:focus{
+            color: $main-orange;
+
+        }
+
         @include xxs {
             background: #000 url('../img/gallery/a6_sm.jpg') no-repeat center;
             background-size: cover;
@@ -446,7 +451,7 @@
                 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
                     border:none;
                     background-color:inherit;
-                    box-shadow: none;
+                    box-shadow: none; 
                     
                 }
 
@@ -1215,6 +1220,15 @@
             background-repeat: no-repeat;
             background-position: center center;  
         }
+        
+        a{
+            text-decoration: none;
+            color: $primary;
+        }
+        a:hover,a:focus{
+            color: $main-blue;
+        }
+    
     }
     // services stand up padle SUP
     #services-bike{

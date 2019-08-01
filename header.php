@@ -61,7 +61,7 @@
     </nav>
     <!-- h1 xs -->
     <h1 class="visible-xs text-uppercase"><?php echo "$the_sitetitle"; ?> <br>
-        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
+        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll a-down"
             data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i></a>
     </h1>
     <!-- touch slide -->

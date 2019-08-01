@@ -14,7 +14,7 @@
                     <div class="slide-text slide_style_center">
                         <h1 data-animation="animated flipInX"> <?php echo "$the_sitetitle"; ?> </h1>
                         <p data-animation="animated lightSpeedIn">SCHOOL & RENT</p>
-                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
+                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll a-down"
                             data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x"
                                 aria-hidden="true"></i></a>
                     </div>
@@ -31,7 +31,7 @@
                     <div class="slide-text slide_style_center">
                         <h1 data-animation="animated zoomInLeft">KAYAKING ROVINJ</h1>
                         <p data-animation="animated fadeInRight">TOURS & RENT</p>
-                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
+                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll a-down"
                             data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x"
                                 aria-hidden="true"></i></a>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="slide-text slide_style_center">
                         <h1 data-animation="animated zoomInLeft"><?php echo "$the_sitetitle"; ?></h1>
                         <p data-animation="animated fadeInRight">FOR BEGINNERS AND ADVANCED</p>
-                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll"
+                        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll a-down"
                             data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x"
                                 aria-hidden="true"></i></a>
                     </div>

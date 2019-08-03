@@ -37,7 +37,7 @@
     <meta name="keywords"
         content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental and Tours, Stand Up Paddle rental">
     <meta name="description"
-        content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental, Kazaking Tours, Stand up Paddle rental">
+        content="Windusrfing School Rovinj, Windsurfing rental, Kayaking rental, Kayaking Tours, Stand up Paddle rental">
     <meta http-equiv="content-language" content="en,hr">
     <!-- sharethis javascript gdpr -->
     <script type='text/javascript'
@@ -46,10 +46,10 @@
     <script type='text/javascript'
         src='//platform-api.sharethis.com/js/sharethis.js#property=5d110856a0d27e001207a4b7&product=gdpr-compliance-tool'
         async='async'></script>
-    <!-- lilafete maps css -->
+
+
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/assets/animate.min.css">

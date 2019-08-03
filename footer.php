@@ -234,7 +234,7 @@
                         <img src="img/partneri/rr-design.jpg" alt="exo" class="img-responsive">
                     </a>
                 </div>
-                <h3 class="testimonial-title">Roberto Richi</h3>
+                <h3 class="testimonial-title">Roberto Ricci</h3>
             </div>
             <div class="testimonial">
                 <div class="pic">

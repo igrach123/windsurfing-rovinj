@@ -10,14 +10,34 @@
             <div class="modal-body">
                 <h5 class="services-sm-title">ABOUT</h5>
 
-                <p class="text-muted">
-                    We’ve all done it because it seems right at the time. You want the paddle to scoop the water as
-                    you try to balance and paddle without falling in. However, as we all eventually find out, the
-                    paddle goes the other way as it works more effectively when in the standing position and also
-                    results in a smoother paddle stroke and less stress on your shoulders and elbows. As the shaft
-                    is the leading edge you pull the blade through the water in a slightly trailing position which
-                    aids blade stability and as you perform the SUP stroke, the blade is vertical providing the best
-                    angle through the middle of the stroke for the most power.</b>
+                <p class="text-muted text-justify">
+                    Just a 4,5 hours flight from Europe there is an island called Tenerife, a place with warm water and
+                    mild air temperatures even during the winter months, beautiful sand beaches, constant wind and
+                    waves. We are located there, in a small city called El Medano, a heaven for surfers from all over
+                    the
+                    world.
+                    <br> <br>
+                    <b>Tenerife</b> is part of the Canary Islands in the Atlantic ocean. There is a variety of flora,
+                    from
+                    green
+                    forests of eucalyptus and feids of banana trees to the dry African side where the sand beaches are
+                    located.
+                    The island is famous for the volcano El Teide, which is the tallest point in Spain, with a
+                    3217meters
+                    above sea level.
+                    From the east side of the island Tenerife, during the entire year a warm wind blows from Africa
+                    (NE),
+                    during the summer typically reching 25-35 knots, and during the winter is between 15-30 knots.
+                    This wind in the small city El Medano creates ideal conditions for windsurfing from beginners to
+                    professional wave riders.
+                    During the winter months with us you can learn to windsurf, we provide classes from beginners to
+                    wave riding classes from October untill March, all with the newest gear from the brands Simmer,
+                    RRD, Goya and Point 7 with the collabration of the local windsurf center Ocean Calling. We have
+                    access to over 30 boards from beginners to pro wave boards, and over 50 sails of various sizes.
+                    Classes we provide are exclusively individual, followed by video analysis and at the end of every
+                    day a
+                    detailed breakdown of the video to correct the smallest mistakes. <br> <br>
+                    <b> So come and join us, wether experienced are just curious and answer the call of the wind.</b>
                 </p>
                 <hr>
                 <img class="img-responsive lazy-img visible-lg" src="img/tenerife/tenerife-1080.jpg"
@@ -31,7 +51,6 @@
                 <div class="text-center">
                     <p class="text-uppercase text-muted"> Contact Us for more information!! </p>
                     <ul class="list-unstyled">
-
                         <li class="tenerife-contact">
                             <h5><span class="fa fa-phone"></span> TEL / <span class="fa fa-whatsapp"></span> WHATSAPP -
                                 VIBER</h5>
@@ -46,7 +65,6 @@
                             emailE = ('info@windsurfing-rovinj' + '.com')
                             document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')
                             </script>
-
                             <noscript>
                                 <em>Email address protected by JavaScript.<BR>
                                     Please enable JavaScript to contact me.</em>
@@ -78,11 +96,9 @@
                                     <img src="img/tenerife/tenererife-3.jpg" data-src="img/tenerife/tenererife-3.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Tenerife"></a>
                             </div>
-
                         </div>
                     </div> <!-- panel body -->
                 </div> <!-- collapse one -->
-
                 <div class="modal-footer">
                     <div class="text-left social-wrapper pull-left">
                         <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
@@ -94,7 +110,6 @@
                     <button type="button" class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
                 </div>
             </div><!-- MODAL BODY -->
-
         </div> <!-- modal content -->
     </div><!-- end  of Modal dialog -->
 </div>

@@ -1,4 +1,18 @@
 <header class="" id="home-hr">
+    <div class="container-fluid hidden-xs" id="call">
+        <div class="container">
+
+            <a href="tel:+385 (0)92 299 1550"> <span class="fa fa-phone top-phone"></span>
+                +385 (0)92 299 1550</a>
+            <a href="#top-location" data-target="#top-location" data-toggle="modal" role="button"> <span
+                    class="fa fa-map-marker top-map"></span> CRVENI OTOK
+            </a>
+            <a class="fb-top " href="https://www.facebook.com/wsurfrovinj/" target="_blank"><span
+                    class="fa fa-facebook "></span></a>
+            <a class="in-top" href="https://www.instagram.com/windsurfingrovinj/" target="_blank">
+                <span class="fa fa-instagram "></span></a>
+        </div>
+    </div>
     <nav class="navbar navbar-default" data-nav-status="toggle" role="navigation" data-spy="affix" id="myNavbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -10,68 +24,47 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="logo" href="index.php" id="logo1"></a>
+                <a class="logo navbar-brand" href="index.php" id="logo1"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class=" nav navbar-nav navbar-left">
-                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home"
-                            class="scroll ">NASLOVNICA</a></li>
-                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services"
-                            class="scroll">IZLETI</a></li>
-                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
-                            class="scroll">NAJAM</a></li>
-
-                </ul>
                 <ul class=" nav navbar-nav navbar-right">
-
-                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#rent"
-                            class="scroll">TAXI
-                            BOAT</a></li>
+                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#home-hr"
+                            class="scroll ">POČETNA</a></li>
+                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#services"
+                            class="scroll">USLUGE</a></li>
+                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#onama" class="scroll">O
+                            NAMA</a></li>
+                    <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer" class="scroll">GDJE
+                            SMO
+                        </a></li>
 
                     <li><a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#footer"
                             class="scroll">KONTAKT</a></li>
+                    <li class="visible-xs"><a href="tel:+385 (0)92 299 1550"> <span
+                                class="fa fa-phone top-phone"></span>
+                            +385 (0)92 299 1550</a> </li>
+                    <li class="visible-xs"> <a href="#top-location" data-target="#top-location" data-toggle="modal"
+                            role="button"> <span class="fa fa-map-marker top-map"></span> CRVENI OTOK
+                        </a> </li>
+                    <li class="visible-xs"><a class="fb-top " href="https://www.facebook.com/wsurfrovinj/"
+                            target="_blank"><span class="fa fa-facebook "></span></a>
+                        <a class="in-top" href="https://www.instagram.com/windsurfingrovinj/" target="_blank">
+                            <span class="fa fa-instagram "></span></a></li>
                     <li id="lang-id">
-                        <div class="dropdown language">
-                            <button class="btn btn-warning btn-xs dropdown-toggle language" type="button"
-                                data-toggle="dropdown">HR
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="../index.php">EN</a></li>
-
-                            </ul>
-                        </div>
+                        <a href="../index.php"> <img src="../img/eng-flag.png" alt="eng"></a>
+                        <a href="index.php"> <img src="../img/cro-flag.png" alt="hr"></a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-->
     </nav>
-
-    <h1 class="visible-xs">BOAT EXCURSIONS<br>
-        <span class="small">TONKA </span></h1>
-
-    <!--video backgorund-->
-    <div class="overlay hidden-xs"></div>
-    <video class="hidden-xs hidden-sm" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="../video/sunset.mp4" type="video/mp4">
-    </video>
-    <div class="container">
-        <div class="text-center align-items-center">
-
-            <h1 class="hidden-xs">BOAT EXCURSIONS <br> <br>
-                <span class="small-premanutra hidden-xs">TONKA </span></h1>
-
-            <div class="animated-arrow-down">
-                <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }'>
-                    <svg class="arrows">
-                        <path class="a1" d="M0 0 L30 32 L60 0"></path>
-                        <path class="a2" d="M0 20 L30 52 L60 20"></path>
-                        <path class="a3" d="M0 40 L30 72 L60 40"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
+    <!-- h1 xs -->
+    <h1 class="visible-xs text-uppercase"><?php echo "$the_sitetitle"; ?> <br>
+        <a href="#services" data-scroll data-options='{ "easing": "easeInOutQuad" }' class="btn scroll a-down"
+            data-animation="animated fadeInUp"> <i class="fa fa-angle-double-down fa-3x" aria-hidden="true"></i></a>
+    </h1>
+    <!-- touch slide -->
+    <?php include "php/touch-slider.php" ?>
 </header>

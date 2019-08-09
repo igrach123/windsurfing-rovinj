@@ -53,7 +53,7 @@
                             <span class="fa fa-instagram "></span></a></li>
                     <li id="lang-id">
                         <a href="index.php"> <img src="img/eng-flag.png" alt="eng"></a>
-                        <a href="index.php"> <img src="img/cro-flag.png" alt="hr"></a>
+                        <a href="hr/index.php"> <img src="img/cro-flag.png" alt="hr"></a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->

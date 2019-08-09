@@ -1,5 +1,4 @@
 <?php 
-    $the_sitetitle = 'Boat Excursions Tonka';
-    $the_siteslogan = 'Boat Excursions Tonka';
+    $the_sitetitle = 'Windsurfing Rovinj';
+    $the_siteslogan = 'Windsurfing Rovinj';
 ?>
-

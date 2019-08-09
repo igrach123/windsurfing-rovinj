@@ -174,34 +174,6 @@ document.getElementById("kayaking").onclick = function(event) {
   blueimp.Gallery(links, options);
 };
 
-//windsurf hr galerija
-document.getElementById("windsurf_hr").onclick = function(event) {
-  event = event || window.event;
-  var target = event.target || event.srcElement,
-    link = target.src ? target.parentNode : target,
-    options = { index: link, event: event },
-    links = this.getElementsByTagName("a");
-  blueimp.Gallery(links, options);
-};
-//windsurf hr galerija
-document.getElementById("sup_hr").onclick = function(event) {
-  event = event || window.event;
-  var target = event.target || event.srcElement,
-    link = target.src ? target.parentNode : target,
-    options = { index: link, event: event },
-    links = this.getElementsByTagName("a");
-  blueimp.Gallery(links, options);
-};
-//windsurf hr galerija
-document.getElementById("tenerife_hr").onclick = function(event) {
-  event = event || window.event;
-  var target = event.target || event.srcElement,
-    link = target.src ? target.parentNode : target,
-    options = { index: link, event: event },
-    links = this.getElementsByTagName("a");
-  blueimp.Gallery(links, options);
-};
-
 //back to top icona
 $("body").prepend('<a href="#navigation" class="back-to-top"></a>');
 var amountScrolled = 300;

@@ -80,24 +80,18 @@
     <!-- services modals -->
     <!-- sunset -->
     <?php include "php/services-windsurf.php"; ?>
-    <!-- kno -->
     <?php include "php/services-kayaking.php"; ?>
-    <!-- lim -->
     <?php include "php/services-sup.php"; ?>
     <?php include "php/price.php"; ?>
     <?php include "php/tenerife.php"; ?>
     <?php include "php/services-tenerife.php"; ?>
-
     <?php include "php/onama.php"?>
-
-    <!-- end of services -->
-
     <?php include "php/galery.php"?>
+
     <?php include "php/testimonials.php"?>
     <!-- modal -->
     <?php include "php/promo.php"?>
 
-    <!-- unutra je samo div koji nesto zatvara -->
     <?php include "php/partner-slide.php" ?>
     <?php include "php/boat-times.php"?>
     <?php include "php/top-location.php"?>

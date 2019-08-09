@@ -58,34 +58,29 @@
                     <div class="panel-body">
                         <div id="tesla" class="row">
                             <div class=" botmargin col-xs-4 col-sm-6 ">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                                <a href="img/sup/sup1.jpg" title="Stand up Paddle">
+                                    <img src="img/sup/sup1_sm.jpg" data-src="img/sup/sup1.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Stand up Paddle"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                                <a href="img/sup/sup2.jpg" title="Stand up Paddle">
+                                    <img src="img/sup/sup2_sm.jpg" data-src="img/sup/sup2.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Stand up Paddle"></a>
                             </div>
                             <div class=" botmargin col-xs-4  col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                                <a href="img/sup/sup3.jpg" title="Stand up Paddle">
+                                    <img src="img/sup/sup3_sm.jpg" data-src="img/sup/sup3.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Stand up Paddle"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                                <a href="img/sup/sup4.jpg" title="Stand up Paddle">
+                                    <img src="img/sup/sup4_sm.jpg" data-src="img/sup/sup4.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Stand up Paddle"></a>
                             </div>
                             <div class=" botmargin  col-xs-4 col-sm-3">
-                                <a href="img/windsurfing/windsurfing-bg.jpg" title="Windsurfing School">
-                                    <img src="img/windsurfing/windsurfing-bg.jpg"
-                                        data-src="img/windsurfing/windsurfing-bg.jpg"
-                                        class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
+                                <a href="img/sup/sup5.jpg" title="Stand up Paddle">
+                                    <img src="img/sup/sup5_sm.jpg" data-src="img/sup/sup5.jpg"
+                                        class="img img-responsive img-rounded card-1 " alt="Stand up Paddle"></a>
                             </div>
 
                         </div>

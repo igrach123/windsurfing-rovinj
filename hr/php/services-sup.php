@@ -56,7 +56,7 @@
                 <!-- galerija -->
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
-                        <div id="sup_hr" class="row">
+                        <div id="supHr" class="row">
                             <div class=" botmargin col-xs-4 col-sm-6 ">
                                 <a href="../img/sup/sup1.jpg" title="Stand up Paddle">
                                     <img src="../img/sup/sup1_sm.jpg" data-src="../img/sup/sup1.jpg"

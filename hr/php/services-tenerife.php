@@ -74,7 +74,7 @@
                 <!-- galerija -->
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
-                        <div id="tenrife_hr" class="row">
+                        <div id="tenrifeHr" class="row">
                             <div class=" botmargin col-xs-4 col-sm-6 ">
                                 <a href="../img/tenerife/tenererife-1.jpg" title="Tenerife">
                                     <img src="../img/tenerife/tenererife-1.jpg"

@@ -64,8 +64,8 @@
                                     class="img img-responsive img-rounded " alt="Windsurfing Centar Rovinj"></a>
                         </div>
                         <div class="imgwrapper  card-2 wow fadeInUp" data-wow-delay="0.75s">
-                            <a href="img/gallery/g1.jpg" title="Windsurfing Centar Rovinj">
-                                <img src="img/gallery/g1_sm.jpg" data-src="img/gallery/g1_sm.jpg"
+                            <a href="img/gallery/g9.jpg" title="Windsurfing Centar Rovinj">
+                                <img src="img/gallery/g9_sm.jpg" data-src="img/gallery/g9_sm.jpg"
                                     class="img img-responsive img-rounded " alt="Windsurfing Centar Rovinj"></a>
                         </div>
                         <div class="imgwrapper  card-2 wow fadeInUp" data-wow-delay="1s">

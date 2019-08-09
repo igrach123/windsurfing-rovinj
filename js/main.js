@@ -254,3 +254,27 @@ $(function() {
 });
 
 $(".js-lazyYT").lazyYT();
+document.getElementById("windsurfHr").onclick = function(event) {
+  event = event || window.event;
+  var targetT = event.targetT || event.srcElement,
+    link = targetT.src ? targetT.parentNode : targetT,
+    options = { index: link, event: event },
+    links = this.getElementsByTagName("a");
+  blueimp.Gallery(links, options);
+};
+document.getElementById("supHr").onclick = function(event) {
+  event = event || window.event;
+  var targetT = event.targetT || event.srcElement,
+    link = targetT.src ? targetT.parentNode : targetT,
+    options = { index: link, event: event },
+    links = this.getElementsByTagName("a");
+  blueimp.Gallery(links, options);
+};
+document.getElementById("tenrifeHr").onclick = function(event) {
+  event = event || window.event;
+  var targetT = event.targetT || event.srcElement,
+    link = targetT.src ? targetT.parentNode : targetT,
+    options = { index: link, event: event },
+    links = this.getElementsByTagName("a");
+  blueimp.Gallery(links, options);
+};

@@ -5,13 +5,13 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
                     aria-label="Close">&times;</button>
-                <h4 class="modal-title">HOW TO REACH US</h4>
+                <h4 class="modal-title">KAKO DO NAS</h4>
             </div>
             <div class="modal-body">
                 <p class="text-muted">
-                    Since Windsurf center Red Island is located on the island of Sveti Andrija (also known as Red
-                    island), it can be reached only by boat, which departs every hour from Mali mol in the centre of
-                    Rovinj and the Delfin pier located near Park Hotel. The boat ride takes 15 minutes.
+                    Budući da se Windsurf centar Crveni otok nalazi na otoku Sveti Andrija (poznat i kao Crveni otok),
+                    do njega se može doći samo brodom, koji se svakoga sata kreće od Malog mola u centru Rovinja i
+                    pristaništa Delfin u blizini hotela Park. Vožnja brodom traje 15 minuta
                 </p>
                 <div class="row">
 

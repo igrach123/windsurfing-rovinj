@@ -252,7 +252,7 @@
 
 
         <div class="footer-bottom-left"><a href="index.php" target="_self">
-                <img src="img/logo-small-3.png" class="img-responsive" alt="Boat Excursions Tonka logo"></a>
+                <img src="img/logo-small-3.png" class="img-responsive" alt="Windsurfing Rovinj logo"></a>
         </div>
         <div class="footer-bottom-center">
             <p class="text-center"><?php echo "$the_sitetitle"; ?> &copy; <span class="hidden-sm">

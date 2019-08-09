@@ -17,19 +17,7 @@
                     sata. Prvi sat je simulator i na vodi te drugi sat se odvija na vodi.
 
                 </p>
-
-
                 <hr>
-                <!-- <h6> <span><i class="fa fa-star" aria-hidden="true"></i></span> Windsurfing course (beginners) -
-                    Individual <span class=" price-badge">900,00 HRK</span></h6>
-                <p>Available to people from 6 to 66 years of age. In the individual course you can choose between
-                    3-, 5-
-                    or 8-hours windsurfing lessons.
-                    The course also consists of the first lesson, which includes getting to know the equipment,
-                    theory
-                    and the simulator. The following lessons will continue on the sea where we practice starting,
-                    standing and turns on the board. Everything what’ve we learned on land in introduction part.</p>
-                <hr> -->
                 <h6><span><i class="fa fa-star" aria-hidden="true"></i></span> Grupni tečajevi jedrenja na dasci
                     (početnici)<span class=" price-badge">900,00 HRK</span>
                 </h6>
@@ -120,7 +108,7 @@
                 <!-- galerija -->
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
-                        <div id="windsurf_hr" class="row ">
+                        <div id="windsurfHr" class="row ">
                             <div class=" botmargin col-xs-4 col-sm-6 ">
                                 <a href="../img/gallery/a9.jpg" title="Windsurfing School">
                                     <img src="../img/gallery/a9_sm.jpg" data-src="../img/gallery/a9_sm.jpg"
@@ -146,7 +134,6 @@
                                     <img src="../img/gallery/g1_sm.jpg" data-src="../img/gallery/g1.jpg"
                                         class="img img-responsive img-rounded card-1 " alt="Windsurfing School"></a>
                             </div>
-
                         </div>
                     </div> <!-- panel body -->
                 </div> <!-- collapse one -->

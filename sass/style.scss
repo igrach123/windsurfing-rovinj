@@ -1283,8 +1283,11 @@
             
         }
         .btn{
-            padding-right: 100px !important;
+            @include xs{
+                padding-right: 100px !important;
             padding-left: 100px !important;
+            }
+            
         }
         background-attachment: cover;
         background-repeat: no-repeat;

@@ -13,7 +13,7 @@
                 <p class="text-muted text-justify">
                     Just a 4,5 hours flight from Europe there is an island called Tenerife, a place with warm water and
                     mild air temperatures even during the winter months, beautiful sand beaches, constant wind and
-                    waves. We are located there, in a small city called El Medano, a heaven for surfers from all over
+                    waves. We are located  in a small city called El Medano, a heaven for surfers from all over
                     the
                     world.
                     <br> <br>

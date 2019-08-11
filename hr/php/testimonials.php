@@ -1,5 +1,5 @@
 <section class="" id="peoplesay">
-    <h2 class="text-center">ŠTO EKIPA GOVORI</h2>
+    <h2 class="text-center">ŠTO LJUDI MISLE O NAMA</h2>
     <!-- OWL CAROUSEL -->
     <div id="testimonials" class="owl-carousel">
         <div class="testimonial">

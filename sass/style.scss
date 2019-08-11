@@ -1161,6 +1161,8 @@
     }
     #boat,#top-location{
         h4{
+           
+           
             @include xxs{
                 background-image: url(../img/gallery/Rovinj_sm.jpg); 
             }
@@ -1168,7 +1170,7 @@
                 background-image: url(../img/gallery/rovinj_md.jpg); 
             }         
             background-size: cover;
-            background-position: center center;
+            background-position:top;
             background-repeat: no-repeat;
             translate: all 0.3s ease-in-out;
         }        
@@ -1904,9 +1906,12 @@
         
         .kontakti-wrapper{
             max-width: 1920px;
-            margin:0 auto;
+            margin:0 auto;        
+            
             padding-bottom: 80px;
-            padding-top: 80px;
+            @include sm{
+                padding-top: 80px;
+            }
         }
         .contact-info{
             hr{
@@ -2062,16 +2067,17 @@
                 .footer-bottom-center{
                     line-height: 500%;
                     p{
-                        font-family: "Roboto", sans-serif;
-                        font-weight: 100;  
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 100;  
                             color: $bg-white;
                             text-transform: uppercase;
                         }
                 }
             img{
+                padding-top: 20px;
                 width: 60px;
                 margin: 0 auto;
-                padding-top: 7px;
+               
             }
         }
         @include xs {
@@ -2081,7 +2087,7 @@
             }
             img{
                 width: 70px;
-                padding-top: 7px;
+                padding-top: 15px;
             }
         }
         @include sm {
@@ -2090,7 +2096,7 @@
                 font-size: 120%;
             }
             img{
-                width: 80px;
+                
                 padding-top: 12px;
             }
         }

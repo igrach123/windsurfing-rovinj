@@ -1,4 +1,4 @@
-<section class="" id="peoplesay">
+<section class="hidden-xs" id="peoplesay">
     <h2 class="text-center">WHAT PEOPLE SAY</h2>
     <!-- OWL CAROUSEL -->
     <div id="testimonials" class="owl-carousel">

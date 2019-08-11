@@ -8,8 +8,8 @@
                 <h4 class="modal-title">KAYAKING</h4>
             </div>
             <div class="modal-body">
-                <h5 class="services-sm-title">KAYAK RENTAL <span class="price-badge">80,00 HRK</span></h5>
-
+                <h5 class="services-sm-title">KAYAK RENTAL <span class="price-badge hidden-xs">80,00 HRK</span></h5>
+                <span class="price-badge2 visible-xs">80,00 HRK</span>
                 <p class="text-muted">Possition of <strong>Windsurf center Red island</strong> is on hard of Rovinj
                     archipelago. On a few
                     minutes of paddeling on north side is situated Punta Corrente and quarry. From the south side of the
@@ -18,7 +18,8 @@
                     Every of this islands hiding untouched beaches and coves which can only come from the sea.
                 </p>
                 <hr>
-                <h5 class="services-sm-title">KAYAK SUNSET TOUR <span class="price-badge">200,00 HRK</span></h5>
+                <h5 class="services-sm-title">KAYAK SUNSET TOUR <span class="price-badge hidden-xs">200,00 HRK</span></h5>
+                <span class="price-badge2 visible-xs">200,00 HRK</span>
 
                 <p class="text-muted">Eveyone already know that Rovinj have one of the most beautiful sunset, but if you
                     want to expirience sunset with complete peace it will be good to move away on the sea without noise

@@ -1044,7 +1044,7 @@
         opacity: 0.5;
         margin-right: 10px
     }
-    h5{
+    h5,h6{
         .price-badge{
             @include xxs{
                 display: block;
@@ -1089,29 +1089,33 @@
             font-weight: bolder;
             text-align: left;
 
-            .price-badge{
-                display: inline-block;
-                float: right;
-                background-color:$main-orange;
-                border-radius: 5px;
-                color: $bg-white;
-                padding-left: 15px;
-                padding-right: 15px;
-                border: 1px solid $main-orange;
-                font-weight: normal;
-                font-size: 2rem;
-            }
-            .price-badge:hover{
-                background-color:$bg-white;
-                color: $main-blue;
-                border: 1px solid $main-orange;
-            }
-            span{
-                margin-right: 0px;
-            }
+           
         }
-        
-
+        .price-badge2{
+            @include xxs {
+                display: inline-block;
+                width: 140px;
+            }
+           @include xs {
+               display: none;
+           }
+            background-color:$main-orange;
+            border-radius: 5px;
+            color: $bg-white;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: 1px solid $main-orange;
+            font-weight: normal;
+            font-size: 2rem;
+        }
+        .price-badge2:hover{
+            background-color:$bg-white;
+            color: $main-blue;
+            border: 1px solid $main-orange;
+        }
+        span{
+            margin-right: 0px;
+        }
 }     
 
     // MODAL WINDSURFING
@@ -1906,8 +1910,15 @@
         }
         .contact-info{
             hr{
-                margin-left: 0%;
-                width: 60%;
+                @include xxs {
+                    margin-left: 20%;
+                    width: 60%;  
+                }
+                @include md{
+                    margin-left: 0%;
+                }
+                
+                
                 
             }
             li{

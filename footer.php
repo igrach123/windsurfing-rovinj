@@ -118,10 +118,13 @@
                     <hr>
                     <li>
                         <h5>FOLLOW US</h5>
-                    </li>
-                    <li class="social-media-bottom">
-                        <a class="facebook" href="https://www.facebook.com/wsurfrovinj/" target="_blank"></a>
-                        <a class="instagram" href="https://www.instagram.com/windsurfingrovinj/" target="_blank"></a>
+                    </li>                   
+                    <li>
+                    <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
+                            target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
+                        <a class="instagram-modal-link " href="https://www.instagram.com/windsurfingrovinj/"
+                            target="_blank">
+                            <span class="fa fa-instagram fa-2x"></span></a>
                     </li>
 
                 </ul>

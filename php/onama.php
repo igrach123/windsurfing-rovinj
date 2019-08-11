@@ -18,14 +18,14 @@
                 otok (Red
                 Island), near Rovinj, which is famous for its beautiful beaches and rich history. Here you can
                 witnesses
-                in some amazing sunrise and sunsets, as well as some interesting exhibitions and events like
+                some amazing sunrise and sunsets, as well as some interesting exhibitions and events like
                 Photo Days,
                 Weekend Media Festival or Salsa Music Festival.
             </p>
             <p class="text-muted text-justify" id="showtext">
                 Due to its geographical location and climate, Sveti Andrija island has the perfect conditions
                 for
-                learning basics, as well as advanced windsurfing skills. Windsurf center Crveni otok also kayak and
+                learning basics, as well as advanced windsurfing skills. Windsurf center Crveni otok also offers  kayak and
                 stand up paddle so you can visit.
             </p>
             <button id="morebtn" class="badge"><span class="fa fa-sort-desc"></span></button> <button id="morebtn-hide"

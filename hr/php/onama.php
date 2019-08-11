@@ -1,5 +1,5 @@
 <div class="container-fluid no-padding" id="onama">
-    <h2 class="text-center">ABOUT US</h2>
+    <h2 class="text-center">O NAMA</h2>
     <div class="row text-center onama-wrapper">
         <div class="col-sm-6 onama-front ">
             <h3>NAŠ TEAM</h3>

@@ -81,4 +81,14 @@
   .in-top {
     display: inline-block !important;
   }
+  .fb-top:hover,
+  .fb-top:active,
+  .fb-top:focus {
+    color: #3b5998 !important;
+  }
+  .in-top:hover,
+  .in-top:active,
+  .in-top:focus {
+    color: #bc2a8d !important;
+  }
 }

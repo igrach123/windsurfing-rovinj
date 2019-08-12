@@ -18,10 +18,7 @@
                 kako prvih tako i onih naprednijih koraka jedrenja na dasci.
                 U Windsurf centru na Crvenom otok osim jedrenja na dasci možete iznajmiti stand up paddle ili kayak te
                 tako obići kompletan rovinjski arhipelag koji je jedan od najbogatijih i
-                najljepših na sjevernom Jadranu te broji 19 otoka, otočića i hridi. Ako ste odlučili posjetiti naš
-                centar i koristiti naše usluge naše osoblje i instruktori će vam rado biti na usluzi govoreći 6 stranih
-                jezika Engleski, Ruski, Njemački, Talijanski, Hrvatski, Slovenski.
-
+                najljepših na sjevernom Jadranu te broji 19 otoka, otočića i hridi.
             </p>
             <p class="text-muted text-justify" id="showtext">
                 Ako ste odlučili posjetiti naš
@@ -30,10 +27,6 @@
             </p>
             <button id="morebtn" class="badge"><span class="fa fa-sort-desc"></span></button> <button id="morebtn-hide"
                 class="badge"><span class="fa fa-sort-up"></span></button>
-
-
-
-
         </div>
     </div>
     <div class="row text-center video-bot">

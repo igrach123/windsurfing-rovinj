@@ -1,4 +1,4 @@
-<section class="" id="peoplesay">
+<section class="hidden-xs" id="peoplesay">
     <h2 class="text-center">ŠTO LJUDI MISLE O NAMA</h2>
     <!-- OWL CAROUSEL -->
     <div id="testimonials" class="owl-carousel">

@@ -4,7 +4,7 @@
 
             <div class="col-md-4 col-xs-12 hidden-xs hidden-sm ">
                 <div class="" id="map">
-                    <h4>VISIT US</h4>
+                    <h4>POSJETITE NAS</h4>
                     <div class="google-maps">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26811.59706507955!2d13.618519388855741!3d45.06100784992658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477cc0f0114319cb%3A0x36783d683a12953!2sWindsurf+and+stand+up+paddle+center+Rovinj!5e0!3m2!1sen!2shr!4v1560765731444!5m2!1sen!2shr"
@@ -14,7 +14,7 @@
             </div>
 
             <div class="col-md-4 col-xs-12 hidden-xs  ">
-                <h4 class="text-center ">Send us an Message!</h4>
+                <h4 class="text-center ">POŠALJITE NAM UPIT</h4>
 
                 <form role="form" method="post" id="reused_form">
                     <div class="form-group">
@@ -66,12 +66,12 @@
 
             <div class="col-md-4 col-xs-12 contact-info">
                 <h4 class="text-center">
-                    Contact
+                    KONTAKT
                 </h4>
 
                 <ul class="list-unstyled contact-list">
                     <li>
-                        <h5> <span class="fa fa-map-marker"></span> BOAT DOCKING STATIONS </h5>
+                        <h5> <span class="fa fa-map-marker"></span> MJESTO PRISTANIŠTA BRODA </h5>
                     </li>
                     <li><a href="https://goo.gl/maps/BCngHH2HKN8RS5WS7" target="_blank"
                             class="btn btn-default btn-sm"><span class="fa fa-map-marker"></span> Delfin
@@ -120,7 +120,7 @@
                         <h5>FOLLOW US</h5>
                     </li>
                     <li>
-                    <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
+                        <a class="facebook-modal-link " href="https://www.facebook.com/wsurfrovinj/"
                             target="_blank"><span class="fa fa-facebook fa-2x"></span></a>
                         <a class="instagram-modal-link " href="https://www.instagram.com/windsurfingrovinj/"
                             target="_blank">
